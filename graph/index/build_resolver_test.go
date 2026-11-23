@@ -5,7 +5,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph"
 )
 
 // build_resolver_test.go — rmp #2793 gate: a build log replays the resolution

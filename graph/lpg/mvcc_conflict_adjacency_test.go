@@ -47,7 +47,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
 )
 
 // TestConflict_AdjacencyAppendsConflictPerNode is the first row of the table:

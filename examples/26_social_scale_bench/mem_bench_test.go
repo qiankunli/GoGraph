@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
-	"github.com/FlavioCFOliveira/GoGraph/graph/lpg"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/graph/lpg"
 )
 
 // benchScale reads the build scale from env so the profiling scale can be

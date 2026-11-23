@@ -12,7 +12,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/exec"
+	"github.com/qiankunli/GoGraph/cypher/exec"
 )
 
 // runCountedOp executes op against the adapter exactly as the tick loop's

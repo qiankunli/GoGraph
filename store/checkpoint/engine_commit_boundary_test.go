@@ -47,8 +47,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/lpg"
-	"github.com/FlavioCFOliveira/GoGraph/store/recovery"
+	"github.com/qiankunli/GoGraph/graph/lpg"
+	"github.com/qiankunli/GoGraph/store/recovery"
 )
 
 // TestCheckpoint_EngineCommitOrdering_KeepsAnAckedCommit parks a transaction in the

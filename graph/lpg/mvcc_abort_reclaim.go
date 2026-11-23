@@ -109,8 +109,8 @@ package lpg
 // the dirty base is unwritable until the withdrawal has run.
 
 import (
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	"github.com/FlavioCFOliveira/GoGraph/graph/mvcc"
+	"github.com/qiankunli/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph/mvcc"
 )
 
 // withdrawAbortedNow withdraws every version the aborted transaction whose state

@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/ast"
-	"github.com/FlavioCFOliveira/GoGraph/cypher/parser"
+	"github.com/qiankunli/GoGraph/cypher/ast"
+	"github.com/qiankunli/GoGraph/cypher/parser"
 
 	"pgregory.net/rapid"
 )

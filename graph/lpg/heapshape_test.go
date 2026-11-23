@@ -6,7 +6,7 @@ import (
 	"testing"
 	"unsafe"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
 )
 
 // heapshape_test.go — pins the per-resident-node heap SHAPE of the in-memory

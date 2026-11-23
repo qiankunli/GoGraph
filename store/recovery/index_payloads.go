@@ -33,7 +33,7 @@ import (
 	"fmt"
 	"slices"
 
-	"github.com/FlavioCFOliveira/GoGraph/store/snapshot"
+	"github.com/qiankunli/GoGraph/store/snapshot"
 )
 
 // ErrIndexPayloadUnreadable reports that a snapshot declared an index payload in

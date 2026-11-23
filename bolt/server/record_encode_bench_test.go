@@ -27,9 +27,9 @@ import (
 	"math"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/bolt/packstream"
-	"github.com/FlavioCFOliveira/GoGraph/bolt/proto"
-	"github.com/FlavioCFOliveira/GoGraph/cypher/expr"
+	"github.com/qiankunli/GoGraph/bolt/packstream"
+	"github.com/qiankunli/GoGraph/bolt/proto"
+	"github.com/qiankunli/GoGraph/cypher/expr"
 )
 
 // buildFastRow mirrors fillRowRawScalar's decision exactly (it shares the same

@@ -14,8 +14,8 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
 )
 
 // propertyKeysInUseSlotMajor is the pre-#3081 body of PropertyKeysInUse, kept

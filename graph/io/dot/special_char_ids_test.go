@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
-	"github.com/FlavioCFOliveira/GoGraph/graph/io/dot"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/graph/io/dot"
 )
 
 // TestDOTWrite_SpecialCharIDs verifies that node IDs containing characters

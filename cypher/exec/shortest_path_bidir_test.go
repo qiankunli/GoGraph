@@ -25,9 +25,9 @@ import (
 	"math/rand/v2"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/expr"
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	"github.com/FlavioCFOliveira/GoGraph/graph/csr"
+	"github.com/qiankunli/GoGraph/cypher/expr"
+	"github.com/qiankunli/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph/csr"
 )
 
 // biCSR is a minimal [CSRAdjacency] for these tests. The shared test helpers

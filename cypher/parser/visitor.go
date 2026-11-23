@@ -8,12 +8,12 @@ import (
 
 	"github.com/antlr4-go/antlr/v4"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/ast"
-	"github.com/FlavioCFOliveira/GoGraph/cypher/parser/gen"
+	"github.com/qiankunli/GoGraph/cypher/ast"
+	"github.com/qiankunli/GoGraph/cypher/parser/gen"
 )
 
 // visitor converts an antlr parse tree into the typed AST defined in
-// github.com/FlavioCFOliveira/GoGraph/cypher/ast.  It embeds gen.BaseCypherParserVisitor for default
+// github.com/qiankunli/GoGraph/cypher/ast.  It embeds gen.BaseCypherParserVisitor for default
 // no-op implementations of any Visit* method not explicitly overridden.
 //
 // All Visit* methods return interface{}; callers use the as* helpers to

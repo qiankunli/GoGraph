@@ -21,9 +21,9 @@ package cypher
 // always safe to call.
 
 import (
-	"github.com/FlavioCFOliveira/GoGraph/cypher/exec"
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	"github.com/FlavioCFOliveira/GoGraph/graph/lpg"
+	"github.com/qiankunli/GoGraph/cypher/exec"
+	"github.com/qiankunli/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph/lpg"
 )
 
 // mutationUndo records the inverse of each in-memory mutation on undo. Both

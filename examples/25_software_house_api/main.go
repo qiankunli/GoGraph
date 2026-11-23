@@ -10,7 +10,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/examples/internal/exprof"
+	"github.com/qiankunli/GoGraph/examples/internal/exprof"
 )
 
 func main() {

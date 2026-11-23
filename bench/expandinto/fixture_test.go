@@ -22,10 +22,10 @@ import (
 	"math"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/bench/expandinto"
-	"github.com/FlavioCFOliveira/GoGraph/cypher"
-	"github.com/FlavioCFOliveira/GoGraph/cypher/expr"
-	"github.com/FlavioCFOliveira/GoGraph/graph/lpg"
+	"github.com/qiankunli/GoGraph/bench/expandinto"
+	"github.com/qiankunli/GoGraph/cypher"
+	"github.com/qiankunli/GoGraph/cypher/expr"
+	"github.com/qiankunli/GoGraph/graph/lpg"
 )
 
 // scalar runs q, which must return exactly one row of one column, and returns that

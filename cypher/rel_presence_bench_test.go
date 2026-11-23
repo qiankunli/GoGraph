@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher"
+	"github.com/qiankunli/GoGraph/cypher"
 )
 
 // seedFriendGraph builds nNodes nodes connected in a ring by FRIEND edges, each

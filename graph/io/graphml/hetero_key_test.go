@@ -11,9 +11,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
-	"github.com/FlavioCFOliveira/GoGraph/graph/io/graphml"
-	"github.com/FlavioCFOliveira/GoGraph/graph/lpg"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/graph/io/graphml"
+	"github.com/qiankunli/GoGraph/graph/lpg"
 )
 
 func TestGraphML_HeterogeneousKeyRoundTrips_1791(t *testing.T) {

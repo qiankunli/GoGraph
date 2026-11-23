@@ -19,8 +19,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/bolt/packstream"
-	"github.com/FlavioCFOliveira/GoGraph/bolt/proto"
+	"github.com/qiankunli/GoGraph/bolt/packstream"
+	"github.com/qiankunli/GoGraph/bolt/proto"
 )
 
 // goodLogon is a LOGON carrying the admin credentials acceptAdminAuthHandler

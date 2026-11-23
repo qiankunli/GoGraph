@@ -103,8 +103,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/examples/internal/exprof"
-	"github.com/FlavioCFOliveira/GoGraph/graph/lpg"
+	"github.com/qiankunli/GoGraph/examples/internal/exprof"
+	"github.com/qiankunli/GoGraph/graph/lpg"
 )
 
 // Node label and relationship type. Centralised so the model is described in

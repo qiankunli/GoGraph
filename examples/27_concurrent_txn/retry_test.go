@@ -21,7 +21,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/mvcc"
+	"github.com/qiankunli/GoGraph/graph/mvcc"
 )
 
 // testBudget is short enough to keep these tests in the short layer and long

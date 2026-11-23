@@ -16,7 +16,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
 )
 
 func BenchmarkFusedEdgeInsert(b *testing.B) {

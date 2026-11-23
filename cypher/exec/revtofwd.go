@@ -81,7 +81,7 @@ package exec
 // [TestBuildRevToFwd_TransposeMatchesScan] pins the replay against the scan over
 // every fixture shape, so the two provably agree wherever both apply.
 
-import "github.com/FlavioCFOliveira/GoGraph/graph"
+import "github.com/qiankunli/GoGraph/graph"
 
 // unresolvedFwdPos is the sentinel an entry of the revToFwd mapping carries when
 // the reverse slot has no resolvable forward counterpart (an out-of-range vertex

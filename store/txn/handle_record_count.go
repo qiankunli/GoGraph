@@ -10,7 +10,7 @@ package txn
 // the WAL prefix, and a value already committed therefore blocks every
 // checkpoint from then on while the WAL grows without bound.
 
-import "github.com/FlavioCFOliveira/GoGraph/graph/lpg"
+import "github.com/qiankunli/GoGraph/graph/lpg"
 
 // maxSnapshotPerRecordCount is the module's cap on the number of LABELS, or of
 // PROPERTIES, carried by ONE edge-handle record: 1 Mi.

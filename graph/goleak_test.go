@@ -3,7 +3,7 @@ package graph
 import (
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/internal/subproc"
+	"github.com/qiankunli/GoGraph/internal/subproc"
 
 	"go.uber.org/goleak"
 )

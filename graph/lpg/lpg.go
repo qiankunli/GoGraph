@@ -1,5 +1,5 @@
 // Package lpg implements the Labelled Property Graph model on top of
-// the [github.com/FlavioCFOliveira/GoGraph/graph/adjlist] mutable adjacency-list backend.
+// the [github.com/qiankunli/GoGraph/graph/adjlist] mutable adjacency-list backend.
 //
 // An LPG decorates each node and each edge with a set of labels
 // (interned strings identifying classes/types) and a bag of typed
@@ -95,12 +95,12 @@ import (
 
 	"github.com/RoaringBitmap/roaring/v2/roaring64"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
-	"github.com/FlavioCFOliveira/GoGraph/graph/index"
-	"github.com/FlavioCFOliveira/GoGraph/graph/index/label"
-	"github.com/FlavioCFOliveira/GoGraph/graph/mvcc"
-	"github.com/FlavioCFOliveira/GoGraph/internal/metrics"
+	"github.com/qiankunli/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/graph/index"
+	"github.com/qiankunli/GoGraph/graph/index/label"
+	"github.com/qiankunli/GoGraph/graph/mvcc"
+	"github.com/qiankunli/GoGraph/internal/metrics"
 )
 
 // LabelID is the compact internal identifier produced by the
@@ -1361,7 +1361,7 @@ func (g *Graph[N, W]) ApplyVersioned(fn func(WriteTx) error) error {
 // wrote is still UNCOMMITTED, runs durable — the caller's step that makes the
 // transaction durable, a WAL append and fsync — and publishes the transaction
 // only when both returned nil. It is the bracket of the durable store's commit
-// ([github.com/FlavioCFOliveira/GoGraph/store/txn.Tx.Commit]).
+// ([github.com/qiankunli/GoGraph/store/txn.Tx.Commit]).
 //
 // # Claims before the commit record
 //
@@ -4538,7 +4538,7 @@ func (g *Graph[N, W]) TombstoneCountStored() int { return int(g.tombstoneActive.
 //
 // # Live-node semantics
 //
-// Unlike [github.com/FlavioCFOliveira/GoGraph/graph/adjlist.AdjList.OutDegree],
+// Unlike [github.com/qiankunli/GoGraph/graph/adjlist.AdjList.OutDegree],
 // which counts adjacency slots, this method excludes edges whose far endpoint has
 // been tombstoned. That is the difference that makes it substitutable for a
 // traversal: [Graph.RemoveNode] tombstones a node and strips it from the label
@@ -4626,7 +4626,7 @@ func (g *Graph[N, W]) outDegreeFiltered(src N, byType bool, relType LabelID) (in
 //
 // It exists for the query layer, which holds ids and would otherwise pay an
 // id → node-value → id round-trip (an array read plus a string hash) on every
-// call; see [github.com/FlavioCFOliveira/GoGraph/graph/adjlist.AdjList.OutDegreeByID]
+// call; see [github.com/qiankunli/GoGraph/graph/adjlist.AdjList.OutDegreeByID]
 // for the measurement that motivated it.
 //
 // # Cost
@@ -4668,7 +4668,7 @@ func (g *Graph[N, W]) OutDegreeByID(srcID graph.NodeID) (int, bool) {
 // first slots all point at tombstoned neighbours must keep walking past them, and
 // a cap that counted slots would stop early and report a degree of zero for a node
 // that has live edges further along its column. The gate and the cap are
-// independent concerns, and [github.com/FlavioCFOliveira/GoGraph/graph/adjlist.AdjList.OutDegreeFuncBoundedByID]
+// independent concerns, and [github.com/qiankunli/GoGraph/graph/adjlist.AdjList.OutDegreeFuncBoundedByID]
 // keeps them so.
 //
 // # Cost

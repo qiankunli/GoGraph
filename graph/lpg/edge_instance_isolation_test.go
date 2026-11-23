@@ -4,7 +4,7 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
 )
 
 // TestIsolation_EdgeInstanceStores_CrossStoreRequiresView characterises the

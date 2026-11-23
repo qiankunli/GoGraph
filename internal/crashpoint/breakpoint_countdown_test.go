@@ -26,7 +26,7 @@ import (
 	"syscall"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/internal/crashpoint"
+	"github.com/qiankunli/GoGraph/internal/crashpoint"
 )
 
 // countdownChildEnv switches the test binary into countdown-child mode: it

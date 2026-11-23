@@ -13,7 +13,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher"
+	"github.com/qiankunli/GoGraph/cypher"
 )
 
 // runDrainErrP runs a write with params, drains it, and returns the first error.

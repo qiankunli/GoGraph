@@ -24,7 +24,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/internal/testbin"
+	"github.com/qiankunli/GoGraph/internal/testbin"
 )
 
 // TestRealCrashRecovery proves the module's durability contract across a real

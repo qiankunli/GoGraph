@@ -6,7 +6,7 @@ import (
 	"runtime"
 	"testing"
 
-	graphml "github.com/FlavioCFOliveira/GoGraph/graph/io/graphml"
+	graphml "github.com/qiankunli/GoGraph/graph/io/graphml"
 )
 
 // endlessReader emits prefix once, then an unbounded run of fill bytes,

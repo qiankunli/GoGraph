@@ -62,10 +62,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
-	"github.com/FlavioCFOliveira/GoGraph/graph/csr"
-	"github.com/FlavioCFOliveira/GoGraph/graph/lpg"
-	"github.com/FlavioCFOliveira/GoGraph/graph/query"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/graph/csr"
+	"github.com/qiankunli/GoGraph/graph/lpg"
+	"github.com/qiankunli/GoGraph/graph/query"
 )
 
 // projFloat64Only keys ONLY float values — the hash shape whose equality arm

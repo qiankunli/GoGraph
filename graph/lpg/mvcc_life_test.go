@@ -13,8 +13,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
 )
 
 // lifePair reports the birth and death records held for id.

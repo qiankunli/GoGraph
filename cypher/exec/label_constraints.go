@@ -56,8 +56,8 @@ package exec
 // schema with no constraints at all, once rmp #2306 let writers overlap.
 
 import (
-	"github.com/FlavioCFOliveira/GoGraph/graph/index"
-	"github.com/FlavioCFOliveira/GoGraph/graph/lpg"
+	"github.com/qiankunli/GoGraph/graph/index"
+	"github.com/qiankunli/GoGraph/graph/lpg"
 )
 
 // txVisibleNodeReader is implemented by a mutator that can read a node's label

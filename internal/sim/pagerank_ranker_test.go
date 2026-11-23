@@ -50,8 +50,8 @@ import (
 
 	"go.uber.org/goleak"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	"github.com/FlavioCFOliveira/GoGraph/search/centrality"
+	"github.com/qiankunli/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/search/centrality"
 )
 
 // prClauseNames returns the clause name of every violation, in order.

@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
 )
 
 // TestAbort_VersionsAreReleasedBySweep is the ticket's own reproduction, and

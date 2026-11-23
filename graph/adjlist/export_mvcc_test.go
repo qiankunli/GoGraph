@@ -1,6 +1,6 @@
 package adjlist
 
-import "github.com/FlavioCFOliveira/GoGraph/graph/mvcc"
+import "github.com/qiankunli/GoGraph/graph/mvcc"
 
 // WriteStampForTest exposes the shared write stamp so a test can drive a
 // transaction's brackets directly, without the lpg layer that normally owns

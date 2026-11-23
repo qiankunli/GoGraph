@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
-	"github.com/FlavioCFOliveira/GoGraph/graph/lpg"
+	"github.com/qiankunli/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/graph/lpg"
 )
 
 // enumerateOutDegree counts src's out-neighbours the way a traversal would: by

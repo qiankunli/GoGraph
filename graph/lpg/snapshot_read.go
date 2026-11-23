@@ -26,8 +26,8 @@ package lpg
 // the barrier is still what closes the gap.
 
 import (
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
 )
 
 // ── node labels ──────────────────────────────────────────────────────────────

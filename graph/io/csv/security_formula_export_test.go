@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
-	csv "github.com/FlavioCFOliveira/GoGraph/graph/io/csv"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
+	csv "github.com/qiankunli/GoGraph/graph/io/csv"
 )
 
 // TestSec_IO_CSVExportFormulaInjection covers the CSV-export formula

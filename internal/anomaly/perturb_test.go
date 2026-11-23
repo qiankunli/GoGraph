@@ -20,7 +20,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/internal/anomaly"
+	"github.com/qiankunli/GoGraph/internal/anomaly"
 )
 
 // perturbRounds and perturbReps size the experiment. The product is what the

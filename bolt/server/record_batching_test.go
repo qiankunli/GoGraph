@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/bolt/server"
+	"github.com/qiankunli/GoGraph/bolt/server"
 )
 
 // countingConn counts the Write calls the server makes on a connection. With a

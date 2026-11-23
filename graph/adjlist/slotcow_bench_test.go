@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
 )
 
 // slotcow_bench_test.go — the cost of one adjacency write outside a commit

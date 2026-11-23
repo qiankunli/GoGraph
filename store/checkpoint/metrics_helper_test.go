@@ -11,7 +11,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/internal/metrics"
+	"github.com/qiankunli/GoGraph/internal/metrics"
 )
 
 // countingBackend records every IncCounter/ObserveLatency call so

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/FlavioCFOliveira/GoGraph/store/txn"
+	"github.com/qiankunli/GoGraph/store/txn"
 )
 
 // This file augments the hand-authored fixture (see seed.go) with a seeded,

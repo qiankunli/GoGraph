@@ -15,7 +15,7 @@ package server
 //
 // # Why the message type is in the NAME and not in a label
 //
-// [github.com/FlavioCFOliveira/GoGraph/internal/metrics.Backend] takes a name
+// [github.com/qiankunli/GoGraph/internal/metrics.Backend] takes a name
 // and a value; it has no label dimension. docs/metrics.md settles what a
 // dimensioned series looks like in this module: the dimension goes in the name
 // as "<base>.<dimension>.<value>", drawn from a closed set and built once at
@@ -47,7 +47,7 @@ package server
 // that lands in ONE bucket, the way mvcc.StoreOther does: "not a store; the
 // bucket that keeps the cardinality bounded without losing the count".
 
-import "github.com/FlavioCFOliveira/GoGraph/bolt/proto"
+import "github.com/qiankunli/GoGraph/bolt/proto"
 
 // msgKind indexes the closed set of Bolt request message types for metric
 // purposes. It exists only to select a pre-built series name; it is not a

@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/internal/clock"
+	"github.com/qiankunli/GoGraph/internal/clock"
 )
 
 // swarmSeedMix derives each worker's per-run seed from the swarm's master seed

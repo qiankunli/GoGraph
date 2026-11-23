@@ -7,8 +7,8 @@ import (
 
 	"go.uber.org/goleak"
 
-	"github.com/FlavioCFOliveira/GoGraph/internal/clock"
-	"github.com/FlavioCFOliveira/GoGraph/internal/testlayers"
+	"github.com/qiankunli/GoGraph/internal/clock"
+	"github.com/qiankunli/GoGraph/internal/testlayers"
 )
 
 // TestPhase3_ConcurrentLivenessSoak is the soak-layer Phase-3 endurance run: for

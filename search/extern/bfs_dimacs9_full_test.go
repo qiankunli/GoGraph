@@ -7,11 +7,11 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/bench/dimacs9"
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	"github.com/FlavioCFOliveira/GoGraph/graph/csr"
-	"github.com/FlavioCFOliveira/GoGraph/internal/testlayers"
-	"github.com/FlavioCFOliveira/GoGraph/store/csrfile"
+	"github.com/qiankunli/GoGraph/bench/dimacs9"
+	"github.com/qiankunli/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph/csr"
+	"github.com/qiankunli/GoGraph/internal/testlayers"
+	"github.com/qiankunli/GoGraph/store/csrfile"
 )
 
 // TestBFS_Dimacs9Full_Nightly verifies that extern.BFS completes

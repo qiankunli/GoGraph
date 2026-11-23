@@ -7,7 +7,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
 )
 
 // TestRemoveNodeLabel_NoOpLeavesThePendingRemovalAlone commits a removal of L

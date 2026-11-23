@@ -4,8 +4,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/ast"
-	"github.com/FlavioCFOliveira/GoGraph/cypher/parser"
+	"github.com/qiankunli/GoGraph/cypher/ast"
+	"github.com/qiankunli/GoGraph/cypher/parser"
 )
 
 // ExampleParse demonstrates basic Cypher parsing. The returned AST can be

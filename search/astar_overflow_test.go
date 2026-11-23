@@ -10,7 +10,7 @@ package search
 import (
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph"
 )
 
 func TestAStar_FScoreOverflow_CostStaysCorrect(t *testing.T) {

@@ -27,10 +27,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/lpg"
-	"github.com/FlavioCFOliveira/GoGraph/internal/crashinject"
-	"github.com/FlavioCFOliveira/GoGraph/store/recovery"
-	"github.com/FlavioCFOliveira/GoGraph/store/txn"
+	"github.com/qiankunli/GoGraph/graph/lpg"
+	"github.com/qiankunli/GoGraph/internal/crashinject"
+	"github.com/qiankunli/GoGraph/store/recovery"
+	"github.com/qiankunli/GoGraph/store/txn"
 )
 
 // expectedEdge is one arc of the hand-computed expectation: source,

@@ -3,7 +3,7 @@ package lpg
 import (
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
 )
 
 // BenchmarkDirectWriteUncontended measures direct Go-API node writes with no

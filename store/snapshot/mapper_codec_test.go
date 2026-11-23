@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	"github.com/FlavioCFOliveira/GoGraph/store/txn"
+	"github.com/qiankunli/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/store/txn"
 )
 
 // TestWriteMapper_StringByteIdenticalToV1 is the AC#3 byte-identity

@@ -1,6 +1,6 @@
 package sema
 
-import "github.com/FlavioCFOliveira/GoGraph/cypher/ast"
+import "github.com/qiankunli/GoGraph/cypher/ast"
 
 // Symbol records the introduction point of a variable within a scope.
 type Symbol struct {

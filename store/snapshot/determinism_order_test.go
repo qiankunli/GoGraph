@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
-	"github.com/FlavioCFOliveira/GoGraph/graph/lpg"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/graph/lpg"
 )
 
 // determinism_order_test.go — the durable components must be a deterministic

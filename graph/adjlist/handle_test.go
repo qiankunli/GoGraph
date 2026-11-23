@@ -3,7 +3,7 @@ package adjlist
 import (
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph"
 )
 
 // handlesOf returns the handle column for src as a fresh slice, failing

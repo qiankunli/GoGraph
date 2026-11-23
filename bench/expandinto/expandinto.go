@@ -39,8 +39,8 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
-	"github.com/FlavioCFOliveira/GoGraph/graph/lpg"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/graph/lpg"
 )
 
 // ClosingQuery is the audit's §2.3 shape: a 2-cycle whose second hop has an

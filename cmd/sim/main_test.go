@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/internal/testlayers"
+	"github.com/qiankunli/GoGraph/internal/testlayers"
 )
 
 // TestRun_PassesWithSeed verifies a small fixed-seed run exits 0 and prints the

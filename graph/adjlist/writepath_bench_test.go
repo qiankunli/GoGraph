@@ -3,7 +3,7 @@ package adjlist_test
 import (
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
 )
 
 // BenchmarkWritePath_BulkBuild measures the write-path cost of building a hub

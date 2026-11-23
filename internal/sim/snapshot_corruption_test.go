@@ -18,7 +18,7 @@ import (
 
 	"go.uber.org/goleak"
 
-	"github.com/FlavioCFOliveira/GoGraph/store/snapshot"
+	"github.com/qiankunli/GoGraph/store/snapshot"
 )
 
 // snapshotCorruptionSeeds are a small fixed spread of seeds. The scenario is

@@ -16,7 +16,7 @@ package exec_test
 import (
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/exec"
+	"github.com/qiankunli/GoGraph/cypher/exec"
 )
 
 // code is [lpg.EncodeSlotLabel]: the on-slot encoding of a LabelID, biased by one

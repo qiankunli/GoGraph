@@ -15,12 +15,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
-	"github.com/FlavioCFOliveira/GoGraph/graph/lpg"
-	"github.com/FlavioCFOliveira/GoGraph/store/checkpoint"
-	"github.com/FlavioCFOliveira/GoGraph/store/recovery"
-	"github.com/FlavioCFOliveira/GoGraph/store/txn"
-	"github.com/FlavioCFOliveira/GoGraph/store/wal"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/graph/lpg"
+	"github.com/qiankunli/GoGraph/store/checkpoint"
+	"github.com/qiankunli/GoGraph/store/recovery"
+	"github.com/qiankunli/GoGraph/store/txn"
+	"github.com/qiankunli/GoGraph/store/wal"
 )
 
 const (

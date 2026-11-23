@@ -3,7 +3,7 @@ package cypher
 import (
 	"sync"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/lpg"
+	"github.com/qiankunli/GoGraph/graph/lpg"
 )
 
 // This file holds the PLAN-TIME resolution of the per-row binding ladder that

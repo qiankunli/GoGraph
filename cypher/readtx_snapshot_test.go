@@ -21,8 +21,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher"
-	"github.com/FlavioCFOliveira/GoGraph/cypher/expr"
+	"github.com/qiankunli/GoGraph/cypher"
+	"github.com/qiankunli/GoGraph/cypher/expr"
 )
 
 // autocommit runs one statement outside any explicit transaction and drains it,

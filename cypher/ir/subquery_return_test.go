@@ -37,9 +37,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/ast"
-	"github.com/FlavioCFOliveira/GoGraph/cypher/ir"
-	"github.com/FlavioCFOliveira/GoGraph/cypher/parser"
+	"github.com/qiankunli/GoGraph/cypher/ast"
+	"github.com/qiankunli/GoGraph/cypher/ir"
+	"github.com/qiankunli/GoGraph/cypher/parser"
 )
 
 // subqueryBody parses `MATCH (a) RETURN COUNT { <body> }` and returns the

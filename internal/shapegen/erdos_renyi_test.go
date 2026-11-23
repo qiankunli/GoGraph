@@ -12,9 +12,9 @@ import (
 
 	"pgregory.net/rapid"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
-	"github.com/FlavioCFOliveira/GoGraph/graph/lpg"
-	"github.com/FlavioCFOliveira/GoGraph/internal/testlayers"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/graph/lpg"
+	"github.com/qiankunli/GoGraph/internal/testlayers"
 )
 
 // randomGoldenDir is the directory holding the random-family

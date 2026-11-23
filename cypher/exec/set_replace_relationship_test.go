@@ -21,10 +21,10 @@ import (
 	"context"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/exec"
-	"github.com/FlavioCFOliveira/GoGraph/cypher/expr"
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	"github.com/FlavioCFOliveira/GoGraph/graph/lpg"
+	"github.com/qiankunli/GoGraph/cypher/exec"
+	"github.com/qiankunli/GoGraph/cypher/expr"
+	"github.com/qiankunli/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph/lpg"
 )
 
 // nodeIDValue encodes a NodeID as the IntegerValue a node column carries in the

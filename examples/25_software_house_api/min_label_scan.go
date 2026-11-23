@@ -34,8 +34,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher"
-	"github.com/FlavioCFOliveira/GoGraph/graph/lpg"
+	"github.com/qiankunli/GoGraph/cypher"
+	"github.com/qiankunli/GoGraph/graph/lpg"
 )
 
 // mlsLayerLabel is the broad, low-selectivity layer label the demo pattern

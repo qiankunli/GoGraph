@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/FlavioCFOliveira/GoGraph/bolt/packstream"
+	"github.com/qiankunli/GoGraph/bolt/packstream"
 )
 
 // maxChunkSize is the maximum number of payload bytes per Bolt chunk.
@@ -112,7 +112,7 @@ func NewChunkedReaderWithLimit(r io.Reader, maxMessageBytes int) *ChunkedReader 
 // accounting, leaving the reader bounded only by its maxMessageBytes cap.
 //
 // It is the reassembly-side counterpart of
-// [github.com/FlavioCFOliveira/GoGraph/bolt/packstream.Decoder.SetInboundBudget].
+// [github.com/qiankunli/GoGraph/bolt/packstream.Decoder.SetInboundBudget].
 // Call it once, immediately after construction and before the first
 // [ChunkedReader.ReadMessage]; the reader draws on the budget for the lifetime
 // of every subsequent reassembly and releases symmetrically. A disabled budget

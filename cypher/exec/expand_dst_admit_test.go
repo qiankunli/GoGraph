@@ -18,8 +18,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/exec"
-	"github.com/FlavioCFOliveira/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/cypher/exec"
+	"github.com/qiankunli/GoGraph/graph"
 )
 
 // admitSet returns a [exec.DstAdmit] admitting exactly the listed destinations and

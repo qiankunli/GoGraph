@@ -30,7 +30,7 @@ package cypher
 import (
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/lpg"
+	"github.com/qiankunli/GoGraph/graph/lpg"
 )
 
 // ── #2267 defect 1: a BOXED node cell ───────────────────────────────────────────

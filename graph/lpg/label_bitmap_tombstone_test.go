@@ -11,9 +11,9 @@ package lpg
 import (
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
 )
 
 // newTestGraph returns a directed LPG for use in tests.

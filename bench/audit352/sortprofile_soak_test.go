@@ -68,8 +68,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher"
-	"github.com/FlavioCFOliveira/GoGraph/internal/sortseam"
+	"github.com/qiankunli/GoGraph/cypher"
+	"github.com/qiankunli/GoGraph/internal/sortseam"
 )
 
 // TestSortDecorationArmFrames is the structural arm assertion for EVERY cell of

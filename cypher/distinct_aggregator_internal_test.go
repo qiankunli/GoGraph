@@ -22,8 +22,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/expr"
-	"github.com/FlavioCFOliveira/GoGraph/cypher/funcs"
+	"github.com/qiankunli/GoGraph/cypher/expr"
+	"github.com/qiankunli/GoGraph/cypher/funcs"
 )
 
 // TestDistinctAggregator_CountCapEnforced verifies Step returns

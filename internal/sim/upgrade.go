@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/FlavioCFOliveira/GoGraph/store/wal"
+	"github.com/qiankunli/GoGraph/store/wal"
 )
 
 // UpgradeConfig parameterises an upgrade simulation: the seed driving the

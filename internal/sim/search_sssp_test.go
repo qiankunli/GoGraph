@@ -5,8 +5,8 @@ import (
 	"math"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	"github.com/FlavioCFOliveira/GoGraph/search"
+	"github.com/qiankunli/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/search"
 )
 
 // weightedTriangle is A->B, B->C, A->C: a direct edge and a two-hop path to C,

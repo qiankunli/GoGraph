@@ -13,8 +13,8 @@ package tck_test
 import (
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/parser"
-	"github.com/FlavioCFOliveira/GoGraph/cypher/sema"
+	"github.com/qiankunli/GoGraph/cypher/parser"
+	"github.com/qiankunli/GoGraph/cypher/sema"
 )
 
 // TestRelUniquenessErrorName_ClauseScopedFormClassifiesCorrectly runs the two

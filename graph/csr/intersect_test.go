@@ -23,7 +23,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph"
 )
 
 // rangeOf wraps a literal destination list as a Range covering all of it.

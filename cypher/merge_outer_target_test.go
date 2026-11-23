@@ -37,7 +37,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher"
+	"github.com/qiankunli/GoGraph/cypher"
 )
 
 // outerActionForm is one surface form of a SET action, rendered against the

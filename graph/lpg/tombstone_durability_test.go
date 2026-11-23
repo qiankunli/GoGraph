@@ -3,7 +3,7 @@ package lpg
 import (
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
 )
 
 // Why the pre-existing suite missed the node-deletion durability defect:

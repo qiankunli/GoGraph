@@ -3,11 +3,11 @@ package cypher_test
 import (
 	"sync"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/lpg"
-	"github.com/FlavioCFOliveira/GoGraph/store/checkpoint"
-	"github.com/FlavioCFOliveira/GoGraph/store/snapshot"
-	"github.com/FlavioCFOliveira/GoGraph/store/txn"
-	"github.com/FlavioCFOliveira/GoGraph/store/wal"
+	"github.com/qiankunli/GoGraph/graph/lpg"
+	"github.com/qiankunli/GoGraph/store/checkpoint"
+	"github.com/qiankunli/GoGraph/store/snapshot"
+	"github.com/qiankunli/GoGraph/store/txn"
+	"github.com/qiankunli/GoGraph/store/wal"
 )
 
 // checkpointTestStore publishes a self-sufficient snapshot of g under dir and

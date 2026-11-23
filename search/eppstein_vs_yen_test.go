@@ -34,9 +34,9 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	"github.com/FlavioCFOliveira/GoGraph/graph/csr"
-	"github.com/FlavioCFOliveira/GoGraph/internal/shapegen"
+	"github.com/qiankunli/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph/csr"
+	"github.com/qiankunli/GoGraph/internal/shapegen"
 )
 
 // intentional exercise of the deprecated EppsteinKShortest alias

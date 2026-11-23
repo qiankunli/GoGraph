@@ -20,7 +20,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/lpg"
+	"github.com/qiankunli/GoGraph/graph/lpg"
 )
 
 // seedReverseHubGraph is the mirror of seedHubGraph: the hub's edges point OUT, so

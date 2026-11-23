@@ -13,7 +13,7 @@
 //
 //	import (
 //	    "net/http"
-//	    "github.com/FlavioCFOliveira/GoGraph/metrics"
+//	    "github.com/qiankunli/GoGraph/metrics"
 //	)
 //
 //	reg := metrics.NewPrometheusRegistry()
@@ -48,8 +48,8 @@
 package metrics
 
 import (
-	internalmetrics "github.com/FlavioCFOliveira/GoGraph/internal/metrics"
-	internalprom "github.com/FlavioCFOliveira/GoGraph/internal/metrics/prometheus"
+	internalmetrics "github.com/qiankunli/GoGraph/internal/metrics"
+	internalprom "github.com/qiankunli/GoGraph/internal/metrics/prometheus"
 )
 
 // Backend is the interface every metrics sink must implement.

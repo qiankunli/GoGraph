@@ -20,8 +20,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/expr"
-	"github.com/FlavioCFOliveira/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/cypher/expr"
+	"github.com/qiankunli/GoGraph/graph"
 )
 
 // fakeCSR is a hand-assembled CSR satisfying CSRAdjacency, so a test states the

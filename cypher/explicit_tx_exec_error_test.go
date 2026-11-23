@@ -8,7 +8,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher"
+	"github.com/qiankunli/GoGraph/cypher"
 )
 
 // TestExplicitTx_Exec_RuntimeError_Returned is the #1378 gate: a statement

@@ -26,8 +26,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/bolt/packstream"
-	"github.com/FlavioCFOliveira/GoGraph/bolt/proto"
+	"github.com/qiankunli/GoGraph/bolt/packstream"
+	"github.com/qiankunli/GoGraph/bolt/proto"
 )
 
 // boltV51 is the lowest Bolt version that defers authentication to LOGON.

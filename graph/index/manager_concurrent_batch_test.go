@@ -37,9 +37,9 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	"github.com/FlavioCFOliveira/GoGraph/graph/index"
-	"github.com/FlavioCFOliveira/GoGraph/graph/index/label"
+	"github.com/qiankunli/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph/index"
+	"github.com/qiankunli/GoGraph/graph/index/label"
 )
 
 // TestManager_ConcurrentApplyBatchLosesNothing drives many goroutines through

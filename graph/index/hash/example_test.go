@@ -3,8 +3,8 @@ package hash_test
 import (
 	"fmt"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	"github.com/FlavioCFOliveira/GoGraph/graph/index/hash"
+	"github.com/qiankunli/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph/index/hash"
 )
 
 // ExampleIndex shows a hash index answering an exact-match property

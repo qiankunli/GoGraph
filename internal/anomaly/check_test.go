@@ -15,7 +15,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/internal/anomaly"
+	"github.com/qiankunli/GoGraph/internal/anomaly"
 )
 
 // rd and wr build read and write operations.

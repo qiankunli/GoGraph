@@ -44,7 +44,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/bolt/proto"
+	"github.com/qiankunli/GoGraph/bolt/proto"
 )
 
 // Two seed sizes, because they answer two different questions and mixing them

@@ -22,7 +22,7 @@ import (
 
 	"go.uber.org/goleak"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/lpg"
+	"github.com/qiankunli/GoGraph/graph/lpg"
 )
 
 // TestTypedSchema_ScenarioPasses runs the registered scenario at its catalogue

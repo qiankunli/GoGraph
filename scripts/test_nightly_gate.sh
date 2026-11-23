@@ -78,7 +78,7 @@ runtime: out of memory: cannot allocate 1GB
 check "explicit ^FAIL line" fail \
   "--- FAIL: TestSomething (0.01s)
 FAIL
-FAIL	github.com/FlavioCFOliveira/GoGraph/search	0.423s
+FAIL	github.com/qiankunli/GoGraph/search	0.423s
 "
 
 # ── Test 3: crash with no output ──────────────────────────────────────────────
@@ -94,17 +94,17 @@ signal: killed
 check "healthy run with ^ok lines passes" pass \
   "=== RUN   TestFoo
 --- PASS: TestFoo (0.00s)
-ok  	github.com/FlavioCFOliveira/GoGraph/search	0.423s
-ok  	github.com/FlavioCFOliveira/GoGraph/search/centrality	1.234s
+ok  	github.com/qiankunli/GoGraph/search	0.423s
+ok  	github.com/qiankunli/GoGraph/search/centrality	1.234s
 "
 
 # ── Test 6: partial run — some ok, then crash ─────────────────────────────────
 # This is a borderline case: some packages passed but the last one crashed.
 # The ^FAIL line IS present (make emits it), so this is caught.
 check "partial run with FAIL after some ok" fail \
-  "ok  	github.com/FlavioCFOliveira/GoGraph/search	0.423s
+  "ok  	github.com/qiankunli/GoGraph/search	0.423s
 --- FAIL: TestHeavy (12.34s)
-FAIL	github.com/FlavioCFOliveira/GoGraph/store	12.345s
+FAIL	github.com/qiankunli/GoGraph/store	12.345s
 "
 
 # ── Summary ───────────────────────────────────────────────────────────────────

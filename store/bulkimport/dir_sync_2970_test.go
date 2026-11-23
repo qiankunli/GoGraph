@@ -22,8 +22,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/store/bulkimport"
-	"github.com/FlavioCFOliveira/GoGraph/store/snapshot"
+	"github.com/qiankunli/GoGraph/store/bulkimport"
+	"github.com/qiankunli/GoGraph/store/snapshot"
 )
 
 // recordingFS is an operating-system filesystem that records the directory

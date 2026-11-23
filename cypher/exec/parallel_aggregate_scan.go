@@ -9,7 +9,7 @@ package exec
 // aggregate (float sum/avg, int sum, collect, percentile, stdev) has no
 // byte-identical combine and is structurally kept on the serial path: the
 // planner never routes it here, and this operator carries no reducer kind that
-// could accumulate it. The [github.com/FlavioCFOliveira/GoGraph/cypher/funcs].Aggregator
+// could accumulate it. The [github.com/qiankunli/GoGraph/cypher/funcs].Aggregator
 // interface remains free of any Combine method — the parallel merge lives here,
 // as a closed, plan-selected kernel, exactly as the design mandates.
 //
@@ -99,8 +99,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/expr"
-	"github.com/FlavioCFOliveira/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/cypher/expr"
+	"github.com/qiankunli/GoGraph/graph"
 )
 
 // AggReducerKind identifies the deterministic, byte-identical-to-serial combine a

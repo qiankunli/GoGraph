@@ -9,8 +9,8 @@ import (
 	"unicode/utf8"
 	"unsafe"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
-	"github.com/FlavioCFOliveira/GoGraph/internal/metrics"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/internal/metrics"
 )
 
 // Write streams every edge of a in src,dst,weight order to w.

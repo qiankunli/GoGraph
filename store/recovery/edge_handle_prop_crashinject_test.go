@@ -20,9 +20,9 @@ package recovery
 import (
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/lpg"
-	"github.com/FlavioCFOliveira/GoGraph/internal/crashinject"
-	"github.com/FlavioCFOliveira/GoGraph/store/txn"
+	"github.com/qiankunli/GoGraph/graph/lpg"
+	"github.com/qiankunli/GoGraph/internal/crashinject"
+	"github.com/qiankunli/GoGraph/store/txn"
 )
 
 // These mirror the constants in cmd/crashinject-helper/main.go.

@@ -4,7 +4,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph"
 )
 
 // probe_bench_test.go — the linear-vs-binary neighbour probe, per degree.

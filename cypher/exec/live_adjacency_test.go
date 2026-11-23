@@ -5,8 +5,8 @@ import (
 	"slices"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/expr"
-	"github.com/FlavioCFOliveira/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/cypher/expr"
+	"github.com/qiankunli/GoGraph/graph"
 )
 
 // live_adjacency_test.go — the operator half of rmp #2883's live forward runs:

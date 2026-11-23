@@ -42,8 +42,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/internal/subproc"
-	"github.com/FlavioCFOliveira/GoGraph/internal/testlayers"
+	"github.com/qiankunli/GoGraph/internal/subproc"
+	"github.com/qiankunli/GoGraph/internal/testlayers"
 )
 
 const (

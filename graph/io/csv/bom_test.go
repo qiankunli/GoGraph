@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	csv "github.com/FlavioCFOliveira/GoGraph/graph/io/csv"
+	csv "github.com/qiankunli/GoGraph/graph/io/csv"
 )
 
 // TestReadInto_StripsUTF8BOM asserts that a leading UTF-8 BOM (EF BB BF),

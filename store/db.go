@@ -76,8 +76,8 @@ import (
 	"io"
 	"sync"
 
-	"github.com/FlavioCFOliveira/GoGraph/internal/metrics"
-	"github.com/FlavioCFOliveira/GoGraph/store/wal"
+	"github.com/qiankunli/GoGraph/internal/metrics"
+	"github.com/qiankunli/GoGraph/store/wal"
 )
 
 // DB satisfies io.Closer so it drops straight into any generic owner that

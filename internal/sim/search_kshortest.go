@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	"github.com/FlavioCFOliveira/GoGraph/graph/csr"
-	"github.com/FlavioCFOliveira/GoGraph/search"
+	"github.com/qiankunli/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph/csr"
+	"github.com/qiankunli/GoGraph/search"
 )
 
 // kshortestSeedMix is XORed with the tick to seed this check's [Seed], keeping

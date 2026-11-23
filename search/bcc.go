@@ -3,9 +3,9 @@ package search
 import (
 	"context"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	"github.com/FlavioCFOliveira/GoGraph/graph/csr"
-	"github.com/FlavioCFOliveira/GoGraph/internal/metrics"
+	"github.com/qiankunli/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph/csr"
+	"github.com/qiankunli/GoGraph/internal/metrics"
 )
 
 // BCCResult bundles every output of [HopcroftTarjanBCC]: the

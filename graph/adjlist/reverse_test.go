@@ -6,7 +6,7 @@ import (
 	"slices"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph"
 )
 
 // scanInNeighbours is the implementation the reverse index replaced: a full

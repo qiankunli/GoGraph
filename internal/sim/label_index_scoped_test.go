@@ -62,7 +62,7 @@ import (
 
 	"go.uber.org/goleak"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/index"
+	"github.com/qiankunli/GoGraph/graph/index"
 )
 
 // liClauseNames returns the clause name of every violation, in order, with the

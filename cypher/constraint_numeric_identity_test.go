@@ -9,7 +9,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/exec"
+	"github.com/qiankunli/GoGraph/cypher/exec"
 )
 
 func TestUniqueConstraint_IntFloatCollide(t *testing.T) {

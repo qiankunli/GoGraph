@@ -23,8 +23,8 @@ import (
 
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/bolt/proto"
-	"github.com/FlavioCFOliveira/GoGraph/bolt/server"
+	"github.com/qiankunli/GoGraph/bolt/proto"
+	"github.com/qiankunli/GoGraph/bolt/server"
 )
 
 // TestExplicitTx_FailedTransition_ReleasesWriterMutexPromptly is the #1312 AC.

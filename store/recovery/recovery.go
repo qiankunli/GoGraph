@@ -32,14 +32,14 @@ import (
 	"sort"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
-	"github.com/FlavioCFOliveira/GoGraph/graph/lpg"
-	"github.com/FlavioCFOliveira/GoGraph/internal/crashpoint"
-	"github.com/FlavioCFOliveira/GoGraph/internal/metrics"
-	"github.com/FlavioCFOliveira/GoGraph/store/snapshot"
-	"github.com/FlavioCFOliveira/GoGraph/store/txn"
-	"github.com/FlavioCFOliveira/GoGraph/store/wal"
+	"github.com/qiankunli/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/graph/lpg"
+	"github.com/qiankunli/GoGraph/internal/crashpoint"
+	"github.com/qiankunli/GoGraph/internal/metrics"
+	"github.com/qiankunli/GoGraph/store/snapshot"
+	"github.com/qiankunli/GoGraph/store/txn"
+	"github.com/qiankunli/GoGraph/store/wal"
 )
 
 // Result reports what Open found. It is populated once by [Open] /
@@ -1251,7 +1251,7 @@ func OpenCtx[N comparable, W any](ctx context.Context, dir string, opts Options[
 // in-memory backend so it can recover a snapshot + WAL image from its
 // in-memory disk and crash across the snapshot-promote boundary. The backend
 // parameter type is unexported (mirroring
-// [github.com/FlavioCFOliveira/GoGraph/store/wal.OpenWith]); production code
+// [github.com/qiankunli/GoGraph/store/wal.OpenWith]); production code
 // calls [Open], which supplies the OS backend. Passing the OS backend here is
 // behaviourally equivalent to [Open], including the WAL prefix marker write
 // on the first clean recovery of a store without it, made through fsys

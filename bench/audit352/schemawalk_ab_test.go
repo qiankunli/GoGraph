@@ -61,7 +61,7 @@ package audit352_test
 import (
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher"
+	"github.com/qiankunli/GoGraph/cypher"
 )
 
 // schemaWalkShapes run against the shared 120 000-node benchGraph, so no arm can

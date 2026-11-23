@@ -28,8 +28,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/expr"
-	"github.com/FlavioCFOliveira/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/cypher/expr"
+	"github.com/qiankunli/GoGraph/graph"
 )
 
 // DetachDelete removes all incident edges from a node and then strips the

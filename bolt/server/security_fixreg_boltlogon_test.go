@@ -24,8 +24,8 @@ import (
 	"crypto/subtle"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/bolt/packstream"
-	"github.com/FlavioCFOliveira/GoGraph/bolt/proto"
+	"github.com/qiankunli/GoGraph/bolt/packstream"
+	"github.com/qiankunli/GoGraph/bolt/proto"
 )
 
 // hello51 advances a fresh 5.1 session through the credential-less HELLO into the

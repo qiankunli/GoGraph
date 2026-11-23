@@ -57,7 +57,7 @@
 // avoid. Kept apart, the harness builds with both files, and on failure drops
 // THIS one and rebuilds: the tag still runs, still writes a WAL image, and the
 // wire protocol reports checkpoint=false so the caller knows which of the two
-// shapes the image has. See [github.com/FlavioCFOliveira/GoGraph/internal/sim]
+// shapes the image has. See [github.com/qiankunli/GoGraph/internal/sim]
 // BuildPriorReleaseHelper for the two-stage build.
 //
 // That fallback is retained deliberately even though every tag in the repository
@@ -95,10 +95,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/lpg"
-	"github.com/FlavioCFOliveira/GoGraph/store/checkpoint"
-	"github.com/FlavioCFOliveira/GoGraph/store/txn"
-	"github.com/FlavioCFOliveira/GoGraph/store/wal"
+	"github.com/qiankunli/GoGraph/graph/lpg"
+	"github.com/qiankunli/GoGraph/store/checkpoint"
+	"github.com/qiankunli/GoGraph/store/txn"
+	"github.com/qiankunli/GoGraph/store/wal"
 )
 
 func init() { publishCheckpointHook = publishCheckpoint }

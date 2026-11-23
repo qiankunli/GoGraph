@@ -5,7 +5,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph"
 )
 
 // TestMapper_WriteRead_Roundtrip walks a freshly-interned mapper into

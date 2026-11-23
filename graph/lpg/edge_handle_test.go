@@ -5,7 +5,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
 )
 
 // TestGraph_AddEdgeH_Monotone verifies handles are strictly increasing and

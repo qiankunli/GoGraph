@@ -26,9 +26,9 @@ import (
 
 	"go.uber.org/goleak"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/exec"
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	"github.com/FlavioCFOliveira/GoGraph/graph/index"
+	"github.com/qiankunli/GoGraph/cypher/exec"
+	"github.com/qiankunli/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph/index"
 )
 
 // recordingSub is an index.Subscriber that records every change fanned out to

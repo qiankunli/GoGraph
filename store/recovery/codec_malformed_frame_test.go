@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/store/txn"
-	"github.com/FlavioCFOliveira/GoGraph/store/wal"
+	"github.com/qiankunli/GoGraph/store/txn"
+	"github.com/qiankunli/GoGraph/store/wal"
 )
 
 // TestOpen_MalformedV2Frame_NotApplied is the table-driven guard battery

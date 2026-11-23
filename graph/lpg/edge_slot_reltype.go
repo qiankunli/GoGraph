@@ -58,7 +58,7 @@ import (
 	"cmp"
 	"slices"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph"
 )
 
 // slotHandleAt returns the stable handle of adjacency slot i, or 0 when the

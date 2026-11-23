@@ -35,9 +35,9 @@ import (
 
 	"pgregory.net/rapid"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/exec"
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
-	"github.com/FlavioCFOliveira/GoGraph/graph/lpg"
+	"github.com/qiankunli/GoGraph/cypher/exec"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/graph/lpg"
 )
 
 // seekArc is one directed edge the fixture writes. Several arcs may share (from,to):

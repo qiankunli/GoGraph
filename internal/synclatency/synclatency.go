@@ -20,7 +20,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/store/wal"
+	"github.com/qiankunli/GoGraph/store/wal"
 )
 
 // The environment variables [ForTest] reads.

@@ -26,9 +26,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/bolt/packstream"
-	"github.com/FlavioCFOliveira/GoGraph/bolt/proto"
-	"github.com/FlavioCFOliveira/GoGraph/bolt/server"
+	"github.com/qiankunli/GoGraph/bolt/packstream"
+	"github.com/qiankunli/GoGraph/bolt/proto"
+	"github.com/qiankunli/GoGraph/bolt/server"
 )
 
 // pingLogon sends a single LOGON (a legal no-op in TX_READY under NoAuthHandler)

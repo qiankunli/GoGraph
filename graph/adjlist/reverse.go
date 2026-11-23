@@ -4,8 +4,8 @@ import (
 	"slices"
 	"sync"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	"github.com/FlavioCFOliveira/GoGraph/graph/mvcc"
+	"github.com/qiankunli/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph/mvcc"
 )
 
 // revIndex is the live in-edge index: for every node it records which nodes

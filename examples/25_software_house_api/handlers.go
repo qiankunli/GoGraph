@@ -11,10 +11,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher"
-	"github.com/FlavioCFOliveira/GoGraph/cypher/exec"
-	"github.com/FlavioCFOliveira/GoGraph/cypher/parser"
-	"github.com/FlavioCFOliveira/GoGraph/cypher/sema"
+	"github.com/qiankunli/GoGraph/cypher"
+	"github.com/qiankunli/GoGraph/cypher/exec"
+	"github.com/qiankunli/GoGraph/cypher/parser"
+	"github.com/qiankunli/GoGraph/cypher/sema"
 )
 
 // maxQueryBodyBytes bounds the POST /query request body.

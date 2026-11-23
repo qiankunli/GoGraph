@@ -8,7 +8,7 @@ package main
 // control replaces only this file, with one that returns zeros, and the rest of
 // the ladder compiles unchanged.
 
-import "github.com/FlavioCFOliveira/GoGraph/graph/lpg"
+import "github.com/qiankunli/GoGraph/graph/lpg"
 
 // frontierOf returns the commits allocated but not finished, the out-of-order and
 // helped publications, and the sessions waiting for the frontier.

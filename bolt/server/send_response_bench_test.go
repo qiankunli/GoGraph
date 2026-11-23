@@ -18,8 +18,8 @@ import (
 	"io"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/bolt/packstream"
-	proto "github.com/FlavioCFOliveira/GoGraph/bolt/proto"
+	"github.com/qiankunli/GoGraph/bolt/packstream"
+	proto "github.com/qiankunli/GoGraph/bolt/proto"
 )
 
 // BenchmarkSendResponse_Record measures the response-encode path for a typical

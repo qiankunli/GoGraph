@@ -5,17 +5,17 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher"
-	"github.com/FlavioCFOliveira/GoGraph/cypher/exec"
-	"github.com/FlavioCFOliveira/GoGraph/cypher/expr"
-	"github.com/FlavioCFOliveira/GoGraph/cypher/funcs"
-	"github.com/FlavioCFOliveira/GoGraph/cypher/parser"
-	"github.com/FlavioCFOliveira/GoGraph/cypher/procs"
-	"github.com/FlavioCFOliveira/GoGraph/cypher/sema"
-	"github.com/FlavioCFOliveira/GoGraph/graph/index"
-	"github.com/FlavioCFOliveira/GoGraph/graph/mvcc"
-	"github.com/FlavioCFOliveira/GoGraph/store/txn"
-	"github.com/FlavioCFOliveira/GoGraph/store/wal"
+	"github.com/qiankunli/GoGraph/cypher"
+	"github.com/qiankunli/GoGraph/cypher/exec"
+	"github.com/qiankunli/GoGraph/cypher/expr"
+	"github.com/qiankunli/GoGraph/cypher/funcs"
+	"github.com/qiankunli/GoGraph/cypher/parser"
+	"github.com/qiankunli/GoGraph/cypher/procs"
+	"github.com/qiankunli/GoGraph/cypher/sema"
+	"github.com/qiankunli/GoGraph/graph/index"
+	"github.com/qiankunli/GoGraph/graph/mvcc"
+	"github.com/qiankunli/GoGraph/store/txn"
+	"github.com/qiankunli/GoGraph/store/wal"
 )
 
 // FailureCode returns the Neo4j-style dot-delimited error code for err.

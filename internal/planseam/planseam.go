@@ -4,7 +4,7 @@
 //
 // # Why this package exists
 //
-// The counters are WRITTEN by github.com/FlavioCFOliveira/GoGraph/cypher, whose
+// The counters are WRITTEN by github.com/qiankunli/GoGraph/cypher, whose
 // planner is the only thing that can bump them, and READ by two kinds of
 // consumer:
 //
@@ -20,7 +20,7 @@
 // everything below unimportable outside this module, so the identifiers are
 // exported for those consumers' benefit without ever becoming public API. This
 // is the same reasoning, and the same shape, as
-// github.com/FlavioCFOliveira/GoGraph/internal/sortseam.
+// github.com/qiankunli/GoGraph/internal/sortseam.
 //
 // # Scope and concurrency
 //

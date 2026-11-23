@@ -77,11 +77,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/bench/dimacs9"
-	"github.com/FlavioCFOliveira/GoGraph/examples/internal/exprof"
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	"github.com/FlavioCFOliveira/GoGraph/graph/csr"
-	"github.com/FlavioCFOliveira/GoGraph/search"
+	"github.com/qiankunli/GoGraph/bench/dimacs9"
+	"github.com/qiankunli/GoGraph/examples/internal/exprof"
+	"github.com/qiankunli/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph/csr"
+	"github.com/qiankunli/GoGraph/search"
 )
 
 // srcNode is the fixed anchor of the deterministic concrete route. The

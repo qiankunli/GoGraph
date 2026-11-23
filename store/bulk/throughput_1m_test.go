@@ -8,8 +8,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/internal/testlayers"
-	"github.com/FlavioCFOliveira/GoGraph/store/csrfile"
+	"github.com/qiankunli/GoGraph/internal/testlayers"
+	"github.com/qiankunli/GoGraph/store/csrfile"
 )
 
 // TestLoader_Throughput_1M_Edges verifies that the bulk loader can

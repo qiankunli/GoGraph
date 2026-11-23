@@ -21,7 +21,7 @@ import (
 
 	"github.com/neo4j/neo4j-go-driver/v5/neo4j"
 
-	"github.com/FlavioCFOliveira/GoGraph/bolt/server"
+	"github.com/qiankunli/GoGraph/bolt/server"
 )
 
 // countSnapNodes runs the count inside tx and returns the scalar.

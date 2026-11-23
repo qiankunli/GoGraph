@@ -14,7 +14,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
 )
 
 // TestRetireHold_GateRaisedAcrossStripAndFlip retires a node carrying two

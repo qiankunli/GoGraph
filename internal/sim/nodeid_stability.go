@@ -13,8 +13,8 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	"github.com/FlavioCFOliveira/GoGraph/graph/lpg"
+	"github.com/qiankunli/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph/lpg"
 )
 
 // liveNodeIDs returns key -> id for every node g holds alive now.

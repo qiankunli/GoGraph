@@ -7,8 +7,8 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/lpg"
-	"github.com/FlavioCFOliveira/GoGraph/store/txn"
+	"github.com/qiankunli/GoGraph/graph/lpg"
+	"github.com/qiankunli/GoGraph/store/txn"
 )
 
 // scaleConfig captures the opt-in scale knobs of the seed subcommand.

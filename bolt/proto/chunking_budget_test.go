@@ -6,8 +6,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/bolt/packstream"
-	"github.com/FlavioCFOliveira/GoGraph/bolt/proto"
+	"github.com/qiankunli/GoGraph/bolt/packstream"
+	"github.com/qiankunli/GoGraph/bolt/proto"
 )
 
 // filledPayload returns a deterministic n-byte payload so a reassembled message

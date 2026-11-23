@@ -56,10 +56,10 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	"github.com/FlavioCFOliveira/GoGraph/graph/mvcc"
+	"github.com/qiankunli/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph/mvcc"
 
-	"github.com/FlavioCFOliveira/GoGraph/internal/metrics"
+	"github.com/qiankunli/GoGraph/internal/metrics"
 )
 
 // writeCtx is one write transaction's identity AND its whole mutable write

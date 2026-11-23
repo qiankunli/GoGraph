@@ -3,7 +3,7 @@ package search
 import (
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph"
 )
 
 // TestPathSet_Membership covers the basic add/dedup semantics of the

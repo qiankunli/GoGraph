@@ -27,8 +27,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/index"
-	"github.com/FlavioCFOliveira/GoGraph/store/snapshot"
+	"github.com/qiankunli/GoGraph/graph/index"
+	"github.com/qiankunli/GoGraph/store/snapshot"
 )
 
 // hydrateReadbacksForTest deserialises every readback in rb into the index

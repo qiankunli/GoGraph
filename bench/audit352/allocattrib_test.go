@@ -404,7 +404,7 @@ func topSites(at *attribution, n, depth int) string {
 
 // shortFn drops the module path so tables stay readable.
 func shortFn(fn string) string {
-	return strings.TrimPrefix(fn, "github.com/FlavioCFOliveira/GoGraph/")
+	return strings.TrimPrefix(fn, "github.com/qiankunli/GoGraph/")
 }
 
 // exerciseAttributed runs fn inside a bracketed window at the given

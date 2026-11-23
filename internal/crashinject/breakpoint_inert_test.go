@@ -12,7 +12,7 @@ package crashinject_test
 import (
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/internal/crashinject"
+	"github.com/qiankunli/GoGraph/internal/crashinject"
 )
 
 // TestBreakpoint_InertWithoutTag is the core acceptance test for the

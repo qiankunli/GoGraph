@@ -195,10 +195,10 @@ import (
 	"path/filepath"
 	"slices"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	"github.com/FlavioCFOliveira/GoGraph/graph/csr"
-	"github.com/FlavioCFOliveira/GoGraph/store/bulk"
-	"github.com/FlavioCFOliveira/GoGraph/store/csrfile"
+	"github.com/qiankunli/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph/csr"
+	"github.com/qiankunli/GoGraph/store/bulk"
+	"github.com/qiankunli/GoGraph/store/csrfile"
 )
 
 // ScenarioBulkLoadOracle is the catalogue key of the bulk-loader full-contract

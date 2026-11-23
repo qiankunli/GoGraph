@@ -16,8 +16,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/internal/crashinject"
-	"github.com/FlavioCFOliveira/GoGraph/store/wal"
+	"github.com/qiankunli/GoGraph/internal/crashinject"
+	"github.com/qiankunli/GoGraph/store/wal"
 )
 
 // TestRoundTrip_WALMidFrame exercises the full crash-injection

@@ -30,7 +30,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/FlavioCFOliveira/GoGraph/bolt/proto"
+	"github.com/qiankunli/GoGraph/bolt/proto"
 )
 
 // boltConflictCode is the serialization-conflict failure code the Bolt server

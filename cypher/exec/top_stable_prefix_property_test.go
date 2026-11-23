@@ -35,8 +35,8 @@ import (
 
 	"pgregory.net/rapid"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/expr"
-	"github.com/FlavioCFOliveira/GoGraph/internal/sortseam"
+	"github.com/qiankunli/GoGraph/cypher/expr"
+	"github.com/qiankunli/GoGraph/internal/sortseam"
 )
 
 // topPropTB is the subset of the testing surface both *testing.T and *rapid.T

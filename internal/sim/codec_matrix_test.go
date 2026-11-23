@@ -23,7 +23,7 @@ import (
 
 	"go.uber.org/goleak"
 
-	"github.com/FlavioCFOliveira/GoGraph/store/txn"
+	"github.com/qiankunli/GoGraph/store/txn"
 )
 
 // TestCodecMatrix_NoWeightCodecContract drives txn.ErrNoWeightCodec

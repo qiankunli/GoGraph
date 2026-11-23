@@ -30,9 +30,9 @@ import (
 
 	"github.com/RoaringBitmap/roaring/v2/roaring64"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	"github.com/FlavioCFOliveira/GoGraph/graph/csr"
-	"github.com/FlavioCFOliveira/GoGraph/graph/lpg"
+	"github.com/qiankunli/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph/csr"
+	"github.com/qiankunli/GoGraph/graph/lpg"
 )
 
 // Engine bundles an [lpg.Graph] with its CSR snapshot for read-only

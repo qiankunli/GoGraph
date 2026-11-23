@@ -11,8 +11,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	"github.com/FlavioCFOliveira/GoGraph/graph/index/btree"
+	"github.com/qiankunli/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph/index/btree"
 )
 
 // oldSentinel mirrors the fixed 32-byte upper sentinel the pre-fix string range

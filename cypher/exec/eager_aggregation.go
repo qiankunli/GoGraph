@@ -12,7 +12,7 @@ package exec
 // Exceeding the cap returns [ErrAggMemoryExceeded]. This bounds the group COUNT
 // only; the size of any one group's buffering aggregator (collect / percentile)
 // is bounded separately by the per-aggregator element budget enforced in
-// [github.com/FlavioCFOliveira/GoGraph/cypher/funcs] — a grouping-key-free
+// [github.com/qiankunli/GoGraph/cypher/funcs] — a grouping-key-free
 // aggregate forms exactly one group, so the group-count cap never fires for it.
 // A buffering aggregator that exceeds its budget surfaces the typed error from
 // its Step call, which consume propagates so it reaches [Result.Err].
@@ -34,8 +34,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/expr"
-	"github.com/FlavioCFOliveira/GoGraph/cypher/funcs"
+	"github.com/qiankunli/GoGraph/cypher/expr"
+	"github.com/qiankunli/GoGraph/cypher/funcs"
 )
 
 // DefaultMaxGroups is the default upper bound on distinct groups that

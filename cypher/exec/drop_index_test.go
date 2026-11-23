@@ -6,9 +6,9 @@ import (
 
 	"go.uber.org/goleak"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/exec"
-	"github.com/FlavioCFOliveira/GoGraph/graph/index"
-	indexhash "github.com/FlavioCFOliveira/GoGraph/graph/index/hash"
+	"github.com/qiankunli/GoGraph/cypher/exec"
+	"github.com/qiankunli/GoGraph/graph/index"
+	indexhash "github.com/qiankunli/GoGraph/graph/index/hash"
 )
 
 func TestDropIndexOp_DropsIndex(t *testing.T) {

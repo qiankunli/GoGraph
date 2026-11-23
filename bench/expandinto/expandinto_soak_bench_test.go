@@ -19,7 +19,7 @@ package expandinto_test
 import (
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/bench/expandinto"
+	"github.com/qiankunli/GoGraph/bench/expandinto"
 )
 
 // BenchmarkClosingHopHighDegree extends BenchmarkClosingHop to the degrees the short

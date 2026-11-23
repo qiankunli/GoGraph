@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
 )
 
 // TestLabelIndex_NeverMissesALabelTheBagHas pins the UNRECOVERABLE direction.

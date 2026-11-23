@@ -66,9 +66,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/expr"
-	"github.com/FlavioCFOliveira/GoGraph/graph/lpg"
-	cmetrics "github.com/FlavioCFOliveira/GoGraph/internal/metrics"
+	"github.com/qiankunli/GoGraph/cypher/expr"
+	"github.com/qiankunli/GoGraph/graph/lpg"
+	cmetrics "github.com/qiankunli/GoGraph/internal/metrics"
 )
 
 const (

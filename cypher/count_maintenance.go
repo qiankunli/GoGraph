@@ -30,11 +30,11 @@ package cypher
 // handle-less fallback (pre-handle storage).
 
 import (
-	"github.com/FlavioCFOliveira/GoGraph/cypher/exec"
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	"github.com/FlavioCFOliveira/GoGraph/graph/index/count"
-	"github.com/FlavioCFOliveira/GoGraph/graph/lpg"
-	cmetrics "github.com/FlavioCFOliveira/GoGraph/internal/metrics"
+	"github.com/qiankunli/GoGraph/cypher/exec"
+	"github.com/qiankunli/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph/index/count"
+	"github.com/qiankunli/GoGraph/graph/lpg"
+	cmetrics "github.com/qiankunli/GoGraph/internal/metrics"
 )
 
 // countMutator is implemented by the write mutator adapters that maintain the

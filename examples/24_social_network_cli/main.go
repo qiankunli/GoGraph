@@ -7,7 +7,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/FlavioCFOliveira/GoGraph/examples/internal/exprof"
+	"github.com/qiankunli/GoGraph/examples/internal/exprof"
 )
 
 // usageError signals an invocation problem (unknown subcommand, missing

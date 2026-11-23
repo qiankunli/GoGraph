@@ -8,10 +8,10 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/bench/rmat"
-	"github.com/FlavioCFOliveira/GoGraph/internal/testlayers"
-	"github.com/FlavioCFOliveira/GoGraph/store/bulk"
-	"github.com/FlavioCFOliveira/GoGraph/store/csrfile"
+	"github.com/qiankunli/GoGraph/bench/rmat"
+	"github.com/qiankunli/GoGraph/internal/testlayers"
+	"github.com/qiankunli/GoGraph/store/bulk"
+	"github.com/qiankunli/GoGraph/store/csrfile"
 )
 
 // TestPageRank_RMATScale20_Soak verifies extern.PageRank on a

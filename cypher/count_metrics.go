@@ -13,9 +13,9 @@ package cypher
 // exposition with dots mapped to underscores (see examples/31_metrics_observability).
 
 import (
-	"github.com/FlavioCFOliveira/GoGraph/cypher/exec"
-	"github.com/FlavioCFOliveira/GoGraph/graph/index/count"
-	cmetrics "github.com/FlavioCFOliveira/GoGraph/internal/metrics"
+	"github.com/qiankunli/GoGraph/cypher/exec"
+	"github.com/qiankunli/GoGraph/graph/index/count"
+	cmetrics "github.com/qiankunli/GoGraph/internal/metrics"
 )
 
 const (
@@ -67,7 +67,7 @@ func (e *Engine) CountStoreCells() int {
 //
 // The returned maps are freshly allocated and owned by the caller. Their keys are
 // the graph's interned label and relationship-type ids
-// ([github.com/FlavioCFOliveira/GoGraph/graph/lpg.LabelRegistry]), so a caller
+// ([github.com/qiankunli/GoGraph/graph/lpg.LabelRegistry]), so a caller
 // that wants names resolves them through that registry — and must do so against
 // the SAME graph generation, since ids are assigned in intern order and a graph
 // rebuilt by recovery re-interns from scratch. The four dirty slices list the
@@ -79,7 +79,7 @@ func (e *Engine) CountStoreCells() int {
 // counter returns to zero, so an absent key means zero rather than unknown.
 //
 // It is an observability accessor deliberately narrower than the store handle:
-// exposing [github.com/FlavioCFOliveira/GoGraph/graph/index/count.Store] itself
+// exposing [github.com/qiankunli/GoGraph/graph/index/count.Store] itself
 // would hand callers Apply, MarkDirty and RecomputeReset over the engine's own
 // derived state.
 //

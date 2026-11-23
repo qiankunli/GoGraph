@@ -1,6 +1,6 @@
 package cypher_test
 
-import "github.com/FlavioCFOliveira/GoGraph/graph/lpg"
+import "github.com/qiankunli/GoGraph/graph/lpg"
 
 // zeroViewRevive revives n through a WriteView over the zero WriteTx and returns
 // the direct write's refusal, if any (rmp #2947).

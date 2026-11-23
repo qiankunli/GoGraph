@@ -32,7 +32,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher"
+	"github.com/qiankunli/GoGraph/cypher"
 )
 
 // seedScalarFnGraph builds a graph of nNodes nodes connected in a ring with

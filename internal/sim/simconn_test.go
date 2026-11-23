@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/internal/clock"
+	"github.com/qiankunli/GoGraph/internal/clock"
 )
 
 // TestSimConn_RoundTripBytes proves the basic full-duplex byte contract: bytes

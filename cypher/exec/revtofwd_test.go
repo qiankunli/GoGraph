@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph"
 )
 
 // revToFwdByReplay inverts [projectFwdToRevByTranspose] into the reverse→forward form

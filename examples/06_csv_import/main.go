@@ -76,9 +76,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/examples/internal/exprof"
-	"github.com/FlavioCFOliveira/GoGraph/graph/io/csv"
-	"github.com/FlavioCFOliveira/GoGraph/graph/io/jsonl"
+	"github.com/qiankunli/GoGraph/examples/internal/exprof"
+	"github.com/qiankunli/GoGraph/graph/io/csv"
+	"github.com/qiankunli/GoGraph/graph/io/jsonl"
 )
 
 // config captures every scale and shape knob of the benchmark. The zero

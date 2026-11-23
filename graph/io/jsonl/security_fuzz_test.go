@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
-	"github.com/FlavioCFOliveira/GoGraph/graph/io/jsonl"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/graph/io/jsonl"
 )
 
 // FuzzSec_IO_JSONLReadWithProps fuzzes the typed-property JSON-Lines read

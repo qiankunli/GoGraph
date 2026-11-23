@@ -11,10 +11,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/bolt/proto"
-	"github.com/FlavioCFOliveira/GoGraph/bolt/server"
-	"github.com/FlavioCFOliveira/GoGraph/internal/clock"
-	"github.com/FlavioCFOliveira/GoGraph/internal/sim"
+	"github.com/qiankunli/GoGraph/bolt/proto"
+	"github.com/qiankunli/GoGraph/bolt/server"
+	"github.com/qiankunli/GoGraph/internal/clock"
+	"github.com/qiankunli/GoGraph/internal/sim"
 )
 
 // The transport A/B (rmp #2711).

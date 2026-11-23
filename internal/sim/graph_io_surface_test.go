@@ -25,8 +25,8 @@ import (
 
 	"go.uber.org/goleak"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/io/csv"
-	"github.com/FlavioCFOliveira/GoGraph/graph/io/jsonl"
+	"github.com/qiankunli/GoGraph/graph/io/csv"
+	"github.com/qiankunli/GoGraph/graph/io/jsonl"
 )
 
 // graphIOTestSeed is the fixed seed the surface arms run at. ST8 already drives

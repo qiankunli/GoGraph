@@ -55,7 +55,7 @@ type SchemaValidator interface {
 //
 // ValidateNode receives the node's complete label set and property bag and
 // returns a non-nil error to reject it. It is satisfied by *schema.Schema,
-// whose [github.com/FlavioCFOliveira/GoGraph/graph/lpg/schema.Schema.ValidateNode]
+// whose [github.com/qiankunli/GoGraph/graph/lpg/schema.Schema.ValidateNode]
 // has the matching signature, so an installed schema enforces required
 // properties through [Graph.ValidateNode] without any extra wiring.
 //

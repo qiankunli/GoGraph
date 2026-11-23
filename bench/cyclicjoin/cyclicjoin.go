@@ -45,8 +45,8 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
-	"github.com/FlavioCFOliveira/GoGraph/graph/lpg"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/graph/lpg"
 )
 
 // TriangleQuery is the headline fusing shape: a directed 3-cycle whose last two

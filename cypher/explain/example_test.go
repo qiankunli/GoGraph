@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/explain"
-	"github.com/FlavioCFOliveira/GoGraph/cypher/ir"
+	"github.com/qiankunli/GoGraph/cypher/explain"
+	"github.com/qiankunli/GoGraph/cypher/ir"
 )
 
 // ExampleTextTree renders a logical plan as a columnar text table. The tree

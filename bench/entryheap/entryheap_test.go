@@ -8,7 +8,7 @@ import (
 
 	"go.uber.org/goleak"
 
-	"github.com/FlavioCFOliveira/GoGraph/bench/entryheap"
+	"github.com/qiankunli/GoGraph/bench/entryheap"
 )
 
 // envRun gates the measurement. Like the contention sweep, this is a

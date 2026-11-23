@@ -5,9 +5,9 @@ import (
 	"slices"
 	"sort"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	"github.com/FlavioCFOliveira/GoGraph/graph/csr"
-	"github.com/FlavioCFOliveira/GoGraph/search"
+	"github.com/qiankunli/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph/csr"
+	"github.com/qiankunli/GoGraph/search"
 )
 
 // mstEdge is one undirected edge of the symmetric view of the live graph, with

@@ -33,7 +33,7 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/lpg"
+	"github.com/qiankunli/GoGraph/graph/lpg"
 )
 
 // reserveRig builds a registry with one UNIQUE constraint on (:Person).email and

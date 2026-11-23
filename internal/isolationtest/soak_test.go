@@ -13,8 +13,8 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/internal/isolationtest"
-	"github.com/FlavioCFOliveira/GoGraph/internal/testlayers"
+	"github.com/qiankunli/GoGraph/internal/isolationtest"
+	"github.com/qiankunli/GoGraph/internal/testlayers"
 )
 
 // readOnlyAnomalySpec is the Fekete/O'Neil read-only transaction anomaly — the

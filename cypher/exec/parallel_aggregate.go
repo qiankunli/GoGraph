@@ -25,7 +25,7 @@ package exec
 //   - collect / percentile / stdev are buffering or order-dependent.
 //
 // The planner routes every non-count shape to the serial path. The
-// [github.com/FlavioCFOliveira/GoGraph/cypher/funcs].Aggregator interface
+// [github.com/qiankunli/GoGraph/cypher/funcs].Aggregator interface
 // exposes only Init/Step/Result (no Combine), which structurally prevents a
 // future float aggregate from reaching this int64 combine by accident.
 //
@@ -76,8 +76,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/expr"
-	"github.com/FlavioCFOliveira/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/cypher/expr"
+	"github.com/qiankunli/GoGraph/graph"
 )
 
 // ParallelCountScan is a Volcano leaf operator that computes a group-by-less

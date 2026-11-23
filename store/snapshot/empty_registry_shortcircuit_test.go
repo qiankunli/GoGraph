@@ -53,10 +53,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
-	"github.com/FlavioCFOliveira/GoGraph/graph/lpg"
-	"github.com/FlavioCFOliveira/GoGraph/internal/metrics"
-	"github.com/FlavioCFOliveira/GoGraph/store/snapshot"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/graph/lpg"
+	"github.com/qiankunli/GoGraph/internal/metrics"
+	"github.com/qiankunli/GoGraph/store/snapshot"
 )
 
 // bareGraph builds n nodes and e edges carrying no labels and no properties.

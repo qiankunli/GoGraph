@@ -4,7 +4,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/search"
+	"github.com/qiankunli/GoGraph/search"
 )
 
 // TestMSTChecks_CleanOnFixtures asserts the MST battery (Kruskal vs an

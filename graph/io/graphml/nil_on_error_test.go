@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	graphml "github.com/FlavioCFOliveira/GoGraph/graph/io/graphml"
+	graphml "github.com/qiankunli/GoGraph/graph/io/graphml"
 )
 
 // validThenBadWeight is a structurally valid GraphML document whose nodes

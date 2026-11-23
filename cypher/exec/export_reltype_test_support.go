@@ -1,6 +1,6 @@
 package exec
 
-import "github.com/FlavioCFOliveira/GoGraph/graph"
+import "github.com/qiankunli/GoGraph/graph"
 
 // export_reltype_test_support.go — the three unexported CSR-probe primitives the
 // parent package's differential oracle needs to reproduce the PRE-#2251 reverse

@@ -31,9 +31,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/ast"
-	"github.com/FlavioCFOliveira/GoGraph/cypher/ir"
-	"github.com/FlavioCFOliveira/GoGraph/graph/lpg"
+	"github.com/qiankunli/GoGraph/cypher/ast"
+	"github.com/qiankunli/GoGraph/cypher/ir"
+	"github.com/qiankunli/GoGraph/graph/lpg"
 )
 
 // anchorScalar runs q through the READ path (Engine.Run) and returns the first

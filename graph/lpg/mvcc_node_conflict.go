@@ -40,8 +40,8 @@ package lpg
 // every other aborted version.
 
 import (
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	"github.com/FlavioCFOliveira/GoGraph/graph/mvcc"
+	"github.com/qiankunli/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph/mvcc"
 )
 
 // nodeLifeHeadFor returns the effective timestamp of the latest existence

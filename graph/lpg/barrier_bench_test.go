@@ -25,7 +25,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
 )
 
 // BenchmarkBarrier_BareRWMutex is the RLock/RUnlock pair alone, on a mutex

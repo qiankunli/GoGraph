@@ -58,7 +58,7 @@ import (
 	"math"
 	"math/bits"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
 )
 
 // auxColumn aliases [adjlist.AuxColumn], the opaque per-entry side-column

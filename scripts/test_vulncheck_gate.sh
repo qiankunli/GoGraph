@@ -116,7 +116,7 @@ expect_fail "empty-roots" "NO ANALYSIS HAPPENED" "$(make_stub s3 0 "$work/p3.jso
 
 # 4. A scan silently narrowed to one package - a pattern typo must not certify
 #    the module from a fraction of it.
-printf '%s\n%s\n' "$CONFIG" '{"SBOM":{"go_version":"go1.27.1","modules":[{"path":"github.com/FlavioCFOliveira/GoGraph"}],"roots":["github.com/FlavioCFOliveira/GoGraph/ds"]}}' > "$work/p4.json"
+printf '%s\n%s\n' "$CONFIG" '{"SBOM":{"go_version":"go1.27.1","modules":[{"path":"github.com/qiankunli/GoGraph"}],"roots":["github.com/qiankunli/GoGraph/ds"]}}' > "$work/p4.json"
 expect_fail "narrowed-scan" "were NOT scanned" "$(make_stub s4 0 "$work/p4.json")"
 
 # 5. The weaker -scan=module fallback dressed up as a full scan.

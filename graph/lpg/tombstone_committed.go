@@ -24,7 +24,7 @@ package lpg
 // proportional to recent node churn.
 
 import (
-	"github.com/FlavioCFOliveira/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph"
 )
 
 // IsTombstoned reports whether the node id does not exist at the newest

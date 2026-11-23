@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/csr"
-	"github.com/FlavioCFOliveira/GoGraph/internal/metrics"
+	"github.com/qiankunli/GoGraph/graph/csr"
+	"github.com/qiankunli/GoGraph/internal/metrics"
 )
 
 // EigenvectorOptions configures [Eigenvector]. It is an immutable value with no

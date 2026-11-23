@@ -36,7 +36,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
 )
 
 // syncSweepIfDue is the placement rmp #2308 removed, kept HERE — in a test file —

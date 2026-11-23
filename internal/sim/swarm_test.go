@@ -7,7 +7,7 @@ import (
 
 	"go.uber.org/goleak"
 
-	"github.com/FlavioCFOliveira/GoGraph/internal/testlayers"
+	"github.com/qiankunli/GoGraph/internal/testlayers"
 )
 
 // TestSwarm_SmokeShort is the short-layer swarm smoke: a tiny single-worker

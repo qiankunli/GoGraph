@@ -22,7 +22,7 @@
 #   COVER_PROFILE       output path for the raw profile  (default cover.out)
 #   COVER_LIB_PROFILE   output path for the filtered profile (default cover.lib.out)
 #   COVER_EXCLUDE       extended regex of package paths to drop
-#                       (default: github.com/FlavioCFOliveira/GoGraph/(examples|cmd|bench/soak|bench/ldbc|bench/dimacs9|bench/cypher_ldbc|bench/comparison/ggserver|bench/contention|cypher/parser/gen))
+#                       (default: github.com/qiankunli/GoGraph/(examples|cmd|bench/soak|bench/ldbc|bench/dimacs9|bench/cypher_ldbc|bench/comparison/ggserver|bench/contention|cypher/parser/gen))
 #   MIN_TOTAL           aggregate threshold percentage     (default 85.0)
 #   MIN_PER_PKG         per-package threshold percentage   (default 75.0)
 #   GO                  go binary                          (default go)
@@ -44,7 +44,7 @@ COVER_PROFILE=${COVER_PROFILE:-cover.out}
 COVER_LIB_PROFILE=${COVER_LIB_PROFILE:-cover.lib.out}
 # bench/contention is an env-gated sweep harness, not library code: its surface is
 # unreachable unless GOGRAPH_CONTENTION_SWEEP_DIR is set (see sweep_test.go).
-COVER_EXCLUDE=${COVER_EXCLUDE:-'github.com/FlavioCFOliveira/GoGraph/(examples|cmd|bench/soak|bench/ldbc|bench/dimacs9|bench/cypher_ldbc|bench/comparison/ggserver|bench/contention|bench/entryheap|cypher/parser/gen)'}
+COVER_EXCLUDE=${COVER_EXCLUDE:-'github.com/qiankunli/GoGraph/(examples|cmd|bench/soak|bench/ldbc|bench/dimacs9|bench/cypher_ldbc|bench/comparison/ggserver|bench/contention|bench/entryheap|cypher/parser/gen)'}
 MIN_TOTAL=${MIN_TOTAL:-85.0}
 MIN_PER_PKG=${MIN_PER_PKG:-75.0}
 
@@ -57,7 +57,7 @@ MIN_PER_PKG=${MIN_PER_PKG:-75.0}
 # credited by any test. Its non-firing guard/arming logic IS covered (60% is
 # the hard ceiling). The firing path is verified behaviourally by the
 # subprocess crash-injection tests (internal/crashpoint, store/recovery).
-COVER_PKG_FLOOR_EXEMPT=${COVER_PKG_FLOOR_EXEMPT:-'github.com/FlavioCFOliveira/GoGraph/internal/crashpoint'}
+COVER_PKG_FLOOR_EXEMPT=${COVER_PKG_FLOOR_EXEMPT:-'github.com/qiankunli/GoGraph/internal/crashpoint'}
 
 # Force a deterministic numeric locale so awk prints '.' as the
 # decimal separator regardless of the user's locale.

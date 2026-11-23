@@ -22,7 +22,7 @@ import (
 
 	"go.uber.org/goleak"
 
-	"github.com/FlavioCFOliveira/GoGraph/internal/testlayers"
+	"github.com/qiankunli/GoGraph/internal/testlayers"
 )
 
 // TestScenario_LongRunningSoak is the soak-layer long-running scenario: it

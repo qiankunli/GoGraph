@@ -1,9 +1,9 @@
 package server
 
-import "github.com/FlavioCFOliveira/GoGraph/internal/metrics"
+import "github.com/qiankunli/GoGraph/internal/metrics"
 
 // Server-level observability metric names emitted through the shared
-// [github.com/FlavioCFOliveira/GoGraph/internal/metrics] backend (the same sink
+// [github.com/qiankunli/GoGraph/internal/metrics] backend (the same sink
 // that carries [metricConnPanics]). They give an operator the signals needed to
 // correlate a connection flood or a transaction leak: a rejected-connection
 // counter, a live-connection gauge, a live-transaction gauge, and an

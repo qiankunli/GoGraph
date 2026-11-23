@@ -29,7 +29,7 @@ package parser
 // unnamed or expression-context shortestPath is left in place and rejected by
 // semantic analysis with a clear message (rmp #1691).
 
-import "github.com/FlavioCFOliveira/GoGraph/cypher/ast"
+import "github.com/qiankunli/GoGraph/cypher/ast"
 
 // spMarker records one stripped shortest-path wrapper: the path variable it was
 // bound to and whether it was shortestPath (single) or allShortestPaths (all).

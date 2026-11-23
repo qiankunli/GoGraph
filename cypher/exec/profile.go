@@ -776,7 +776,7 @@ var (
 // anything it calls from them can reach the graph. In practice that rules out
 // every operator holding a caller-supplied expression closure, because such a
 // closure is evaluated through cypher's evalRow bridge, which passes the
-// [github.com/FlavioCFOliveira/GoGraph/cypher/expr.PatternEvaluator] — and that
+// [github.com/qiankunli/GoGraph/cypher/expr.PatternEvaluator] — and that
 // evaluator WALKS ADJACENCY. Measured on a 100-way fan (rmp #2760):
 //
 //	MATCH (r:Root) WHERE (r)-[:LIKES]->() RETURN r.k

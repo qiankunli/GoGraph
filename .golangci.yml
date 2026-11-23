@@ -376,7 +376,7 @@ formatters:
   settings:
     goimports:
       local-prefixes:
-        - github.com/FlavioCFOliveira/GoGraph
+        - github.com/qiankunli/GoGraph
 
 issues:
   max-issues-per-linter: 0

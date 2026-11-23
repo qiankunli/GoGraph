@@ -22,8 +22,8 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/ast"
-	"github.com/FlavioCFOliveira/GoGraph/cypher/parser"
+	"github.com/qiankunli/GoGraph/cypher/ast"
+	"github.com/qiankunli/GoGraph/cypher/parser"
 )
 
 // reservedNumericCompanionSuffix is the lowercase name suffix reserved for the

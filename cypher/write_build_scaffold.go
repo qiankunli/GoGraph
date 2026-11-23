@@ -6,8 +6,8 @@ package cypher
 import (
 	"context"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/expr"
-	"github.com/FlavioCFOliveira/GoGraph/graph/lpg"
+	"github.com/qiankunli/GoGraph/cypher/expr"
+	"github.com/qiankunli/GoGraph/graph/lpg"
 )
 
 // writeEvalScaffold is the write path's counterpart to the two evaluator fields

@@ -6,8 +6,8 @@ import (
 	"math"
 	"math/rand/v2"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
-	"github.com/FlavioCFOliveira/GoGraph/graph/csr"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/graph/csr"
 )
 
 // ErrInvalidFixtureSpec reports a [FixtureSpec] that [BuildFixture] cannot

@@ -7,7 +7,7 @@ import (
 	"io"
 	"path/filepath"
 
-	"github.com/FlavioCFOliveira/GoGraph/internal/metrics"
+	"github.com/qiankunli/GoGraph/internal/metrics"
 )
 
 // ErrCorrupted is returned by [Open] when a component file CRC32C

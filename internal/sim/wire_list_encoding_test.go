@@ -19,7 +19,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/bolt/packstream"
+	"github.com/qiankunli/GoGraph/bolt/packstream"
 )
 
 // wireListClient dials a fresh simulator server and returns a connected client.

@@ -20,7 +20,7 @@ package lpg
 import (
 	"sync"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph"
 )
 
 // edgeCreateCountShards holds the per-(src,dst) CREATE-call counter.

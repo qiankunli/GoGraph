@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
-	csv "github.com/FlavioCFOliveira/GoGraph/graph/io/csv"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
+	csv "github.com/qiankunli/GoGraph/graph/io/csv"
 )
 
 // TestCSVRead_UnicodeAstralPlane verifies that node IDs spanning the

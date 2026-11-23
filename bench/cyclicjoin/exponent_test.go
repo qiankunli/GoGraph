@@ -54,12 +54,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/bench/cyclicjoin"
-	"github.com/FlavioCFOliveira/GoGraph/bench/expandinto"
-	"github.com/FlavioCFOliveira/GoGraph/cypher"
-	"github.com/FlavioCFOliveira/GoGraph/cypher/exec"
-	cmetrics "github.com/FlavioCFOliveira/GoGraph/internal/metrics"
-	"github.com/FlavioCFOliveira/GoGraph/internal/testlayers"
+	"github.com/qiankunli/GoGraph/bench/cyclicjoin"
+	"github.com/qiankunli/GoGraph/bench/expandinto"
+	"github.com/qiankunli/GoGraph/cypher"
+	"github.com/qiankunli/GoGraph/cypher/exec"
+	cmetrics "github.com/qiankunli/GoGraph/internal/metrics"
+	"github.com/qiankunli/GoGraph/internal/testlayers"
 )
 
 // timeTolerance is how much slower the fused arm may be at any single point before

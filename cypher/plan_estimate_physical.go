@@ -112,9 +112,9 @@ package cypher
 // operator built, and computes no estimate and allocates nothing on the query path.
 
 import (
-	"github.com/FlavioCFOliveira/GoGraph/cypher/exec"
-	"github.com/FlavioCFOliveira/GoGraph/cypher/expr"
-	"github.com/FlavioCFOliveira/GoGraph/cypher/ir"
+	"github.com/qiankunli/GoGraph/cypher/exec"
+	"github.com/qiankunli/GoGraph/cypher/expr"
+	"github.com/qiankunli/GoGraph/cypher/ir"
 )
 
 // planEstimateCollector is the state a plan-RENDERING build carries so

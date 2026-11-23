@@ -16,8 +16,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	"github.com/FlavioCFOliveira/GoGraph/graph/mvcc"
+	"github.com/qiankunli/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph/mvcc"
 )
 
 func versionedList(t *testing.T) (*AdjList[string, float64], *mvcc.Clock) {

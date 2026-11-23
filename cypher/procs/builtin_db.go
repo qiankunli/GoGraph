@@ -23,8 +23,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/expr"
-	"github.com/FlavioCFOliveira/GoGraph/graph/index"
+	"github.com/qiankunli/GoGraph/cypher/expr"
+	"github.com/qiankunli/GoGraph/graph/index"
 )
 
 // numericCompanionSuffix is the reserved name suffix of the internal numeric

@@ -31,7 +31,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/bolt/proto"
+	"github.com/qiankunli/GoGraph/bolt/proto"
 )
 
 // TestSession_AutocommitWriteCommitsAcrossPull is the regression guard for the

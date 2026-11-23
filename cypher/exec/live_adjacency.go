@@ -38,7 +38,7 @@ package exec
 import (
 	"sync/atomic"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph"
 )
 
 // liveOutAdjacency is the per-source forward adjacency protocol.

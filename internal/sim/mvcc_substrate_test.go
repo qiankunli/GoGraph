@@ -25,7 +25,7 @@ import (
 
 	"go.uber.org/goleak"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/mvcc"
+	"github.com/qiankunli/GoGraph/graph/mvcc"
 )
 
 // -----------------------------------------------------------------------------

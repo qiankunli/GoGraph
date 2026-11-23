@@ -37,8 +37,8 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/expr"
-	"github.com/FlavioCFOliveira/GoGraph/internal/sortseam"
+	"github.com/qiankunli/GoGraph/cypher/expr"
+	"github.com/qiankunli/GoGraph/internal/sortseam"
 )
 
 // DefaultMaxSortRows is the default upper bound on rows that Sort holds in

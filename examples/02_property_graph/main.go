@@ -73,12 +73,12 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/examples/internal/exprof"
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
-	"github.com/FlavioCFOliveira/GoGraph/graph/csr"
-	"github.com/FlavioCFOliveira/GoGraph/graph/lpg"
-	"github.com/FlavioCFOliveira/GoGraph/graph/lpg/schema"
-	"github.com/FlavioCFOliveira/GoGraph/graph/query"
+	"github.com/qiankunli/GoGraph/examples/internal/exprof"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/graph/csr"
+	"github.com/qiankunli/GoGraph/graph/lpg"
+	"github.com/qiankunli/GoGraph/graph/lpg/schema"
+	"github.com/qiankunli/GoGraph/graph/query"
 )
 
 // Node labels, relationship type, and property keys. Centralised so the model

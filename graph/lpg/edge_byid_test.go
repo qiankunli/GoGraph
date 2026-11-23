@@ -5,7 +5,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
 )
 
 // TestEdgeByID_EquivalentToKeyed asserts the lock-free NodeID-keyed edge

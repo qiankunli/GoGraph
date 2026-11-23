@@ -8,15 +8,15 @@ import (
 	"io"
 	"net"
 
-	"github.com/FlavioCFOliveira/GoGraph/bolt/packstream"
-	"github.com/FlavioCFOliveira/GoGraph/bolt/proto"
-	"github.com/FlavioCFOliveira/GoGraph/internal/clock"
+	"github.com/qiankunli/GoGraph/bolt/packstream"
+	"github.com/qiankunli/GoGraph/bolt/proto"
+	"github.com/qiankunli/GoGraph/internal/clock"
 )
 
 // WireClient speaks the REAL Bolt v5 wire protocol over a [SimConn]: the 20-byte
 // version handshake, then chunked PackStream request/response messages encoded
-// and decoded with the genuine [github.com/FlavioCFOliveira/GoGraph/bolt/proto]
-// and [github.com/FlavioCFOliveira/GoGraph/bolt/packstream] codecs (it does NOT
+// and decoded with the genuine [github.com/qiankunli/GoGraph/bolt/proto]
+// and [github.com/qiankunli/GoGraph/bolt/packstream] codecs (it does NOT
 // reimplement the wire format). It drives well-formed requests for the honest,
 // overload, and slow-consumer actors and decodes RECORD/SUCCESS/FAILURE/IGNORED
 // responses.
@@ -267,7 +267,7 @@ func (c *WireClient) Logon() (any, error) {
 // LogonWith sends a LOGON carrying the given auth token and returns the
 // response. It is the credential-bearing counterpart of [WireClient.Logon],
 // used by the auth-surface scenario to present a right or a wrong password to a
-// server whose [github.com/FlavioCFOliveira/GoGraph/bolt/server.AuthHandler]
+// server whose [github.com/qiankunli/GoGraph/bolt/server.AuthHandler]
 // actually validates one (rmp #2481).
 func (c *WireClient) LogonWith(auth map[string]packstream.Value) (any, error) {
 	return c.Request(&proto.Logon{Auth: auth})

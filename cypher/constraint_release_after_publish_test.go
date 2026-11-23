@@ -18,7 +18,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/exec"
+	"github.com/qiankunli/GoGraph/cypher/exec"
 )
 
 func TestConstraintUnique_ReleaseWaitsForPublication(t *testing.T) {

@@ -35,7 +35,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher"
+	"github.com/qiankunli/GoGraph/cypher"
 )
 
 // Substrate-arm workload templates. The churned objects are Person nodes with a

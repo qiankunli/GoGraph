@@ -13,7 +13,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph"
 )
 
 // threeParallel builds a multigraph with three parallel a→b slots plus one a→c

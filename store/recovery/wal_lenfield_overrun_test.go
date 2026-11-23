@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/store/wal"
+	"github.com/qiankunli/GoGraph/store/wal"
 )
 
 // TestRecovery_MidWALLengthOverrun_IsHardError is the regression for the

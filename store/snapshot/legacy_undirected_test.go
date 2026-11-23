@@ -4,7 +4,7 @@ import (
 	"slices"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph"
 )
 
 // TestAssignLegacyMirrorHandles pins how a legacy undirected readback written

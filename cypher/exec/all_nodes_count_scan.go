@@ -47,8 +47,8 @@ package exec
 import (
 	"context"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/expr"
-	"github.com/FlavioCFOliveira/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/cypher/expr"
+	"github.com/qiankunli/GoGraph/graph"
 )
 
 // liveNodeCounter is the fast path a [nodeWalker] may implement to report the exact
@@ -156,7 +156,7 @@ func (op *AllNodesCountScan) Init(ctx context.Context) error {
 // on the strength of the uncounted fallback, and rmp #2777 settled it by measuring
 // that fallback rather than reasoning about it.
 //
-// The fallback is NOT hypothetical. [github.com/FlavioCFOliveira/GoGraph/graph/lpg.ReadView.LiveNodeCountExact]
+// The fallback is NOT hypothetical. [github.com/qiankunli/GoGraph/graph/lpg.ReadView.LiveNodeCountExact]
 // declines whenever a node-life record is invisible to the reader's snapshot, so a
 // plain `MATCH (n) RETURN count(*)` takes the walk whenever ANY other transaction
 // holds an uncommitted create or delete — an ordinary state under concurrency, not

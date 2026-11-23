@@ -3,7 +3,7 @@ package lpg
 import (
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
 )
 
 // TestGraph_RepeatedAddEdge_IsTwoRelationships pins the multigraph contract at

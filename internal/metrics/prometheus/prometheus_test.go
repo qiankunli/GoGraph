@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/internal/metrics/prometheus"
+	"github.com/qiankunli/GoGraph/internal/metrics/prometheus"
 )
 
 // ---- helpers ----------------------------------------------------------------

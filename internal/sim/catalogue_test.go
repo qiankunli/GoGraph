@@ -7,7 +7,7 @@ import (
 
 	"go.uber.org/goleak"
 
-	"github.com/FlavioCFOliveira/GoGraph/internal/testlayers"
+	"github.com/qiankunli/GoGraph/internal/testlayers"
 )
 
 // TestDefaultRegistry_ListsAllScenarios verifies the catalogue registers exactly

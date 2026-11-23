@@ -15,7 +15,7 @@ import (
 
 	"github.com/RoaringBitmap/roaring/v2/roaring64"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
 )
 
 func TestLabelBitmapAsOf_AbortedCreateBetweenTheSamples_2999(t *testing.T) {

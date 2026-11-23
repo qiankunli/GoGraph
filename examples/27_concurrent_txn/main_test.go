@@ -9,7 +9,7 @@ import (
 
 	"go.uber.org/goleak"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/expr"
+	"github.com/qiankunli/GoGraph/cypher/expr"
 )
 
 // TestMain runs every test under a goroutine-leak check: this example spawns

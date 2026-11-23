@@ -3,7 +3,7 @@ package sim
 import (
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph"
 )
 
 // cleanAndDeterministic runs a tick-parameterised checker across a spread of

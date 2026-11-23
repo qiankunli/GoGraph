@@ -13,9 +13,9 @@ import (
 
 	"github.com/cucumber/godog"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher"
-	"github.com/FlavioCFOliveira/GoGraph/cypher/exec"
-	"github.com/FlavioCFOliveira/GoGraph/cypher/expr"
+	"github.com/qiankunli/GoGraph/cypher"
+	"github.com/qiankunli/GoGraph/cypher/exec"
+	"github.com/qiankunli/GoGraph/cypher/expr"
 )
 
 // ─────────────────────────────────────────────────────────────────────────────

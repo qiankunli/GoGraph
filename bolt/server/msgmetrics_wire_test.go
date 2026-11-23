@@ -20,10 +20,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/bolt/proto"
-	"github.com/FlavioCFOliveira/GoGraph/bolt/server"
-	cmetrics "github.com/FlavioCFOliveira/GoGraph/internal/metrics"
-	promreg "github.com/FlavioCFOliveira/GoGraph/internal/metrics/prometheus"
+	"github.com/qiankunli/GoGraph/bolt/proto"
+	"github.com/qiankunli/GoGraph/bolt/server"
+	cmetrics "github.com/qiankunli/GoGraph/internal/metrics"
+	promreg "github.com/qiankunli/GoGraph/internal/metrics/prometheus"
 )
 
 // msgSeries is the exposition name of one per-message histogram, as an

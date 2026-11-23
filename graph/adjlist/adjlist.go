@@ -7,7 +7,7 @@
 // src's entry. Every graph is a multigraph: each AddEdge appends a new edge with
 // its own stable handle, so parallel edges and self-loops are always kept. An
 // undirected view of the graph is an analytics projection built over the frozen
-// CSR ([github.com/FlavioCFOliveira/GoGraph/graph/csr.CSR.BuildSymmetric]), never
+// CSR ([github.com/qiankunli/GoGraph/graph/csr.CSR.BuildSymmetric]), never
 // a storage mode.
 //
 // # Storage and concurrency
@@ -45,8 +45,8 @@ import (
 	"sync/atomic"
 	"unsafe"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	"github.com/FlavioCFOliveira/GoGraph/graph/mvcc"
+	"github.com/qiankunli/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph/mvcc"
 )
 
 // ErrShardFull is returned by [AdjList.AddNode] and [AdjList.AddEdge]
@@ -401,7 +401,7 @@ const (
 //
 // Above the crossover a sorted run genuinely wins (6.0x hit / 10.9x miss
 // at degree 4096), and sprint 313 took it — but in the CSR SNAPSHOT
-// (see [github.com/FlavioCFOliveira/GoGraph/graph/csr.OrderRuns]), NOT
+// (see [github.com/qiankunli/GoGraph/graph/csr.OrderRuns]), NOT
 // here. The adjacency is left unordered DELIBERATELY, for three
 // structural reasons, so the next reader inherits them rather than
 // re-deriving them (§5 of the design document):
@@ -1451,7 +1451,7 @@ func (a *AdjList[N, W]) Neighbours(src N) iter.Seq2[N, W] {
 //
 // It is the out-degree only — the adjacency appends forward edges alone, so
 // in-degree is not an adjacency-local quantity. In-edge
-// enumeration is served by the reverse CSR ([github.com/FlavioCFOliveira/GoGraph/graph/csr.CSR.BuildReverse]),
+// enumeration is served by the reverse CSR ([github.com/qiankunli/GoGraph/graph/csr.CSR.BuildReverse]),
 // which is built on demand by the query layer; asking this method for it would
 // mean scanning the whole graph, so it does not offer to.
 //

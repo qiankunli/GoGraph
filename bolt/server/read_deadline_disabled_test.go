@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/bolt/proto"
+	"github.com/qiankunli/GoGraph/bolt/proto"
 )
 
 // read_deadline_disabled_test.go — rmp #2807.

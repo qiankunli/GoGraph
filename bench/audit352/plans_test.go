@@ -3,7 +3,7 @@ package audit352_test
 import (
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher"
+	"github.com/qiankunli/GoGraph/cypher"
 )
 
 // TestLogPlans records the physical plan of every shape this harness

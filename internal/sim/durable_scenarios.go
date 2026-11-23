@@ -76,12 +76,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher"
-	"github.com/FlavioCFOliveira/GoGraph/cypher/expr"
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
-	"github.com/FlavioCFOliveira/GoGraph/internal/clock"
-	"github.com/FlavioCFOliveira/GoGraph/store"
-	"github.com/FlavioCFOliveira/GoGraph/store/checkpoint"
+	"github.com/qiankunli/GoGraph/cypher"
+	"github.com/qiankunli/GoGraph/cypher/expr"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/internal/clock"
+	"github.com/qiankunli/GoGraph/store"
+	"github.com/qiankunli/GoGraph/store/checkpoint"
 )
 
 // Standard names for the concurrent-durable scenarios (sprint 270).

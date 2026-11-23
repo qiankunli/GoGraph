@@ -23,7 +23,7 @@ package csr
 import (
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph"
 )
 
 // ascending builds an ascending run of n destinations with the given stride, so two

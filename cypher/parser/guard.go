@@ -86,7 +86,7 @@ const (
 // CheckQueryLength returns a [*ParseError] when query exceeds the maximum
 // accepted query length (1 MiB), and nil otherwise. It is the byte-length half
 // of [guardInput], exported so the DDL parse path — which routes through
-// [github.com/FlavioCFOliveira/GoGraph/cypher/ir.ParseDDL] rather than this
+// [github.com/qiankunli/GoGraph/cypher/ir.ParseDDL] rather than this
 // package's [Parse] — enforces the SAME cap with the SAME error message,
 // keeping the limit defined in exactly one place ([maxQueryBytes]). The DDL
 // tokeniser is iterative, so the nesting half of the guard is not needed there.

@@ -33,7 +33,7 @@ import (
 
 	"github.com/antlr4-go/antlr/v4"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/parser/gen"
+	"github.com/qiankunli/GoGraph/cypher/parser/gen"
 )
 
 // ---------------------------------------------------------------------------

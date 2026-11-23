@@ -15,8 +15,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/bench/contention"
-	"github.com/FlavioCFOliveira/GoGraph/internal/subproc"
+	"github.com/qiankunli/GoGraph/bench/contention"
+	"github.com/qiankunli/GoGraph/internal/subproc"
 )
 
 // trivialWorkload is a fixture with a KNOWN contention shape: every operation
@@ -474,7 +474,7 @@ func (r rankedSite) String() string { return fmt.Sprintf("%s (%.2f%%)", r.site, 
 // different totals are compared on the same scale.
 func moduleSites(t *testing.T, top string) []rankedSite {
 	t.Helper()
-	const modulePath = "github.com/FlavioCFOliveira/GoGraph/"
+	const modulePath = "github.com/qiankunli/GoGraph/"
 	var sites []rankedSite
 	for _, line := range strings.Split(top, "\n") {
 		if !strings.Contains(line, modulePath) || strings.Contains(line, "/bench/contention") {

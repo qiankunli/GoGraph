@@ -21,7 +21,7 @@ package main
 // under load.
 
 import (
-	"github.com/FlavioCFOliveira/GoGraph/internal/isolationtest"
+	"github.com/qiankunli/GoGraph/internal/isolationtest"
 )
 
 // ix11Rewrite re-values s on every :L node to its successor's value: node ni,

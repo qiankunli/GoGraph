@@ -11,7 +11,7 @@ import "syscall"
 // it.
 //
 // This closes a symlink-escape (CWE-59) that mirrors the threat the snapshot
-// layer already defends via [github.com/FlavioCFOliveira/GoGraph/store/snapshot]'s
+// layer already defends via [github.com/qiankunli/GoGraph/store/snapshot]'s
 // openSnapshotComponent: a store directory adopted from an untrusted source
 // (a tampered backup, a shared filesystem) whose "wal" or "wal.tmp" entry is a
 // symlink to a process-writable victim file would otherwise let the writer

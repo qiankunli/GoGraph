@@ -26,7 +26,7 @@ import (
 
 	"pgregory.net/rapid"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/expr"
+	"github.com/qiankunli/GoGraph/cypher/expr"
 )
 
 // genRelationshipValue returns a rapid generator for random expr.RelationshipValue.

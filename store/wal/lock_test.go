@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/store/wal"
+	"github.com/qiankunli/GoGraph/store/wal"
 )
 
 // TestWALOpen_ExclusiveLock is the regression gate for the inter-process

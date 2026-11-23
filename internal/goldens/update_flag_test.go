@@ -4,7 +4,7 @@ import (
 	"flag"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/internal/goldens"
+	"github.com/qiankunli/GoGraph/internal/goldens"
 )
 
 // TestUpdateRequested_FlagTrue verifies that UpdateRequested returns true

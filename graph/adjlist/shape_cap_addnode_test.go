@@ -16,7 +16,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
 )
 
 // shard0Keys returns n distinct int keys whose Mapper-assigned NodeID has

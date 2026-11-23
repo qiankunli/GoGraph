@@ -9,8 +9,8 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher"
-	"github.com/FlavioCFOliveira/GoGraph/examples/internal/exprof"
+	"github.com/qiankunli/GoGraph/cypher"
+	"github.com/qiankunli/GoGraph/examples/internal/exprof"
 )
 
 // cmdStats counts nodes by label and edges by relationship type and

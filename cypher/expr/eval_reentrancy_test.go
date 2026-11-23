@@ -27,7 +27,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/ast"
+	"github.com/qiankunli/GoGraph/cypher/ast"
 )
 
 // reentrantKey is a private context-key type so the values these tests plant

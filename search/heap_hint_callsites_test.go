@@ -5,7 +5,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph"
 )
 
 // acquireDijkHeap has three call sites — DijkstraInto, AStarInto and

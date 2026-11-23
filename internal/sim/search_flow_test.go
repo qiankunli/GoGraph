@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/search/flow"
+	"github.com/qiankunli/GoGraph/search/flow"
 )
 
 // TestFlowChecks_CleanOnFixtures asserts that the FLOW-family checker finds no

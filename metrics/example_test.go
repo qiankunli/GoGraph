@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"net/http/httptest"
 
-	"github.com/FlavioCFOliveira/GoGraph/metrics"
+	"github.com/qiankunli/GoGraph/metrics"
 )
 
 // ExampleSetBackend demonstrates the canonical wire-up documented in

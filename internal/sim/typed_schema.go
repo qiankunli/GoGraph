@@ -2,7 +2,7 @@ package sim
 
 // typed_schema.go — rmp #2493: the typed-schema validator surface —
 // [lpg.Graph.SetValidator], [lpg.Graph.ValidateNode] and the
-// [github.com/FlavioCFOliveira/GoGraph/graph/lpg/schema] package — driven as a
+// [github.com/qiankunli/GoGraph/graph/lpg/schema] package — driven as a
 // runtime ENFORCEMENT hook rather than as a declaration.
 //
 // # What was unreached, and why the gap was invisible
@@ -192,11 +192,11 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
-	"github.com/FlavioCFOliveira/GoGraph/graph/lpg"
-	"github.com/FlavioCFOliveira/GoGraph/graph/lpg/schema"
-	"github.com/FlavioCFOliveira/GoGraph/store/txn"
+	"github.com/qiankunli/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/graph/lpg"
+	"github.com/qiankunli/GoGraph/graph/lpg/schema"
+	"github.com/qiankunli/GoGraph/store/txn"
 )
 
 // ScenarioTypedSchema is the catalogue key of the typed-schema validator

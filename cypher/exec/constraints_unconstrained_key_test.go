@@ -17,7 +17,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/lpg"
+	"github.com/qiankunli/GoGraph/graph/lpg"
 )
 
 // unconstrainedKeyDeadline bounds the wait for a call that must not block. It

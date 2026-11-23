@@ -4,7 +4,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/ast"
+	"github.com/qiankunli/GoGraph/cypher/ast"
 )
 
 // IsKnownFunction is an optional hook consulted by [Analyse] to decide

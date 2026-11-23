@@ -3,7 +3,7 @@ package hash
 import (
 	"fmt"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/index"
+	"github.com/qiankunli/GoGraph/graph/index"
 )
 
 // keyPresent reports whether value's shard currently holds a published entry for

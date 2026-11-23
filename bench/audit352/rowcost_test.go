@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher"
+	"github.com/qiankunli/GoGraph/cypher"
 )
 
 // selectivityPcts are the sweep points. `bucket` is i%100, so `bucket < K`

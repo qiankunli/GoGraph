@@ -25,7 +25,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/expr"
+	"github.com/qiankunli/GoGraph/cypher/expr"
 )
 
 // secCypherMaxI64 and secCypherMinI64 are the int64 extremes as decimal strings

@@ -5,7 +5,7 @@ import (
 
 	"go.uber.org/goleak"
 
-	"github.com/FlavioCFOliveira/GoGraph/internal/subproc"
+	"github.com/qiankunli/GoGraph/internal/subproc"
 )
 
 // TestMain runs subproc.Dispatch first so that child processes spawned by

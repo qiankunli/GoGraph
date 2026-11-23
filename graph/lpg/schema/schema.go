@@ -4,7 +4,7 @@
 // label requires.
 //
 // A *Schema is a runtime enforcement hook, not merely advisory. Install
-// one on a graph with [github.com/FlavioCFOliveira/GoGraph/graph/lpg.Graph.SetValidator]
+// one on a graph with [github.com/qiankunli/GoGraph/graph/lpg.Graph.SetValidator]
 // and the two declared invariants are enforced on the write path:
 //
 //   - Per-property typing — [Schema.Validate] runs inside every
@@ -30,7 +30,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/lpg"
+	"github.com/qiankunli/GoGraph/graph/lpg"
 )
 
 // ErrTypeMismatch is returned by [Schema.Validate] when a value's
@@ -166,7 +166,7 @@ func (s *Schema) Validate(propertyName string, value lpg.PropertyValue) error {
 // evaluated by [Schema.ValidateNode].
 //
 // When the schema is installed on a graph via
-// [github.com/FlavioCFOliveira/GoGraph/graph/lpg.Graph.SetValidator], the
+// [github.com/qiankunli/GoGraph/graph/lpg.Graph.SetValidator], the
 // requirement is enforced — not merely advisory — at the node-finalisation
 // boundary through lpg.Graph.ValidateNode: a finalised node missing the
 // required property is rejected with [ErrMissingRequired].

@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/expr"
+	"github.com/qiankunli/GoGraph/cypher/expr"
 )
 
 // TypedWriter is the type-coverage actor: it emits [tmplCreateTyped] CREATEs

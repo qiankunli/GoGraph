@@ -4,8 +4,8 @@ import (
 	"io/fs"
 	"os"
 
-	"github.com/FlavioCFOliveira/GoGraph/store/snapshot"
-	"github.com/FlavioCFOliveira/GoGraph/store/wal"
+	"github.com/qiankunli/GoGraph/store/snapshot"
+	"github.com/qiankunli/GoGraph/store/wal"
 )
 
 // recoveryFS is the filesystem seam the recovery package performs its
@@ -26,7 +26,7 @@ import (
 // *SimFileHandle at the sim call site.
 //
 // The interface is intentionally unexported, mirroring
-// [github.com/FlavioCFOliveira/GoGraph/store/wal.OpenWith]; production callers
+// [github.com/qiankunli/GoGraph/store/wal.OpenWith]; production callers
 // use [Open] / [OpenCtx], which supply [osBackend].
 type recoveryFS interface {
 	// Stat returns file info for path; used to probe for snapshot manifests

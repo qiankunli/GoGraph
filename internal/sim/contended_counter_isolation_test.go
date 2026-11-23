@@ -45,7 +45,7 @@ import (
 
 	"go.uber.org/goleak"
 
-	"github.com/FlavioCFOliveira/GoGraph/internal/clock"
+	"github.com/qiankunli/GoGraph/internal/clock"
 )
 
 // Size of the concurrent-callers gate. Sized to the base rate of the event, not

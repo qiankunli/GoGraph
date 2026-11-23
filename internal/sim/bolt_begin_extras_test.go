@@ -10,10 +10,10 @@ import (
 
 	"go.uber.org/goleak"
 
-	"github.com/FlavioCFOliveira/GoGraph/bolt/packstream"
-	"github.com/FlavioCFOliveira/GoGraph/bolt/proto"
-	"github.com/FlavioCFOliveira/GoGraph/bolt/server"
-	"github.com/FlavioCFOliveira/GoGraph/internal/clock"
+	"github.com/qiankunli/GoGraph/bolt/packstream"
+	"github.com/qiankunli/GoGraph/bolt/proto"
+	"github.com/qiankunli/GoGraph/bolt/server"
+	"github.com/qiankunli/GoGraph/internal/clock"
 )
 
 // TestBoltBeginExtras_Clean drives the whole BEGIN extras surface against a real

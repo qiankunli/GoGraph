@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/internal/clock"
+	"github.com/qiankunli/GoGraph/internal/clock"
 )
 
 func TestReal_DelegatesToStdlib(t *testing.T) {

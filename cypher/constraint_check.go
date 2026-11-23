@@ -89,8 +89,8 @@ package cypher
 // cannot see a commit that is not yet durable.
 
 import (
-	"github.com/FlavioCFOliveira/GoGraph/cypher/exec"
-	"github.com/FlavioCFOliveira/GoGraph/graph/lpg"
+	"github.com/qiankunli/GoGraph/cypher/exec"
+	"github.com/qiankunli/GoGraph/graph/lpg"
 )
 
 // touchedNodes is the per-transaction set of node keys whose final-state label

@@ -3,7 +3,7 @@ package sim
 import (
 	"fmt"
 
-	"github.com/FlavioCFOliveira/GoGraph/search"
+	"github.com/qiankunli/GoGraph/search"
 )
 
 // triangleViolations cross-checks the search package's triangle counters against

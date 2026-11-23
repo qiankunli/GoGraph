@@ -1,6 +1,6 @@
 package cypher
 
-import "github.com/FlavioCFOliveira/GoGraph/cypher/ast"
+import "github.com/qiankunli/GoGraph/cypher/ast"
 
 // Notification is an out-of-band, advisory message attached to a query result.
 // Notifications are NOT result rows and never affect the rows a query returns:

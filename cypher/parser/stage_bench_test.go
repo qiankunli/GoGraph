@@ -61,7 +61,7 @@ import (
 
 	"github.com/antlr4-go/antlr/v4"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/parser/gen"
+	"github.com/qiankunli/GoGraph/cypher/parser/gen"
 )
 
 // Sinks. Assigned from every benchmark body so the compiler cannot delete the

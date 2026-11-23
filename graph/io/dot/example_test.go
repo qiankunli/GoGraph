@@ -6,8 +6,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
-	"github.com/FlavioCFOliveira/GoGraph/graph/io/dot"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/graph/io/dot"
 )
 
 // ExampleWrite renders a single directed, weighted edge as Graphviz

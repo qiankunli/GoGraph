@@ -3,7 +3,7 @@ package hash
 import (
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph"
 )
 
 // TestHotPathsAreAllocationFree pins the allocation behaviour of the read and

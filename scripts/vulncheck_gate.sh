@@ -31,7 +31,7 @@
 #     config too.
 #   * `SBOM.roots` is built from the LOADED package graph and holds RESOLVED
 #     import paths, not the pattern text: the pattern `./ds/...` produces the
-#     root `github.com/FlavioCFOliveira/GoGraph/ds`. A run that loaded nothing
+#     root `github.com/qiankunli/GoGraph/ds`. A run that loaded nothing
 #     has nothing to resolve, so it cannot emit a non-empty `roots`. That is
 #     what makes this evidence unforgeable by a broken run, and it is why the
 #     assertion is on `roots` and not on "the command produced output".

@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph"
 )
 
 // TestCentralityMeasures_CleanOnFixtures asserts the closeness/harmonic/

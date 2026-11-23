@@ -9,7 +9,7 @@ package proto
 import (
 	"fmt"
 
-	"github.com/FlavioCFOliveira/GoGraph/bolt/packstream"
+	"github.com/qiankunli/GoGraph/bolt/packstream"
 )
 
 // Structure tag bytes for Bolt v5 messages (PackStream Struct tags).

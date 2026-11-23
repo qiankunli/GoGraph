@@ -28,7 +28,7 @@ package exec
 // The planner (tryBuildLabelCountScan) routes here only when the aggregate is a
 // non-DISTINCT count with an empty argument (count(*)) or the bare scan variable
 // (count(p)), there is no grouping key, and the child is a BARE
-// [github.com/FlavioCFOliveira/GoGraph/cypher/ir.NodeByLabelScan] — which the IR
+// [github.com/qiankunli/GoGraph/cypher/ir.NodeByLabelScan] — which the IR
 // translator emits only for a pure single-label pattern with no inline property
 // filter and no WHERE (extra labels, property maps, and WHERE each wrap the scan
 // in a Selection, so the child is then not a bare scan and the fast path
@@ -65,7 +65,7 @@ package exec
 import (
 	"context"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/expr"
+	"github.com/qiankunli/GoGraph/cypher/expr"
 )
 
 // labelCounter is an optional fast path a [labelResolver] may implement to

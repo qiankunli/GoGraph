@@ -3,7 +3,7 @@ package lpg
 import (
 	"math/bits"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph"
 )
 
 // This file holds the read-only schema-introspection enumerators:

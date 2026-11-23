@@ -65,8 +65,8 @@ package lpg
 import (
 	"sync/atomic"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	"github.com/FlavioCFOliveira/GoGraph/graph/mvcc"
+	"github.com/qiankunli/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph/mvcc"
 )
 
 // Label-delta actions. A delta records the UNDO of the change that created it,

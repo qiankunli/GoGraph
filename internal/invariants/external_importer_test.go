@@ -16,7 +16,7 @@ import (
 // removes the last external importer, this test fails so the regression is
 // visible immediately rather than silently re-stranding the checkers.
 func TestInvariantsHasExternalImporter(t *testing.T) {
-	const importPath = "github.com/FlavioCFOliveira/GoGraph/internal/invariants"
+	const importPath = "github.com/qiankunli/GoGraph/internal/invariants"
 
 	root := repoRoot(t)
 	selfDir := filepath.Join(root, "internal", "invariants")

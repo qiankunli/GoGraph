@@ -6,7 +6,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/exec"
+	"github.com/qiankunli/GoGraph/cypher/exec"
 )
 
 // Access-path parity oracle (rmp #2447).

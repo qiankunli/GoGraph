@@ -8,7 +8,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
 )
 
 // edge_property_sparse_mem_test.go — resident-heap regression guard for the

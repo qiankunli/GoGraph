@@ -19,8 +19,8 @@ package search
 import (
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/csr"
-	"github.com/FlavioCFOliveira/GoGraph/internal/shapegen"
+	"github.com/qiankunli/GoGraph/graph/csr"
+	"github.com/qiankunli/GoGraph/internal/shapegen"
 )
 
 func TestDiameter_Pn_Shapegen(t *testing.T) {

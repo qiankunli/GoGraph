@@ -15,8 +15,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	"github.com/FlavioCFOliveira/GoGraph/graph/mvcc"
+	"github.com/qiankunli/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph/mvcc"
 )
 
 // ErrIndexExists is returned by [Manager.CreateIndex] when the name
@@ -321,7 +321,7 @@ func (m *Manager) Undefined() error {
 
 // SetFrontierSource tells the manager how to read the visible commit frontier
 // of the graph it serves. The graph installs it when the manager is attached
-// ([github.com/FlavioCFOliveira/GoGraph/graph/lpg.Graph.SetIndexManager]).
+// ([github.com/qiankunli/GoGraph/graph/lpg.Graph.SetIndexManager]).
 //
 // It is what lets registering an index raise the commit watermark of
 // [Manager.DescribesSnapshot]: an index registered now is built from, and caught

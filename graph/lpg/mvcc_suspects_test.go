@@ -10,7 +10,7 @@ import (
 
 	"github.com/RoaringBitmap/roaring/v2/roaring64"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
 )
 
 // TestLabelBitmapAsOf_CorrectsWhenTheSweepLandsDuringTheClone pins the #2326 fix

@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
 )
 
 // vacuumGraph is a graph with the substrate armed and no vacuum yet started.

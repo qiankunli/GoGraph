@@ -8,7 +8,7 @@ package sim
 // Until this file the simulator drove exactly ONE key codec and ONE weight
 // codec. That was not an oversight in the harness: it is forced by the shape of
 // the engine. Every Cypher-driven scenario reaches the graph through
-// [github.com/FlavioCFOliveira/GoGraph/cypher.Engine], and the two engine
+// [github.com/qiankunli/GoGraph/cypher.Engine], and the two engine
 // constructors take a *txn.Store[string, float64] and nothing else. So
 // [OpenSimStore] hardcoded txn.NewStringCodec / txn.NewFloat64WeightCodec, and
 // with them the WHOLE remaining codec surface — NewIntCodec, NewInt32Codec,
@@ -74,9 +74,9 @@ import (
 	"maps"
 	"slices"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/lpg"
-	"github.com/FlavioCFOliveira/GoGraph/store/snapshot"
-	"github.com/FlavioCFOliveira/GoGraph/store/txn"
+	"github.com/qiankunli/GoGraph/graph/lpg"
+	"github.com/qiankunli/GoGraph/store/snapshot"
+	"github.com/qiankunli/GoGraph/store/txn"
 )
 
 // codecMatrixDiskSeedMix decorrelates the SimDisk sub-seed from the run seed,

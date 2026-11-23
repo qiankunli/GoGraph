@@ -26,7 +26,7 @@ package lpg
 // holding back, and both quantities are readable — [Graph.VersionCount] for the
 // total and [mvcc.Horizon.Active] for the readers responsible.
 
-import "github.com/FlavioCFOliveira/GoGraph/graph/mvcc"
+import "github.com/qiankunli/GoGraph/graph/mvcc"
 
 // reclaimThreshold is how many versions may accumulate before the vacuum is
 // woken.

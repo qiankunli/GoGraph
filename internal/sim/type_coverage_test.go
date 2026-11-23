@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/expr"
+	"github.com/qiankunli/GoGraph/cypher/expr"
 )
 
 // typedSeedParams returns a full [tmplCreateTyped] parameter set for id, with

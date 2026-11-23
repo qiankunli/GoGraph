@@ -49,8 +49,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/internal/crashpoint"
-	"github.com/FlavioCFOliveira/GoGraph/internal/testbin"
+	"github.com/qiankunli/GoGraph/internal/crashpoint"
+	"github.com/qiankunli/GoGraph/internal/testbin"
 )
 
 // EnvCrashAt is the environment variable read by [Breakpoint] to

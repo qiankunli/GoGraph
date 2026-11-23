@@ -18,7 +18,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/internal/clock"
+	"github.com/qiankunli/GoGraph/internal/clock"
 )
 
 // fillTxRegistry registers n entries on a fresh registry driven by a fake clock.

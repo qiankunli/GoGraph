@@ -409,7 +409,7 @@ test-nightly: ## [layer: nightly] short + soak + nightly — race detector, -tag
 # ≥ 16 GB RAM; this subset remains useful for skipping the two memory-hungry
 # excluded packages.
 NIGHTLY_CI_PKGS := $(filter-out \
-	github.com/FlavioCFOliveira/GoGraph/search/extern, \
+	github.com/qiankunli/GoGraph/search/extern, \
 	$(shell $(GO) list -tags=soak,nightly ./...))
 
 .PHONY: test-nightly-ci

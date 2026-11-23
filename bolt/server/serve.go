@@ -16,11 +16,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/bolt/packstream"
-	"github.com/FlavioCFOliveira/GoGraph/bolt/proto"
-	"github.com/FlavioCFOliveira/GoGraph/cypher"
-	"github.com/FlavioCFOliveira/GoGraph/internal/clock"
-	"github.com/FlavioCFOliveira/GoGraph/internal/memlimit"
+	"github.com/qiankunli/GoGraph/bolt/packstream"
+	"github.com/qiankunli/GoGraph/bolt/proto"
+	"github.com/qiankunli/GoGraph/cypher"
+	"github.com/qiankunli/GoGraph/internal/clock"
+	"github.com/qiankunli/GoGraph/internal/memlimit"
 )
 
 const (
@@ -413,7 +413,7 @@ type Options struct {
 
 	// Closer, when non-nil, is the store-level teardown owner for the
 	// durability stack backing this server's engine — typically a
-	// *[github.com/FlavioCFOliveira/GoGraph/store.DB] bundling the WAL writer
+	// *[github.com/qiankunli/GoGraph/store.DB] bundling the WAL writer
 	// and the background checkpointer. The server closes it AFTER it has
 	// drained every active connection, so it runs the one crash-safe teardown
 	// order (stop the checkpoint goroutine, then close the WAL) only once no
@@ -734,7 +734,7 @@ const MaxInboundDecodeBytesUnlimited int64 = -1
 // existence of [MaxInboundDecodeBytesUnlimited] settles that zero was never
 // meant to mean unlimited: an opt-out sentinel would be redundant if it did.
 //
-// The value is 1 GiB, matching [github.com/FlavioCFOliveira/GoGraph/cypher.DefaultMaxResultBytes]
+// The value is 1 GiB, matching [github.com/qiankunli/GoGraph/cypher.DefaultMaxResultBytes]
 // so the module's finite defaults share one scale. It is 64x the largest single
 // message a client may send ([proto.DefaultMaxMessageBytes], 16 MiB) and 8x the
 // worst-case decoded size of one message, so it admits several concurrent
@@ -968,7 +968,7 @@ func (s *Server) setClock(clk clock.Clock) {
 //
 // Once every connection has drained, Serve also closes the owned
 // [Options.Closer] (the store-level teardown owner for the durability stack,
-// typically a *[github.com/FlavioCFOliveira/GoGraph/store.DB]), so stopping
+// typically a *[github.com/qiankunli/GoGraph/store.DB]), so stopping
 // the server by cancelling ctx tears the WAL/checkpoint stack down in its
 // crash-safe order exactly as [Server.Shutdown] does — no checkpoint goroutine
 // or WAL handle outlives Serve. The close happens strictly after the drain, so
@@ -1126,7 +1126,7 @@ func (s *Server) ListenAndServe(ctx context.Context, addr string) error {
 //
 // When the server was constructed with [Options.Closer] (the store-level
 // teardown owner for the durability stack, typically a
-// *[github.com/FlavioCFOliveira/GoGraph/store.DB]), Shutdown closes it AFTER
+// *[github.com/qiankunli/GoGraph/store.DB]), Shutdown closes it AFTER
 // every active connection has drained — so the WAL/checkpoint teardown runs in
 // its crash-safe order only once no in-flight transaction can still be writing.
 // Closing it before the drain could let a still-executing write race the WAL

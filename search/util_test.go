@@ -1,6 +1,6 @@
 package search
 
-import "github.com/FlavioCFOliveira/GoGraph/graph"
+import "github.com/qiankunli/GoGraph/graph"
 
 // uint64ToNodeID is a tiny helper used by APSP tests to avoid
 // importing graph in every test file.

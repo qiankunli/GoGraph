@@ -9,8 +9,8 @@ import (
 
 	"go.uber.org/goleak"
 
-	"github.com/FlavioCFOliveira/GoGraph/internal/clock"
-	"github.com/FlavioCFOliveira/GoGraph/internal/testlayers"
+	"github.com/qiankunli/GoGraph/internal/clock"
+	"github.com/qiankunli/GoGraph/internal/testlayers"
 )
 
 // TestMemPressure_Soak is the soak-layer companion to the deterministic

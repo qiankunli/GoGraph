@@ -3,7 +3,7 @@
 // It builds a labelled property graph that models a software package
 // dependency network, freezes it into an immutable CSR snapshot, and
 // then drives a battery of MATCH-style pattern queries through the fluent
-// [github.com/FlavioCFOliveira/GoGraph/graph/query] API — the same three
+// [github.com/qiankunli/GoGraph/graph/query] API — the same three
 // capabilities the original toy demonstrated, now exercised at a scale
 // where the engine's behaviour is observable:
 //
@@ -81,12 +81,12 @@ import (
 	"sort"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/examples/internal/exprof"
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
-	"github.com/FlavioCFOliveira/GoGraph/graph/csr"
-	"github.com/FlavioCFOliveira/GoGraph/graph/lpg"
-	"github.com/FlavioCFOliveira/GoGraph/graph/lpg/schema"
-	"github.com/FlavioCFOliveira/GoGraph/graph/query"
+	"github.com/qiankunli/GoGraph/examples/internal/exprof"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/graph/csr"
+	"github.com/qiankunli/GoGraph/graph/lpg"
+	"github.com/qiankunli/GoGraph/graph/lpg/schema"
+	"github.com/qiankunli/GoGraph/graph/query"
 )
 
 // Node labels. Centralised so the model is described in exactly one place

@@ -9,8 +9,8 @@ import (
 
 	"go.uber.org/goleak"
 
-	"github.com/FlavioCFOliveira/GoGraph/internal/clock"
-	"github.com/FlavioCFOliveira/GoGraph/store/checkpoint"
+	"github.com/qiankunli/GoGraph/internal/clock"
+	"github.com/qiankunli/GoGraph/store/checkpoint"
 )
 
 // durableTestSeeds are a small, fixed spread of run seeds so the concurrent-

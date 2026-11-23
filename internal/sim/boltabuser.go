@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/FlavioCFOliveira/GoGraph/bolt/packstream"
-	"github.com/FlavioCFOliveira/GoGraph/bolt/proto"
+	"github.com/qiankunli/GoGraph/bolt/packstream"
+	"github.com/qiankunli/GoGraph/bolt/proto"
 )
 
 // AbuseFamily identifies one class of Bolt wire-protocol violation the
@@ -56,10 +56,10 @@ const (
 )
 
 // abuseAnyServerFamilyCount is the number of families that any SimServer must
-// refuse, whatever its [github.com/FlavioCFOliveira/GoGraph/bolt/server.AuthHandler]
+// refuse, whatever its [github.com/qiankunli/GoGraph/bolt/server.AuthHandler]
 // is: the wire-protocol violations plus the two post-LOGOFF gates, which are
 // enforced by the session's own `authenticated` flag and so bite even under
-// [github.com/FlavioCFOliveira/GoGraph/bolt/server.NoAuthHandler]. The families
+// [github.com/qiankunli/GoGraph/bolt/server.NoAuthHandler]. The families
 // are ordered so these occupy [0, abuseAnyServerFamilyCount).
 const abuseAnyServerFamilyCount = 10
 

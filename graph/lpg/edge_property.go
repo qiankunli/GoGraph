@@ -33,8 +33,8 @@ package lpg
 // RemoveEdgeLabel can be called on an absent edge).
 
 import (
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
 )
 
 // SetEdgeProperty records the named property on the directed edge

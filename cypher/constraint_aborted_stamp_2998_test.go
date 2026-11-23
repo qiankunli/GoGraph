@@ -25,8 +25,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher"
-	"github.com/FlavioCFOliveira/GoGraph/graph/mvcc"
+	"github.com/qiankunli/GoGraph/cypher"
+	"github.com/qiankunli/GoGraph/graph/mvcc"
 )
 
 func TestConstraint_NotNullSkewRefusedAfterAbortedDisplacer(t *testing.T) {

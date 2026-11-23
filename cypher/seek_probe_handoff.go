@@ -1,8 +1,8 @@
 package cypher
 
 import (
-	"github.com/FlavioCFOliveira/GoGraph/cypher/exec"
-	"github.com/FlavioCFOliveira/GoGraph/cypher/ir"
+	"github.com/qiankunli/GoGraph/cypher/exec"
+	"github.com/qiankunli/GoGraph/cypher/ir"
 )
 
 // seekProbeKind names the index access path [indexSeekWouldFire] found for a

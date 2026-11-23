@@ -22,7 +22,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/bolt/packstream"
+	"github.com/qiankunli/GoGraph/bolt/packstream"
 )
 
 // TestDecoder_ListOfTinyMapsRejected drives the exact finding-A1 vector through

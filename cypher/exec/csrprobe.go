@@ -1,6 +1,6 @@
 package exec
 
-import "github.com/FlavioCFOliveira/GoGraph/graph"
+import "github.com/qiankunli/GoGraph/graph"
 
 // csrprobe.go — the shared O(log d) CSR membership probe (rmp #2142).
 //

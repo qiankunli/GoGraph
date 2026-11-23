@@ -106,9 +106,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/internal/clock"
-	"github.com/FlavioCFOliveira/GoGraph/store/checkpoint"
-	"github.com/FlavioCFOliveira/GoGraph/store/wal"
+	"github.com/qiankunli/GoGraph/internal/clock"
+	"github.com/qiankunli/GoGraph/store/checkpoint"
+	"github.com/qiankunli/GoGraph/store/wal"
 )
 
 // The arm names, carried into the evidence so the non-vacuity gate can apply

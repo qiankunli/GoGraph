@@ -14,7 +14,7 @@ package cypher_test
 import (
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/expr"
+	"github.com/qiankunli/GoGraph/cypher/expr"
 )
 
 // TestSubscriptPropertyEvaluation2918 evaluates each postfix chain on

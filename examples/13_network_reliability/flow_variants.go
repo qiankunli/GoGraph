@@ -6,7 +6,7 @@ import (
 	"io"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/search/flow"
+	"github.com/qiankunli/GoGraph/search/flow"
 )
 
 // stoerWagnerMaxSites caps the site count at which the global min-cut is

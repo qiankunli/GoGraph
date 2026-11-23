@@ -1,7 +1,7 @@
 package sim
 
 // count_store.go — rmp #2494: the derived relationship count-store
-// ([github.com/FlavioCFOliveira/GoGraph/graph/index/count.Store]) adjudicated
+// ([github.com/qiankunli/GoGraph/graph/index/count.Store]) adjudicated
 // cell by cell against the shadow model, and the reopen-time
 // `RecomputeReset` + replay path ([cypher.Engine.recomputeCountStore]) asserted
 // CORRECT rather than merely executed.
@@ -241,8 +241,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/index/count"
-	"github.com/FlavioCFOliveira/GoGraph/graph/lpg"
+	"github.com/qiankunli/GoGraph/graph/index/count"
+	"github.com/qiankunli/GoGraph/graph/lpg"
 )
 
 // ScenarioCountStore is the catalogue key of the count-store oracle scenario

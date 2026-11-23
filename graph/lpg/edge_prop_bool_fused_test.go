@@ -31,7 +31,7 @@ package lpg
 import (
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
 )
 
 // newBoolFusedFixture builds a directed multigraph with a source `a` already

@@ -20,7 +20,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/internal/sortseam"
+	"github.com/qiankunli/GoGraph/internal/sortseam"
 )
 
 // TestAllocAttributionAgreesWithMallocs runs the same window four times —

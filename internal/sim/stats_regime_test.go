@@ -15,7 +15,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher"
+	"github.com/qiankunli/GoGraph/cypher"
 )
 
 // TestStatsRegime_RefreshAndThrottleContract is the happy path on the parity

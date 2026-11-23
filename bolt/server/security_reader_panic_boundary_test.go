@@ -22,8 +22,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/bolt/server"
-	cmetrics "github.com/FlavioCFOliveira/GoGraph/internal/metrics"
+	"github.com/qiankunli/GoGraph/bolt/server"
+	cmetrics "github.com/qiankunli/GoGraph/internal/metrics"
 )
 
 // readerPanicProbe records how many times the bolt connection-panic counter

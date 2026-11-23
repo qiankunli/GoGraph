@@ -61,9 +61,9 @@ TIME = {"ns": 1, "us": 1e3, "µs": 1e3, "ms": 1e6, "s": 1e9,
 SIZE = {"B": 1, "kB": 1e3, "MB": 1e6, "GB": 1e9, "TB": 1e12}
 
 ANTLR = "github.com/antlr4-go/antlr/"
-GEN = "github.com/FlavioCFOliveira/GoGraph/cypher/parser/gen."
-PARSER = "github.com/FlavioCFOliveira/GoGraph/cypher/parser."
-GOGRAPH = "github.com/FlavioCFOliveira/GoGraph/"
+GEN = "github.com/qiankunli/GoGraph/cypher/parser/gen."
+PARSER = "github.com/qiankunli/GoGraph/cypher/parser."
+GOGRAPH = "github.com/qiankunli/GoGraph/"
 
 BUCKETS = [
     ("antlr-runtime", ANTLR, "#d62728"),

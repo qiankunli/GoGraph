@@ -25,7 +25,7 @@ import (
 
 	"go.uber.org/goleak"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/exec"
+	"github.com/qiankunli/GoGraph/cypher/exec"
 )
 
 func TestParallelScanProject_ResultBudgetBoundsRows(t *testing.T) {

@@ -27,7 +27,7 @@ package lpg
 import (
 	"sync"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/mvcc"
+	"github.com/qiankunli/GoGraph/graph/mvcc"
 )
 
 // edgeInstanceLabelShard holds the per-(src, dst, idx) label sets. Both levels

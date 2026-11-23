@@ -5,8 +5,8 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher"
-	"github.com/FlavioCFOliveira/GoGraph/internal/planseam"
+	"github.com/qiankunli/GoGraph/cypher"
+	"github.com/qiankunli/GoGraph/internal/planseam"
 )
 
 // ---------------------------------------------------------------------------

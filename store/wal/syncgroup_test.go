@@ -8,8 +8,8 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/internal/testfs"
-	"github.com/FlavioCFOliveira/GoGraph/store/wal"
+	"github.com/qiankunli/GoGraph/internal/testfs"
+	"github.com/qiankunli/GoGraph/store/wal"
 )
 
 // TestSyncGroup_FailAll is the gate for the group-commit fail-all durability

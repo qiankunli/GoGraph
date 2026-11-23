@@ -15,7 +15,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph"
 )
 
 // nanBitPatterns returns every canonical IEEE 754 NaN bit pattern

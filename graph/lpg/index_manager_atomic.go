@@ -3,7 +3,7 @@ package lpg
 import (
 	"sync/atomic"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/index"
+	"github.com/qiankunli/GoGraph/graph/index"
 )
 
 // atomicIndexManager provides lock-free, sequentially-consistent get/set for

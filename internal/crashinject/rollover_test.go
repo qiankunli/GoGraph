@@ -17,7 +17,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/internal/crashinject"
+	"github.com/qiankunli/GoGraph/internal/crashinject"
 )
 
 const (

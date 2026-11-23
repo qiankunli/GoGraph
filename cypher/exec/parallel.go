@@ -10,7 +10,7 @@ package exec
 // DefaultMorselSize and splitMorsels.
 
 import (
-	"github.com/FlavioCFOliveira/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph"
 )
 
 // DefaultMorselSize is the number of NodeIDs processed per worker goroutine

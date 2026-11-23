@@ -27,7 +27,7 @@ package lpg
 // not have labels: it takes a name and a value. Adding them is a change to the whole
 // observability surface and belongs to whoever needs it, not to this task.
 
-import "github.com/FlavioCFOliveira/GoGraph/graph/mvcc"
+import "github.com/qiankunli/GoGraph/graph/mvcc"
 
 // conflictStoreSeries[i] is the cumulative per-store conflict gauge for bucket i,
 // and conflictStoreCounters[i] the counter incremented at the detection site.

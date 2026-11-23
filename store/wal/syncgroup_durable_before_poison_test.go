@@ -43,8 +43,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/internal/testfs"
-	"github.com/FlavioCFOliveira/GoGraph/store/wal"
+	"github.com/qiankunli/GoGraph/internal/testfs"
+	"github.com/qiankunli/GoGraph/store/wal"
 )
 
 // TestSyncGroup_DurableCommitterSurvivesALaterPoison is deterministic and

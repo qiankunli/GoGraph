@@ -29,7 +29,7 @@ package lpg
 import (
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
 )
 
 // TestConflict_NodeRemovalReportsItsRefusalWhenDoomed is the shape the DST

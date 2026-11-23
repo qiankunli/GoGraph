@@ -6,8 +6,8 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/expr"
-	"github.com/FlavioCFOliveira/GoGraph/graph/mvcc"
+	"github.com/qiankunli/GoGraph/cypher/expr"
+	"github.com/qiankunli/GoGraph/graph/mvcc"
 )
 
 // mvcc_isolation.go — the MVCC isolation checkers of the deterministic

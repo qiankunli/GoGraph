@@ -13,11 +13,11 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher"
-	"github.com/FlavioCFOliveira/GoGraph/internal/testbin"
-	"github.com/FlavioCFOliveira/GoGraph/store/recovery"
-	"github.com/FlavioCFOliveira/GoGraph/store/snapshot"
-	"github.com/FlavioCFOliveira/GoGraph/store/txn"
+	"github.com/qiankunli/GoGraph/cypher"
+	"github.com/qiankunli/GoGraph/internal/testbin"
+	"github.com/qiankunli/GoGraph/store/recovery"
+	"github.com/qiankunli/GoGraph/store/snapshot"
+	"github.com/qiankunli/GoGraph/store/txn"
 )
 
 // xreleaseHelperPkg is the import path of the prior-release subprocess driver

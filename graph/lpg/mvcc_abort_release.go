@@ -77,8 +77,8 @@ package lpg
 import (
 	"github.com/RoaringBitmap/roaring/v2/roaring64"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	"github.com/FlavioCFOliveira/GoGraph/internal/synthkey"
+	"github.com/qiankunli/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/internal/synthkey"
 )
 
 // releaseBatchMin is the smallest batch of released ids whose tombstones are

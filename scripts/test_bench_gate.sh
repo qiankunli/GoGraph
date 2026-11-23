@@ -38,7 +38,7 @@ write_bench() {
   cat > "$file" <<EOF
 goos: linux
 goarch: amd64
-pkg: github.com/FlavioCFOliveira/GoGraph/search
+pkg: github.com/qiankunli/GoGraph/search
 BenchmarkDijkstra_PostWarmup-8   1000   $((ns + 0)) ns/op   512 B/op   8 allocs/op
 BenchmarkDijkstra_PostWarmup-8   1000   $((ns + 1000)) ns/op   512 B/op   8 allocs/op
 BenchmarkDijkstra_PostWarmup-8   1000   $((ns - 1000)) ns/op   512 B/op   8 allocs/op
@@ -58,7 +58,7 @@ write_bench_setbytes() {
   cat > "$file" <<EOF
 goos: linux
 goarch: amd64
-pkg: github.com/FlavioCFOliveira/GoGraph/store/wal
+pkg: github.com/qiankunli/GoGraph/store/wal
 BenchmarkWALEncode-8   1000   $((ns + 0)) ns/op   ${mbs}.0 MB/s   16 B/op   1 allocs/op
 BenchmarkWALEncode-8   1000   $((ns + 100)) ns/op   ${mbs}.0 MB/s   16 B/op   1 allocs/op
 BenchmarkWALEncode-8   1000   $((ns - 100)) ns/op   ${mbs}.0 MB/s   16 B/op   1 allocs/op

@@ -20,7 +20,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/bolt/server"
+	"github.com/qiankunli/GoGraph/bolt/server"
 )
 
 // waitForTransactions polls until the server reports want open transactions, or

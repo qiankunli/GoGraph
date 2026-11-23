@@ -16,7 +16,7 @@ package adjlist
 import (
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/mvcc"
+	"github.com/qiankunli/GoGraph/graph/mvcc"
 )
 
 // exclusiveRig builds a versioned AdjList with a clock attached, matching what

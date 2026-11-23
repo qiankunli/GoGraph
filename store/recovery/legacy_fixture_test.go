@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/store/wal"
+	"github.com/qiankunli/GoGraph/store/wal"
 )
 
 // logPayloads returns the payloads of every frame of the store log at walPath

@@ -9,14 +9,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/bolt/server"
-	"github.com/FlavioCFOliveira/GoGraph/cypher"
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
-	"github.com/FlavioCFOliveira/GoGraph/graph/lpg"
-	"github.com/FlavioCFOliveira/GoGraph/internal/clock"
+	"github.com/qiankunli/GoGraph/bolt/server"
+	"github.com/qiankunli/GoGraph/cypher"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/graph/lpg"
+	"github.com/qiankunli/GoGraph/internal/clock"
 )
 
-// SimServer runs a real [github.com/FlavioCFOliveira/GoGraph/bolt/server.Server]
+// SimServer runs a real [github.com/qiankunli/GoGraph/bolt/server.Server]
 // over an in-memory [SimListener]. It exists so the Phase-3 actors drive the
 // GENUINE Bolt wire path — handshake, framing, message loop, streaming — with no
 // OS socket and no reimplementation of the server. New client connections are
@@ -541,7 +541,7 @@ func (s *SimServer) DialConn() (*SimConn, error) { return s.ln.Dial() }
 // reply does, so "the routing table names THIS server" is a comparison between two
 // independently obtained values rather than a constant restated. A checker that
 // instead compared the reply against
-// [github.com/FlavioCFOliveira/GoGraph/bolt/server.RoutingTable]'s own output would
+// [github.com/qiankunli/GoGraph/bolt/server.RoutingTable]'s own output would
 // be comparing that function with itself.
 func (s *SimServer) ListenerAddr() string { return s.ln.Addr().String() }
 

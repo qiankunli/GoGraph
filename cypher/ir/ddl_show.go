@@ -19,7 +19,7 @@ package ir
 // ANTLR expression grammar for the WHERE predicate and RETURN items WITHOUT
 // modifying the grammar (it re-parses the tail as a synthetic CALL … clause).
 
-import "github.com/FlavioCFOliveira/GoGraph/cypher/ast"
+import "github.com/qiankunli/GoGraph/cypher/ast"
 
 // ShowConstraintColumns is the ordered SHOW CONSTRAINTS output schema. It is the
 // single source of truth shared by the executor (cypher.runShowConstraints, which

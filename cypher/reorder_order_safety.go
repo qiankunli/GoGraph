@@ -50,8 +50,8 @@ package cypher
 import (
 	"strings"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/ast"
-	"github.com/FlavioCFOliveira/GoGraph/cypher/ir"
+	"github.com/qiankunli/GoGraph/cypher/ast"
+	"github.com/qiankunli/GoGraph/cypher/ir"
 )
 
 // SuppressReorder reports whether a reorder at some point in the logical plan

@@ -293,9 +293,9 @@ func (m *MapProjectionItem) String() string {
 // The map-projection production lives in the ANTLR grammar
 // (cypher/parser/grammar/CypherParser.g4, the mapProjection / mapProjectionItem
 // rules); the parser visitor
-// ([github.com/FlavioCFOliveira/GoGraph/cypher/parser] VisitMapProjection)
+// ([github.com/qiankunli/GoGraph/cypher/parser] VisitMapProjection)
 // constructs this node, which is then evaluated by
-// ([github.com/FlavioCFOliveira/GoGraph/cypher/expr] evalMapProjection) and
+// ([github.com/qiankunli/GoGraph/cypher/expr] evalMapProjection) and
 // type-checked by the semantic analyser. Map projection is an accepted
 // openCypher extension (CIP2014-12-12); it is NOT part of the openCypher TCK,
 // so it does not affect TCK conformance.

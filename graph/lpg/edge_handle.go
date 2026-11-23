@@ -55,8 +55,8 @@ package lpg
 import (
 	"sync"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	"github.com/FlavioCFOliveira/GoGraph/graph/mvcc"
+	"github.com/qiankunli/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph/mvcc"
 )
 
 // edgeHandleLabelShard holds the per-(src, dst, handle) label sets. The

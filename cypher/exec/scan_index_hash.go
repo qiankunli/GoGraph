@@ -27,7 +27,7 @@ import (
 	"context"
 	"errors"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/expr"
+	"github.com/qiankunli/GoGraph/cypher/expr"
 )
 
 // ErrIndexTypeMismatch is returned by NodeByIndexSeek.Init when the seek

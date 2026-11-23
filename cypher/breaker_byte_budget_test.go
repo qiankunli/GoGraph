@@ -14,8 +14,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher"
-	"github.com/FlavioCFOliveira/GoGraph/cypher/exec"
+	"github.com/qiankunli/GoGraph/cypher"
+	"github.com/qiankunli/GoGraph/cypher/exec"
 )
 
 // TestEngine_SortByteBudget_TripsBeforeDrain runs an ORDER BY (a blocking Sort)

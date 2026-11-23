@@ -10,7 +10,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
 )
 
 func TestEdgeInstanceAndHandleTiering(t *testing.T) {

@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/lpg"
-	"github.com/FlavioCFOliveira/GoGraph/store/txn"
+	"github.com/qiankunli/GoGraph/graph/lpg"
+	"github.com/qiankunli/GoGraph/store/txn"
 )
 
 // This file builds the deterministic fixture that gives the example a

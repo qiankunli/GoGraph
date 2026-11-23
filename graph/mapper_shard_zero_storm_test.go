@@ -10,8 +10,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	"github.com/FlavioCFOliveira/GoGraph/internal/shapegen"
+	"github.com/qiankunli/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/internal/shapegen"
 )
 
 // TestMapper_ShardZeroStorm verifies that 100_000 adversarial

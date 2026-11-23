@@ -16,8 +16,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/index/count"
-	cmetrics "github.com/FlavioCFOliveira/GoGraph/internal/metrics"
+	"github.com/qiankunli/GoGraph/graph/index/count"
+	cmetrics "github.com/qiankunli/GoGraph/internal/metrics"
 )
 
 // countMetricProbe records the count-store metric events routed to it. It keeps

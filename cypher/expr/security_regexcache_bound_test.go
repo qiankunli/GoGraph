@@ -22,7 +22,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/ast"
+	"github.com/qiankunli/GoGraph/cypher/ast"
 )
 
 // TestSec_Cypher_RegexCacheBoundedUnderHostilePatterns fires more distinct

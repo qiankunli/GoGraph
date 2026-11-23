@@ -41,9 +41,9 @@ package server
 // [cypher.Result.Plan] / [cypher.Result.Profile] make on the Go side.
 
 import (
-	"github.com/FlavioCFOliveira/GoGraph/bolt/packstream"
-	"github.com/FlavioCFOliveira/GoGraph/cypher"
-	"github.com/FlavioCFOliveira/GoGraph/cypher/exec"
+	"github.com/qiankunli/GoGraph/bolt/packstream"
+	"github.com/qiankunli/GoGraph/cypher"
+	"github.com/qiankunli/GoGraph/cypher/exec"
 )
 
 // Bolt plan/profile key names, from neo4j/internal/bolt/hydrator.go.

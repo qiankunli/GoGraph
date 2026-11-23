@@ -3,8 +3,8 @@ package csrorder
 import (
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	"github.com/FlavioCFOliveira/GoGraph/graph/csr"
+	"github.com/qiankunli/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph/csr"
 )
 
 // build_bench_test.go — the COST side of the ordering, reported per degree.

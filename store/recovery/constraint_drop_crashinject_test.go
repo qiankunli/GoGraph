@@ -10,8 +10,8 @@ package recovery
 import (
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/internal/crashinject"
-	"github.com/FlavioCFOliveira/GoGraph/store/txn"
+	"github.com/qiankunli/GoGraph/internal/crashinject"
+	"github.com/qiankunli/GoGraph/store/txn"
 )
 
 // TestConstraintDropCrash_PostWALSync is the both-absent durability proof for

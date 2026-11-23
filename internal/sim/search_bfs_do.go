@@ -3,8 +3,8 @@ package sim
 import (
 	"fmt"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	"github.com/FlavioCFOliveira/GoGraph/search"
+	"github.com/qiankunli/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/search"
 )
 
 // bfsDoSalt keeps the direction-optimising-BFS check's draw stream disjoint from

@@ -5,9 +5,9 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
-	graphml "github.com/FlavioCFOliveira/GoGraph/graph/io/graphml"
-	"github.com/FlavioCFOliveira/GoGraph/graph/lpg"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
+	graphml "github.com/qiankunli/GoGraph/graph/io/graphml"
+	"github.com/qiankunli/GoGraph/graph/lpg"
 )
 
 // Security regression pin for the GraphML writer's export neutralisation.

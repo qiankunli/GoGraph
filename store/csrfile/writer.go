@@ -9,8 +9,8 @@ import (
 	"hash/crc32"
 	"io"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	"github.com/FlavioCFOliveira/GoGraph/graph/csr"
+	"github.com/qiankunli/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph/csr"
 )
 
 var castagnoli = crc32.MakeTable(crc32.Castagnoli)
@@ -124,7 +124,7 @@ func WriteToFile[W any](path string, c *csr.CSR[W]) (Header, error) {
 // (internal/sim), which passes an in-memory backend so it can crash
 // between any two of the write/fsync/rename/parent-fsync steps and replay
 // the result. The backend parameter type is unexported (mirroring
-// [github.com/FlavioCFOliveira/GoGraph/store/wal.OpenWith]); production
+// [github.com/qiankunli/GoGraph/store/wal.OpenWith]); production
 // code calls [WriteToFile], which supplies the OS backend. Passing the OS
 // backend here is byte-for-byte equivalent to [WriteToFile].
 func WriteToFileWith[W any](fsys fs, path string, c *csr.CSR[W]) (Header, error) {

@@ -22,7 +22,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher"
+	"github.com/qiankunli/GoGraph/cypher"
 )
 
 // mergeBranch runs a MERGE that records which branch it took, inside tx, and

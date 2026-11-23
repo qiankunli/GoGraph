@@ -22,7 +22,7 @@ import (
 	"net"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/bolt/proto"
+	"github.com/qiankunli/GoGraph/bolt/proto"
 )
 
 // runNegotiate drives the server side of a handshake and returns the agreed

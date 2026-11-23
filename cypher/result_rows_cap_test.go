@@ -17,7 +17,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher"
+	"github.com/qiankunli/GoGraph/cypher"
 )
 
 // TestEngine_ResultRowCap_TripsBoundedError builds an engine whose row cap is

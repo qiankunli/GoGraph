@@ -16,8 +16,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/store/recovery"
-	"github.com/FlavioCFOliveira/GoGraph/store/txn"
+	"github.com/qiankunli/GoGraph/store/recovery"
+	"github.com/qiankunli/GoGraph/store/txn"
 )
 
 // txnOversizeSeed is the fixed seed the live arms run under. The scenario is

@@ -14,8 +14,8 @@ import (
 	"testing"
 	"unsafe"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
 )
 
 func fusedAppend(t *testing.T, c *edgePropCols, oldLen int, key PropertyKeyID, v int64) *edgePropCols {

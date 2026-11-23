@@ -13,7 +13,7 @@ package lpg
 import (
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
 )
 
 // sharedBitmapRig returns a graph carrying label L on n nodes, with its own

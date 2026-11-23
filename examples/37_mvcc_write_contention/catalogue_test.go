@@ -30,8 +30,8 @@ import (
 
 	"go.uber.org/goleak"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/expr"
-	"github.com/FlavioCFOliveira/GoGraph/internal/isolationtest"
+	"github.com/qiankunli/GoGraph/cypher/expr"
+	"github.com/qiankunli/GoGraph/internal/isolationtest"
 )
 
 // TestMain runs every test of this example under goleak: the catalogue starts one

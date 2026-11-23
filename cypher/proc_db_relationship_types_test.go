@@ -11,7 +11,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher"
+	"github.com/qiankunli/GoGraph/cypher"
 )
 
 // TestProcDbRelationshipTypes_Empty verifies that CALL db.relationshipTypes()

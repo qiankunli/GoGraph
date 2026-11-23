@@ -1,8 +1,8 @@
 package sim
 
 import (
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	"github.com/FlavioCFOliveira/GoGraph/graph/csr"
+	"github.com/qiankunli/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph/csr"
 )
 
 // This file holds the small shaped-graph builders shared by the fixture-based

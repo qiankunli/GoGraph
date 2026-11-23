@@ -1,6 +1,6 @@
 package main
 
-import "github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
+import "github.com/qiankunli/GoGraph/graph/adjlist"
 
 // lpgConfig returns the adjacency-list configuration shared by every
 // subcommand. The zero Config is a directed multigraph, which matches the

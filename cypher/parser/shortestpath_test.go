@@ -3,7 +3,7 @@ package parser
 import (
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/ast"
+	"github.com/qiankunli/GoGraph/cypher/ast"
 )
 
 // firstMatchPath returns the first PathPattern of the first MATCH/OPTIONAL MATCH

@@ -6,8 +6,8 @@ import (
 	"sort"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher"
-	"github.com/FlavioCFOliveira/GoGraph/internal/clock"
+	"github.com/qiankunli/GoGraph/cypher"
+	"github.com/qiankunli/GoGraph/internal/clock"
 )
 
 // scenarioClock returns the clock the concurrent/liveness scenario harnesses

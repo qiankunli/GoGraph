@@ -47,15 +47,15 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	"github.com/FlavioCFOliveira/GoGraph/graph/csr"
-	"github.com/FlavioCFOliveira/GoGraph/graph/lpg"
-	"github.com/FlavioCFOliveira/GoGraph/internal/clock"
-	"github.com/FlavioCFOliveira/GoGraph/internal/crashpoint"
-	"github.com/FlavioCFOliveira/GoGraph/internal/metrics"
-	"github.com/FlavioCFOliveira/GoGraph/store/snapshot"
-	"github.com/FlavioCFOliveira/GoGraph/store/txn"
-	"github.com/FlavioCFOliveira/GoGraph/store/wal"
+	"github.com/qiankunli/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph/csr"
+	"github.com/qiankunli/GoGraph/graph/lpg"
+	"github.com/qiankunli/GoGraph/internal/clock"
+	"github.com/qiankunli/GoGraph/internal/crashpoint"
+	"github.com/qiankunli/GoGraph/internal/metrics"
+	"github.com/qiankunli/GoGraph/store/snapshot"
+	"github.com/qiankunli/GoGraph/store/txn"
+	"github.com/qiankunli/GoGraph/store/wal"
 )
 
 // ErrCheckpointerStopped is returned by Trigger and TriggerCtx when the
@@ -404,7 +404,7 @@ func WithClock[N comparable, W any](clk clock.Clock) Option[N, W] {
 // runs entirely against its in-memory disk and a crash can be injected
 // mid-snapshot or before the WAL prefix-truncate. The backend parameter type
 // is unexported (mirroring
-// [github.com/FlavioCFOliveira/GoGraph/store/wal.OpenWith]); production code
+// [github.com/qiankunli/GoGraph/store/wal.OpenWith]); production code
 // omits this option and the checkpointer uses the OS-backed snapshot writers,
 // which are byte-identical to the pre-seam path.
 //

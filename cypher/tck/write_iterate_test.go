@@ -3,8 +3,8 @@ package tck_test
 import (
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/parser"
-	"github.com/FlavioCFOliveira/GoGraph/cypher/tck"
+	"github.com/qiankunli/GoGraph/cypher/parser"
+	"github.com/qiankunli/GoGraph/cypher/tck"
 )
 
 // TestLoadWriteScenarios verifies that LoadWriteScenarios returns a

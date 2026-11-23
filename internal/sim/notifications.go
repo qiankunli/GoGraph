@@ -32,7 +32,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher"
+	"github.com/qiankunli/GoGraph/cypher"
 )
 
 // notificationReporter is the optional facet a [Result] implements when it can

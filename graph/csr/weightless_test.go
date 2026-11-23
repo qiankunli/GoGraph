@@ -3,8 +3,8 @@ package csr
 import (
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
 )
 
 // TestCSR_Weightless_NilWeightsForNonEmptyW is the runtime-gate test: a

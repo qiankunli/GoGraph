@@ -202,11 +202,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/expr"
-	"github.com/FlavioCFOliveira/GoGraph/internal/clock"
-	"github.com/FlavioCFOliveira/GoGraph/store"
-	"github.com/FlavioCFOliveira/GoGraph/store/checkpoint"
-	"github.com/FlavioCFOliveira/GoGraph/store/wal"
+	"github.com/qiankunli/GoGraph/cypher/expr"
+	"github.com/qiankunli/GoGraph/internal/clock"
+	"github.com/qiankunli/GoGraph/store"
+	"github.com/qiankunli/GoGraph/store/checkpoint"
+	"github.com/qiankunli/GoGraph/store/wal"
 )
 
 // The arm names, carried in the evidence and used by the arm-specific clauses.
@@ -253,7 +253,7 @@ const (
 
 // boltDrainDatabaseErrorCode is the Bolt failure code a commit that hits a closed
 // WAL writer produces. It is the catch-all bucket
-// ([github.com/FlavioCFOliveira/GoGraph/bolt/server].FailureCode's final return,
+// ([github.com/qiankunli/GoGraph/bolt/server].FailureCode's final return,
 // bolt/server/errors.go:247), reached because [wal.ErrWriterClosed] matches none
 // of the specific branches above it — which is also why the message the client
 // gets is sanitised. Any DatabaseError-class reply to a statement issued before

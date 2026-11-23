@@ -93,8 +93,8 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/mvcc"
-	"github.com/FlavioCFOliveira/GoGraph/internal/metrics"
+	"github.com/qiankunli/GoGraph/graph/mvcc"
+	"github.com/qiankunli/GoGraph/internal/metrics"
 )
 
 // ErrDirectWriteConflict is returned by a direct mutator of [Graph] — one called

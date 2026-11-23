@@ -15,9 +15,9 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/FlavioCFOliveira/GoGraph/bolt/proto"
-	"github.com/FlavioCFOliveira/GoGraph/internal/metrics"
-	promreg "github.com/FlavioCFOliveira/GoGraph/internal/metrics/prometheus"
+	"github.com/qiankunli/GoGraph/bolt/proto"
+	"github.com/qiankunli/GoGraph/internal/metrics"
+	promreg "github.com/qiankunli/GoGraph/internal/metrics/prometheus"
 )
 
 // msgPromName renders a dotted in-tree metric name the way the Prometheus

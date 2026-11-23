@@ -3,9 +3,9 @@
 //
 // # Why this package exists
 //
-// The control has to be READ by github.com/FlavioCFOliveira/GoGraph/cypher/exec,
+// The control has to be READ by github.com/qiankunli/GoGraph/cypher/exec,
 // where the Sort and Top operators live, and WRITTEN by
-// github.com/FlavioCFOliveira/GoGraph/cypher, because only a test that can build
+// github.com/qiankunli/GoGraph/cypher, because only a test that can build
 // an Engine can run a real query — and a real query is what both consumers of
 // the control need:
 //

@@ -10,7 +10,7 @@ import (
 // reject fails with it instead, so the caller sees a typed, testable error
 // rather than a durable file nothing can load (rmp #2743).
 //
-// It is the snapshot-format counterpart of [github.com/FlavioCFOliveira/GoGraph/store/txn.ErrFieldTooLong],
+// It is the snapshot-format counterpart of [github.com/qiankunli/GoGraph/store/txn.ErrFieldTooLong],
 // deliberately sharing that name: the two durable formats — the WAL and the
 // snapshot — now refuse an over-long field in the same shape, with the same
 // sentinel name and the same message layout, so an operator who has learned one

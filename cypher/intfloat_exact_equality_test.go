@@ -16,7 +16,7 @@ package cypher_test
 import (
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/expr"
+	"github.com/qiankunli/GoGraph/cypher/expr"
 )
 
 func wantBool(t *testing.T, row map[string]interface{}, key string, want bool) {

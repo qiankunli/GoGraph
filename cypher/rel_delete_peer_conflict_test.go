@@ -39,7 +39,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/mvcc"
+	"github.com/qiankunli/GoGraph/graph/mvcc"
 )
 
 const relDelPeerSetup = `CREATE (a:N {name: 'a'})-[:R {id: 1}]->(b:N {name: 'b'}), (a)-[:R {id: 2}]->(b), (a)-[:R {id: 3}]->(a)`

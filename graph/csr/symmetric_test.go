@@ -3,7 +3,7 @@ package csr
 import (
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
 )
 
 // TestCSR_IsSymmetric_SymmetricProjection verifies that the undirected

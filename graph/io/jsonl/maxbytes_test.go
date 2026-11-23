@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
-	jsonl "github.com/FlavioCFOliveira/GoGraph/graph/io/jsonl"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
+	jsonl "github.com/qiankunli/GoGraph/graph/io/jsonl"
 )
 
 // hugeLine builds a single JSONL line whose "id" value is n bytes long,

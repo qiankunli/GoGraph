@@ -22,7 +22,7 @@ import (
 	"testing"
 	"unicode/utf8"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/ir"
+	"github.com/qiankunli/GoGraph/cypher/ir"
 )
 
 // assertRectangular fails when the rendered table's lines are not all the same

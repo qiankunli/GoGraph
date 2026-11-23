@@ -40,8 +40,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/expr"
-	"github.com/FlavioCFOliveira/GoGraph/graph/index/stats"
+	"github.com/qiankunli/GoGraph/cypher/expr"
+	"github.com/qiankunli/GoGraph/graph/index/stats"
 )
 
 // relabelHot removes :Person from the `n` hot nodes with the highest rank, leaving

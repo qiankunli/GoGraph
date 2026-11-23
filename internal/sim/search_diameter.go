@@ -3,7 +3,7 @@ package sim
 import (
 	"fmt"
 
-	"github.com/FlavioCFOliveira/GoGraph/search"
+	"github.com/qiankunli/GoGraph/search"
 )
 
 // diameterSalt keeps the diameter check's draw stream disjoint from the other

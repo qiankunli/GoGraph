@@ -8,7 +8,7 @@ package lpg
 // reclaimer in any of the four files that fill one has a single place to look up
 // which histogram is its own.
 
-import "github.com/FlavioCFOliveira/GoGraph/graph/mvcc"
+import "github.com/qiankunli/GoGraph/graph/mvcc"
 
 // depthStore names a versioned store that keeps CHAINS, and therefore has a depth
 // distribution to report.

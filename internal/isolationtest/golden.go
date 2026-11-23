@@ -10,7 +10,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/internal/goldens"
+	"github.com/qiankunli/GoGraph/internal/goldens"
 )
 
 // Check runs the spec and compares its transcript against

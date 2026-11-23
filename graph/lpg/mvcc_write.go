@@ -5,8 +5,8 @@ import (
 	"math/bits"
 	"sync"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	"github.com/FlavioCFOliveira/GoGraph/graph/mvcc"
+	"github.com/qiankunli/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph/mvcc"
 )
 
 // mvcc_write.go — MVCC P4a (rmp #2288): one shared commit record per write, and

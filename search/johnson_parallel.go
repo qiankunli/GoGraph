@@ -7,8 +7,8 @@ import (
 	"runtime/pprof"
 	"sync"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/csr"
-	"github.com/FlavioCFOliveira/GoGraph/internal/metrics"
+	"github.com/qiankunli/GoGraph/graph/csr"
+	"github.com/qiankunli/GoGraph/internal/metrics"
 )
 
 // JohnsonAPSPParallel computes APSP on c using Johnson's algorithm

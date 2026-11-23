@@ -6,8 +6,8 @@ package cypher
 import (
 	"context"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/expr"
-	"github.com/FlavioCFOliveira/GoGraph/graph/lpg"
+	"github.com/qiankunli/GoGraph/cypher/expr"
+	"github.com/qiankunli/GoGraph/graph/lpg"
 )
 
 // readBuildScaffold is the set of per-execution objects [Engine.buildReadPhysical]

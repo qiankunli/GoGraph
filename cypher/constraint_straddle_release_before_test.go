@@ -13,7 +13,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/exec"
+	"github.com/qiankunli/GoGraph/cypher/exec"
 )
 
 const straddleUniqueDDL = "CREATE CONSTRAINT us FOR (n:L) REQUIRE n.s IS UNIQUE"

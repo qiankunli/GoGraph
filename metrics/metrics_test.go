@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/metrics"
+	"github.com/qiankunli/GoGraph/metrics"
 )
 
 // Compile-time check: backendFunc satisfies metrics.Backend.

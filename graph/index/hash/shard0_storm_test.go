@@ -5,8 +5,8 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	"github.com/FlavioCFOliveira/GoGraph/graph/index/hash"
+	"github.com/qiankunli/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph/index/hash"
 )
 
 // TestShard0Storm builds an Index[int64] with 65 536 sequential keys,

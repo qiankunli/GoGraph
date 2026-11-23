@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/search/centrality"
+	"github.com/qiankunli/GoGraph/search/centrality"
 )
 
 // TestPageRankChecks_CleanOnFixtures runs the PageRank battery for several ticks

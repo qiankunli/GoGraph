@@ -92,13 +92,13 @@ import (
 	"sort"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/examples/internal/exprof"
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
-	"github.com/FlavioCFOliveira/GoGraph/graph/csr"
-	"github.com/FlavioCFOliveira/GoGraph/search"
-	"github.com/FlavioCFOliveira/GoGraph/search/centrality"
-	"github.com/FlavioCFOliveira/GoGraph/search/community"
+	"github.com/qiankunli/GoGraph/examples/internal/exprof"
+	"github.com/qiankunli/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/graph/csr"
+	"github.com/qiankunli/GoGraph/search"
+	"github.com/qiankunli/GoGraph/search/centrality"
+	"github.com/qiankunli/GoGraph/search/community"
 )
 
 // config captures every scale and shape knob of the graph generator. The

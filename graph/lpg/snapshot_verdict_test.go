@@ -3,7 +3,7 @@ package lpg
 import (
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/mvcc"
+	"github.com/qiankunli/GoGraph/graph/mvcc"
 )
 
 // snapshot_verdict_test.go — rmp #2888: the snapshot pins the verdict of a record

@@ -14,7 +14,7 @@ import (
 // It is exported so an external filesystem backend (the deterministic-
 // simulation harness, internal/sim) can name it as the return type of its
 // [walFS].OpenFile method and thereby satisfy the unexported walFS interface,
-// exactly as [github.com/FlavioCFOliveira/GoGraph/store/snapshot.File] is
+// exactly as [github.com/qiankunli/GoGraph/store/snapshot.File] is
 // exported for the snapshot seam. Production callers open WAL files via [Open]
 // and never reference this type directly; tests and the simulator reach for
 // [OpenWith] / [OpenFS].

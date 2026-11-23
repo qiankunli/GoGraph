@@ -34,7 +34,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/exec"
+	"github.com/qiankunli/GoGraph/cypher/exec"
 )
 
 func TestConstraintBeginTx_RegistrationBetweenCatalogueReadsBinds(t *testing.T) {

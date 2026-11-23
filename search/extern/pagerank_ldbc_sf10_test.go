@@ -8,10 +8,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/bench/ldbc"
-	"github.com/FlavioCFOliveira/GoGraph/internal/testlayers"
-	"github.com/FlavioCFOliveira/GoGraph/store/bulk"
-	"github.com/FlavioCFOliveira/GoGraph/store/csrfile"
+	"github.com/qiankunli/GoGraph/bench/ldbc"
+	"github.com/qiankunli/GoGraph/internal/testlayers"
+	"github.com/qiankunli/GoGraph/store/bulk"
+	"github.com/qiankunli/GoGraph/store/csrfile"
 )
 
 // TestPageRank_LDBCSf10_Soak verifies that extern.PageRank converges

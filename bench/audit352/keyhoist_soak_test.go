@@ -36,8 +36,8 @@ package audit352_test
 import (
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher"
-	"github.com/FlavioCFOliveira/GoGraph/internal/sortseam"
+	"github.com/qiankunli/GoGraph/cypher"
+	"github.com/qiankunli/GoGraph/internal/sortseam"
 )
 
 // keyHoistQuery is rmp #2662's reproduction, verbatim.

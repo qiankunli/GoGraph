@@ -28,10 +28,10 @@ import (
 	"math"
 	"sync/atomic"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	"github.com/FlavioCFOliveira/GoGraph/internal/crashpoint"
-	"github.com/FlavioCFOliveira/GoGraph/internal/metrics"
-	"github.com/FlavioCFOliveira/GoGraph/store/wal"
+	"github.com/qiankunli/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/internal/crashpoint"
+	"github.com/qiankunli/GoGraph/internal/metrics"
+	"github.com/qiankunli/GoGraph/store/wal"
 )
 
 const (

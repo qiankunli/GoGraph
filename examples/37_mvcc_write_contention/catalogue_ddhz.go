@@ -29,12 +29,12 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher"
-	"github.com/FlavioCFOliveira/GoGraph/cypher/expr"
-	"github.com/FlavioCFOliveira/GoGraph/cypher/procs"
-	"github.com/FlavioCFOliveira/GoGraph/graph/lpg"
-	"github.com/FlavioCFOliveira/GoGraph/graph/mvcc"
-	"github.com/FlavioCFOliveira/GoGraph/internal/isolationtest"
+	"github.com/qiankunli/GoGraph/cypher"
+	"github.com/qiankunli/GoGraph/cypher/expr"
+	"github.com/qiankunli/GoGraph/cypher/procs"
+	"github.com/qiankunli/GoGraph/graph/lpg"
+	"github.com/qiankunli/GoGraph/graph/mvcc"
+	"github.com/qiankunli/GoGraph/internal/isolationtest"
 )
 
 // ---------------------------------------------------------------------------

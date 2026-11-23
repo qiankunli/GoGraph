@@ -18,7 +18,7 @@ import (
 
 	"pgregory.net/rapid"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/expr"
+	"github.com/qiankunli/GoGraph/cypher/expr"
 )
 
 // genPathValue generates a random PathValue with 1–5 nodes and len(Nodes)-1

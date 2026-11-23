@@ -5,7 +5,7 @@ import (
 	"net"
 	"sync"
 
-	"github.com/FlavioCFOliveira/GoGraph/internal/clock"
+	"github.com/qiankunli/GoGraph/internal/clock"
 )
 
 // ErrSimListenerClosed is returned by [SimListener.Accept] and [SimListener.Dial]
@@ -14,7 +14,7 @@ import (
 var ErrSimListenerClosed = errors.New("sim: SimListener is closed")
 
 // SimListener is an in-memory [net.Listener] that feeds [SimConn] server-ends to
-// a real bolt/server running under [github.com/FlavioCFOliveira/GoGraph/bolt/server.Server.Serve].
+// a real bolt/server running under [github.com/qiankunli/GoGraph/bolt/server.Server.Serve].
 // Each [SimListener.Dial] creates a connected [SimConn] pair, queues the
 // server-end for the server's Accept loop, and returns the client-end to the
 // caller (the wire client harness). No OS socket is involved, so the server runs
@@ -82,7 +82,7 @@ func (l *SimListener) Close() error {
 // Closed reports whether the listener has been closed.
 //
 // It is the drain-ordering observable rmp #2483 needs.
-// [github.com/FlavioCFOliveira/GoGraph/bolt/server.Server.Shutdown] closes the
+// [github.com/qiankunli/GoGraph/bolt/server.Server.Shutdown] closes the
 // listener BEFORE it starts waiting for its connection drain, so a closed listener
 // is positive evidence that a Shutdown call has progressed into that wait rather
 // than not yet started — which is what makes "the store's teardown had not begun"

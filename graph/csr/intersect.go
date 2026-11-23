@@ -69,7 +69,7 @@ package csr
 // The ranges it reads are immutable CSR snapshots, so any number of Intersectors
 // may read the same CSR concurrently without synchronisation.
 
-import "github.com/FlavioCFOliveira/GoGraph/graph"
+import "github.com/qiankunli/GoGraph/graph"
 
 // MaxIntersectWays bounds how many ranges one [Intersector] can intersect.
 //

@@ -11,7 +11,7 @@ import (
 
 	"go.uber.org/goleak"
 
-	"github.com/FlavioCFOliveira/GoGraph/bolt/server"
+	"github.com/qiankunli/GoGraph/bolt/server"
 )
 
 // TestBoltCertRotation_Clean drives the rotation surface and asserts the contract

@@ -5,7 +5,7 @@ import (
 	"io"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/lpg"
+	"github.com/qiankunli/GoGraph/graph/lpg"
 )
 
 // TestSnapshotPerRecordCountCapAgreement_2784 is the snapshot side of the drift

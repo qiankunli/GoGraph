@@ -3,9 +3,9 @@ package centrality_test
 import (
 	"fmt"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
-	"github.com/FlavioCFOliveira/GoGraph/graph/csr"
-	"github.com/FlavioCFOliveira/GoGraph/search/centrality"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/graph/csr"
+	"github.com/qiankunli/GoGraph/search/centrality"
 )
 
 // ExamplePageRank ranks the nodes of a directed star where five leaves

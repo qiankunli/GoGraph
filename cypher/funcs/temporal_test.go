@@ -3,7 +3,7 @@ package funcs
 import (
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/expr"
+	"github.com/qiankunli/GoGraph/cypher/expr"
 )
 
 func TestFnDate_StringForm(t *testing.T) {

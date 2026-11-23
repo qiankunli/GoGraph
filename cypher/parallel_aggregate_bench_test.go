@@ -33,7 +33,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher"
+	"github.com/qiankunli/GoGraph/cypher"
 )
 
 // silenceBenchLogs discards the engine's slog output for the benchmark's duration

@@ -15,7 +15,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/bench/expandinto"
+	"github.com/qiankunli/GoGraph/bench/expandinto"
 )
 
 // TestFitExponent_RejectsBadInput pins the fit's own contract: it must return NaN

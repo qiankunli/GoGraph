@@ -9,7 +9,7 @@ package lpg
 // its fast path by churn in another — the same separation the node-label and
 // node-property pairs already have, and for the same reason.
 
-import "github.com/FlavioCFOliveira/GoGraph/graph/mvcc"
+import "github.com/qiankunli/GoGraph/graph/mvcc"
 
 // ── overflow relationship types ──────────────────────────────────────────────
 

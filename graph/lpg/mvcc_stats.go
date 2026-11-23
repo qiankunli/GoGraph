@@ -52,8 +52,8 @@ package lpg
 // throttled — which is also what both reference implementations do.
 
 import (
-	"github.com/FlavioCFOliveira/GoGraph/graph/mvcc"
-	"github.com/FlavioCFOliveira/GoGraph/internal/metrics"
+	"github.com/qiankunli/GoGraph/graph/mvcc"
+	"github.com/qiankunli/GoGraph/internal/metrics"
 )
 
 // MVCCStats is a point-in-time picture of what the versioning substrate is

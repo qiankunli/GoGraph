@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph"
 )
 
 // mapperadv.go provides adversarial natural-key generators that

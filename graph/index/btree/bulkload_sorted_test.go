@@ -5,7 +5,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph"
 )
 
 // TestBulkLoadSorted_MatchesBulkLoad verifies that BulkLoadSorted on ascending

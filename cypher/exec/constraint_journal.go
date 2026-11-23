@@ -46,8 +46,8 @@ package exec
 import (
 	"errors"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/index"
-	"github.com/FlavioCFOliveira/GoGraph/graph/lpg"
+	"github.com/qiankunli/GoGraph/graph/index"
+	"github.com/qiankunli/GoGraph/graph/lpg"
 )
 
 // constraintJournal is implemented by a mutator that can record an inverse for a

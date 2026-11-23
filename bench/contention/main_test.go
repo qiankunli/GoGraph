@@ -8,8 +8,8 @@ import (
 
 	"go.uber.org/goleak"
 
-	"github.com/FlavioCFOliveira/GoGraph/bench/contention"
-	"github.com/FlavioCFOliveira/GoGraph/internal/subproc"
+	"github.com/qiankunli/GoGraph/bench/contention"
+	"github.com/qiankunli/GoGraph/internal/subproc"
 )
 
 // childMode is the subproc mode that performs ONE window of one measurement.

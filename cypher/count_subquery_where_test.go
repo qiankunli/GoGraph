@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/parser"
+	"github.com/qiankunli/GoGraph/cypher/parser"
 )
 
 // This file is the regression gate for rmp #2242: the pattern form of a COUNT

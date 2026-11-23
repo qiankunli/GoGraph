@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
-	"github.com/FlavioCFOliveira/GoGraph/graph/io/graphml"
-	"github.com/FlavioCFOliveira/GoGraph/internal/shapegen"
+	"github.com/qiankunli/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/graph/io/graphml"
+	"github.com/qiankunli/GoGraph/internal/shapegen"
 )
 
 // toStringAdj converts an *adjlist.AdjList[int, int64] to

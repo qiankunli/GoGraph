@@ -47,10 +47,10 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/index"
-	"github.com/FlavioCFOliveira/GoGraph/graph/lpg"
-	"github.com/FlavioCFOliveira/GoGraph/store/recovery"
-	"github.com/FlavioCFOliveira/GoGraph/store/wal"
+	"github.com/qiankunli/GoGraph/graph/index"
+	"github.com/qiankunli/GoGraph/graph/lpg"
+	"github.com/qiankunli/GoGraph/store/recovery"
+	"github.com/qiankunli/GoGraph/store/wal"
 )
 
 // benchHydrationNodes is the fixture size. It is above

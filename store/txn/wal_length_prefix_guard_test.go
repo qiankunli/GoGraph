@@ -21,7 +21,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/lpg"
+	"github.com/qiankunli/GoGraph/graph/lpg"
 )
 
 // encoderGuardCase is one op kind whose body encoder length-prefixes a string

@@ -27,7 +27,7 @@ import (
 
 	"go.uber.org/goleak"
 
-	"github.com/FlavioCFOliveira/GoGraph/internal/clock"
+	"github.com/qiankunli/GoGraph/internal/clock"
 )
 
 // productionProfileNoContendedSeed is the seed the 2026-08-18 swarm exercise

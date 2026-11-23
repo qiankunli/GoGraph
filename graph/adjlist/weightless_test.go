@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph"
 )
 
 // TestAdjList_Weightless_Accessor pins the Weightless accessor against both

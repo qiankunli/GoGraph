@@ -41,7 +41,7 @@ package sim
 import (
 	"fmt"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/exec"
+	"github.com/qiankunli/GoGraph/cypher/exec"
 )
 
 // FOREACH templates (rmp #2454). Like every workload template they are shared

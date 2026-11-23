@@ -26,8 +26,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/bench/expandinto"
-	"github.com/FlavioCFOliveira/GoGraph/cypher"
+	"github.com/qiankunli/GoGraph/bench/expandinto"
+	"github.com/qiankunli/GoGraph/cypher"
 )
 
 // bestOf runs q reps times after a warm-up and returns the FASTEST wall time.

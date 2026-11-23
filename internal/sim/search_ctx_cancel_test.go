@@ -20,7 +20,7 @@ import (
 
 	"go.uber.org/goleak"
 
-	"github.com/FlavioCFOliveira/GoGraph/search"
+	"github.com/qiankunli/GoGraph/search"
 )
 
 // ctxCancelPkgDirs maps each family to the source directory the tripwires parse,

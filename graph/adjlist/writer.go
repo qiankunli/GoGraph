@@ -38,8 +38,8 @@ package adjlist
 // the same code with a different value in one parameter.
 
 import (
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	"github.com/FlavioCFOliveira/GoGraph/graph/mvcc"
+	"github.com/qiankunli/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph/mvcc"
 )
 
 // Writer is an [AdjList] bound to ONE write transaction: every mutation made

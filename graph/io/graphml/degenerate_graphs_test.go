@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
-	"github.com/FlavioCFOliveira/GoGraph/graph/io/graphml"
-	"github.com/FlavioCFOliveira/GoGraph/internal/shapegen"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/graph/io/graphml"
+	"github.com/qiankunli/GoGraph/internal/shapegen"
 )
 
 // TestGraphMLRoundtrip_DegenerateGraphs verifies that the GraphML

@@ -15,12 +15,12 @@ import (
 	"context"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
-	"github.com/FlavioCFOliveira/GoGraph/graph/csr"
-	"github.com/FlavioCFOliveira/GoGraph/graph/lpg"
-	"github.com/FlavioCFOliveira/GoGraph/internal/invariants"
-	"github.com/FlavioCFOliveira/GoGraph/internal/shapegen"
-	"github.com/FlavioCFOliveira/GoGraph/search"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/graph/csr"
+	"github.com/qiankunli/GoGraph/graph/lpg"
+	"github.com/qiankunli/GoGraph/internal/invariants"
+	"github.com/qiankunli/GoGraph/internal/shapegen"
+	"github.com/qiankunli/GoGraph/search"
 )
 
 // mustBuild builds a shape with the default (empty) config or fails the test.

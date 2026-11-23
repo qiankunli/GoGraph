@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/bolt/proto"
+	"github.com/qiankunli/GoGraph/bolt/proto"
 )
 
 // TestQuotaRefusedBegin_LeavesTheSessionReady guards rmp #2561.

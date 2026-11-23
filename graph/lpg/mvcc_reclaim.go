@@ -25,7 +25,7 @@ package lpg
 // O(nodes carrying history), not O(nodes): the sparse side maps ARE the index
 // of what has versions, so a shard with no history costs one nil check.
 
-import "github.com/FlavioCFOliveira/GoGraph/graph/mvcc"
+import "github.com/qiankunli/GoGraph/graph/mvcc"
 
 // ReclaimVersions frees every VERSION CHAIN record that no reader can reach any
 // more — node labels, node properties and the per-edge side stores — and

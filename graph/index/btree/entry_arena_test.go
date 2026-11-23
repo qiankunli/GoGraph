@@ -18,7 +18,7 @@ import (
 	"testing"
 	"unsafe"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph"
 )
 
 // TestEntrySlabFitsBelowMallocHeaderCutover states the size bound in a form a

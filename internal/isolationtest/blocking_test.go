@@ -31,7 +31,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/internal/isolationtest"
+	"github.com/qiankunli/GoGraph/internal/isolationtest"
 )
 
 // gateSpec builds a two-session spec in which s1's step blocks on a channel that

@@ -3,7 +3,7 @@ package ir
 import (
 	"strconv"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/ast"
+	"github.com/qiankunli/GoGraph/cypher/ast"
 )
 
 // anonSubqueryVarPrefix names an anonymous pattern entity that lives inside an

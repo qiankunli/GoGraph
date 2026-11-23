@@ -26,7 +26,7 @@ import (
 	"slices"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/exec"
+	"github.com/qiankunli/GoGraph/cypher/exec"
 )
 
 const setup2960 = `CREATE (a:A {id: 1})-[:T {p: 7}]->(b:B {id: 2}),

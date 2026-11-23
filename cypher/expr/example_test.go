@@ -7,8 +7,8 @@ package expr_test
 import (
 	"fmt"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/ast"
-	"github.com/FlavioCFOliveira/GoGraph/cypher/expr"
+	"github.com/qiankunli/GoGraph/cypher/ast"
+	"github.com/qiankunli/GoGraph/cypher/expr"
 )
 
 // noRegistry is a FunctionRegistry that resolves nothing; the examples below

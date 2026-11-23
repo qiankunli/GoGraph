@@ -18,8 +18,8 @@ package recovery
 import (
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/lpg"
-	"github.com/FlavioCFOliveira/GoGraph/store/txn"
+	"github.com/qiankunli/GoGraph/graph/lpg"
+	"github.com/qiankunli/GoGraph/store/txn"
 )
 
 // recoverEdgeHandleDelete opens the crashed WAL and returns, for the (src, dst)

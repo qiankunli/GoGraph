@@ -3,7 +3,7 @@ package lpg
 import (
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph"
 )
 
 // TestAdjStamps_EmptiedMapKeptOnlyWhileSmall pins the map lifecycle of rmp

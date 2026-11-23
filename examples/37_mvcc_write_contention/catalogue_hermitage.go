@@ -36,7 +36,7 @@ package main
 // enough to run every interleaving.
 
 import (
-	"github.com/FlavioCFOliveira/GoGraph/internal/isolationtest"
+	"github.com/qiankunli/GoGraph/internal/isolationtest"
 )
 
 // hermitageFixture is Hermitage's two rows as two nodes.

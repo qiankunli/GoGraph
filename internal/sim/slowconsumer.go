@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/bolt/proto"
-	"github.com/FlavioCFOliveira/GoGraph/internal/clock"
+	"github.com/qiankunli/GoGraph/bolt/proto"
+	"github.com/qiankunli/GoGraph/internal/clock"
 )
 
 // SlowConsumerResult summarises one slow-consumer run. It records whether the

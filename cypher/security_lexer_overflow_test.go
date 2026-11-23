@@ -24,7 +24,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/parser"
+	"github.com/qiankunli/GoGraph/cypher/parser"
 )
 
 // secCypherOverflowLiterals lists the over-range numeric literals and a label

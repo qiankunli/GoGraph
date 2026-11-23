@@ -5,7 +5,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/lpg"
+	"github.com/qiankunli/GoGraph/graph/lpg"
 )
 
 // TestSec_DecodeTxnListProp_HostileCountBounded is a regression lock-in for

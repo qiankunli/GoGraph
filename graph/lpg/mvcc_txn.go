@@ -66,8 +66,8 @@ package lpg
 // Pinned by TestLabelTx_ComposesWithPhysicalUndo.
 
 import (
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	"github.com/FlavioCFOliveira/GoGraph/graph/mvcc"
+	"github.com/qiankunli/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph/mvcc"
 )
 
 // commitInfo is [mvcc.CommitInfo], aliased so this package's call sites read

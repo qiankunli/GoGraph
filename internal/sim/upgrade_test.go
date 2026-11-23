@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/store/wal"
+	"github.com/qiankunli/GoGraph/store/wal"
 )
 
 // TestRunUpgrade_RoundTripParity is the PRIMARY upgrade deliverable: write a

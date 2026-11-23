@@ -4,8 +4,8 @@ package cypher
 // validation reads (rmp #2936; see exec.ConstraintRegistry.ValidateStraddler).
 
 import (
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	"github.com/FlavioCFOliveira/GoGraph/graph/lpg"
+	"github.com/qiankunli/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph/lpg"
 )
 
 // straddleReader implements [exec.StraddleReader] for an explicit transaction:

@@ -28,9 +28,9 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
-	"github.com/FlavioCFOliveira/GoGraph/graph/lpg"
-	"github.com/FlavioCFOliveira/GoGraph/internal/testbin"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/graph/lpg"
+	"github.com/qiankunli/GoGraph/internal/testbin"
 )
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -83,11 +83,11 @@ func TestPopulateRowCtx_PerRowPathPerformsNoNameLookup(t *testing.T) {
 	}
 	// testbin keeps the build's work files on disk, outside TMPDIR and GOTMPDIR
 	// (rmp #3028).
-	_, listing, err := testbin.Go(context.Background(), ".", "build", "-gcflags=-S", "github.com/FlavioCFOliveira/GoGraph/cypher")
+	_, listing, err := testbin.Go(context.Background(), ".", "build", "-gcflags=-S", "github.com/qiankunli/GoGraph/cypher")
 	if err != nil {
 		t.Skipf("go build -gcflags=-S failed (%v): %s", err, truncate(string(listing), 400))
 	}
-	body, ok := funcAssembly(string(listing), "github.com/FlavioCFOliveira/GoGraph/cypher.populateRowCtx")
+	body, ok := funcAssembly(string(listing), "github.com/qiankunli/GoGraph/cypher.populateRowCtx")
 	if !ok {
 		t.Fatalf("no STEXT block for populateRowCtx in the assembly listing (%d bytes): the "+
 			"extraction matched nothing, so this test proves nothing", len(listing))

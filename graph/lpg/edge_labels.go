@@ -1,6 +1,6 @@
 package lpg
 
-import "github.com/FlavioCFOliveira/GoGraph/graph"
+import "github.com/qiankunli/GoGraph/graph"
 
 // EdgeLabels returns the names of every label attached to the
 // directed edge (src, dst) in unspecified order. The returned slice

@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher"
+	"github.com/qiankunli/GoGraph/cypher"
 )
 
 // query_bench_test.go — the traversal-heavy query, end to end, per degree.

@@ -10,9 +10,9 @@ import (
 
 	"go.uber.org/goleak"
 
-	"github.com/FlavioCFOliveira/GoGraph/internal/waltest"
-	"github.com/FlavioCFOliveira/GoGraph/store/csrfile"
-	"github.com/FlavioCFOliveira/GoGraph/store/wal"
+	"github.com/qiankunli/GoGraph/internal/waltest"
+	"github.com/qiankunli/GoGraph/store/csrfile"
+	"github.com/qiankunli/GoGraph/store/wal"
 )
 
 // storageFaultTestSeeds are a small fixed spread of seeds so the mechanical

@@ -12,7 +12,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/internal/synclatency"
+	"github.com/qiankunli/GoGraph/internal/synclatency"
 )
 
 // durabilityKeys lists every check a complete in-process run must have printed.

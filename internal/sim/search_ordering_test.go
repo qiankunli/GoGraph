@@ -3,7 +3,7 @@ package sim
 import (
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph"
 )
 
 // dagFixture is an acyclic graph: A->B, B->C, A->C, A->D.

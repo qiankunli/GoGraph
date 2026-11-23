@@ -31,7 +31,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/index"
+	"github.com/qiankunli/GoGraph/graph/index"
 )
 
 // TestDDL_CreateIndex_CommittedNeverReportsCanceled runs enough trials, with

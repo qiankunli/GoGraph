@@ -11,8 +11,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/bench/contention"
-	"github.com/FlavioCFOliveira/GoGraph/internal/subproc"
+	"github.com/qiankunli/GoGraph/bench/contention"
+	"github.com/qiankunli/GoGraph/internal/subproc"
 )
 
 // The transport A/B campaign (rmp #2711).

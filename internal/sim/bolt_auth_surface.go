@@ -6,7 +6,7 @@ package sim
 // # The gap this closes
 //
 // Every SimServer in the harness was built with
-// [github.com/FlavioCFOliveira/GoGraph/bolt/server.NoAuthHandler], a handler that
+// [github.com/qiankunli/GoGraph/bolt/server.NoAuthHandler], a handler that
 // admits every client by construction. So the credential surface was driven by no
 // DST scenario at all: a wrong password was never presented, LOGOFF was never
 // sent, re-authentication never happened, and the no-statement-without-LOGON
@@ -17,7 +17,7 @@ package sim
 //
 // This scenario therefore builds its server with a REAL validator
 // ([NewSimServerAuth] + BasicAuthHandler over
-// [github.com/FlavioCFOliveira/GoGraph/bolt/server.ConstantTimeValidate]) and
+// [github.com/qiankunli/GoGraph/bolt/server.ConstantTimeValidate]) and
 // drives the whole surface over the genuine wire in lock-step.
 //
 // # The oracle: the WAL is the witness, not the reply
@@ -25,9 +25,9 @@ package sim
 // A refusal that is only observed as a FAILURE message proves the server SAID no.
 // It does not prove nothing happened. The load-bearing oracle here is therefore
 // the durable log: the server is backed by a real [SimStore] — a WAL-backed
-// [github.com/FlavioCFOliveira/GoGraph/store/txn.Store] over a [SimDisk] — and
+// [github.com/qiankunli/GoGraph/store/txn.Store] over a [SimDisk] — and
 // every arm is bracketed between two readings of
-// [github.com/FlavioCFOliveira/GoGraph/store/wal.Writer.Stats]. A refused arm must
+// [github.com/qiankunli/GoGraph/store/wal.Writer.Stats]. A refused arm must
 // leave the frame and byte counters EXACTLY where it found them, and the sentinel
 // node its statement would have created must be absent from the graph.
 //
@@ -69,10 +69,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/FlavioCFOliveira/GoGraph/bolt/packstream"
-	"github.com/FlavioCFOliveira/GoGraph/bolt/proto"
-	"github.com/FlavioCFOliveira/GoGraph/bolt/server"
-	"github.com/FlavioCFOliveira/GoGraph/internal/clock"
+	"github.com/qiankunli/GoGraph/bolt/packstream"
+	"github.com/qiankunli/GoGraph/bolt/proto"
+	"github.com/qiankunli/GoGraph/bolt/server"
+	"github.com/qiankunli/GoGraph/internal/clock"
 )
 
 // Bolt failure codes the auth surface must produce. They are spelled out here so

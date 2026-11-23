@@ -15,7 +15,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/exec"
+	"github.com/qiankunli/GoGraph/cypher/exec"
 )
 
 // TestUniqueConstraint_MergeOnMatchSetReleasesOldValue verifies that after

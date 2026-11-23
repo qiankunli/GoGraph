@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/internal/testlayers"
+	"github.com/qiankunli/GoGraph/internal/testlayers"
 )
 
 // TestLabelIndexSoak_NeverMissesALabelTheBagHas is the variant with enough budget

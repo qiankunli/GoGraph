@@ -22,8 +22,8 @@ package server
 import (
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/bolt/packstream"
-	"github.com/FlavioCFOliveira/GoGraph/cypher/exec"
+	"github.com/qiankunli/GoGraph/bolt/packstream"
+	"github.com/qiankunli/GoGraph/cypher/exec"
 )
 
 // planArgsOf returns the `args` map of one rendered plan node, and whether it has

@@ -6,8 +6,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	"github.com/FlavioCFOliveira/GoGraph/internal/testlayers"
+	"github.com/qiankunli/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/internal/testlayers"
 )
 
 func TestIndex_InsertAndRange(t *testing.T) {

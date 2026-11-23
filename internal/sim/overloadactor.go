@@ -3,7 +3,7 @@ package sim
 import (
 	"fmt"
 
-	"github.com/FlavioCFOliveira/GoGraph/bolt/proto"
+	"github.com/qiankunli/GoGraph/bolt/proto"
 )
 
 // OverloadFamily identifies one class of legitimately-heavy operation the

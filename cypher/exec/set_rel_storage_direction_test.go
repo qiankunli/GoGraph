@@ -22,8 +22,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/exec"
-	"github.com/FlavioCFOliveira/GoGraph/graph/lpg"
+	"github.com/qiankunli/GoGraph/cypher/exec"
+	"github.com/qiankunli/GoGraph/graph/lpg"
 )
 
 // TestSetRel_ReversedRowWritesStorageDirection is the #2817 operator-level gate.

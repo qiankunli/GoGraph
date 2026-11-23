@@ -7,8 +7,8 @@ import (
 	"hash/crc32"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	"github.com/FlavioCFOliveira/GoGraph/graph/index"
+	"github.com/qiankunli/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph/index"
 )
 
 // TestCardinality_NotFound covers the early-return 0 branch when the

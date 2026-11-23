@@ -14,7 +14,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/internal/testbin"
+	"github.com/qiankunli/GoGraph/internal/testbin"
 )
 
 // These tests build the server binary and drive it as a real OS process,

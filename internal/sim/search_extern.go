@@ -6,12 +6,12 @@ import (
 	"path/filepath"
 	"slices"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	"github.com/FlavioCFOliveira/GoGraph/graph/csr"
-	"github.com/FlavioCFOliveira/GoGraph/search"
-	"github.com/FlavioCFOliveira/GoGraph/search/centrality"
-	"github.com/FlavioCFOliveira/GoGraph/search/extern"
-	"github.com/FlavioCFOliveira/GoGraph/store/csrfile"
+	"github.com/qiankunli/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph/csr"
+	"github.com/qiankunli/GoGraph/search"
+	"github.com/qiankunli/GoGraph/search/centrality"
+	"github.com/qiankunli/GoGraph/search/extern"
+	"github.com/qiankunli/GoGraph/store/csrfile"
 )
 
 // externSalt keeps the external-memory check's draw stream disjoint from the

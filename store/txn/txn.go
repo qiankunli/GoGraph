@@ -72,9 +72,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/lpg"
-	"github.com/FlavioCFOliveira/GoGraph/internal/metrics"
-	"github.com/FlavioCFOliveira/GoGraph/store/wal"
+	"github.com/qiankunli/GoGraph/graph/lpg"
+	"github.com/qiankunli/GoGraph/internal/metrics"
+	"github.com/qiankunli/GoGraph/store/wal"
 )
 
 // ErrTxFinished is returned by operations on a transaction that has
@@ -2949,7 +2949,7 @@ func checkWALValueLen(what string, n int) error {
 // measured in the SNAPSHOT's encoding of that value.
 //
 // It is the same number as store/snapshot's maxValueLen (properties.go), which
-// is the cap [github.com/FlavioCFOliveira/GoGraph/store/snapshot.ReadProperties]
+// is the cap [github.com/qiankunli/GoGraph/store/snapshot.ReadProperties]
 // enforces and is therefore the largest value the checkpoint format can carry.
 // The two are separate declarations of one number, because store/txn does not
 // import store/snapshot; TestSnapshotValueCapAgreement_2750 pins each side to

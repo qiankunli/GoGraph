@@ -6,7 +6,7 @@ import (
 	"errors"
 	"testing"
 
-	graphml "github.com/FlavioCFOliveira/GoGraph/graph/io/graphml"
+	graphml "github.com/qiankunli/GoGraph/graph/io/graphml"
 )
 
 // FuzzSec_IO_GraphMLReadWithProps fuzzes the typed-property GraphML read

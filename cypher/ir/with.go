@@ -3,8 +3,8 @@ package ir
 import (
 	"math"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/ast"
-	"github.com/FlavioCFOliveira/GoGraph/internal/sortseam"
+	"github.com/qiankunli/GoGraph/cypher/ast"
+	"github.com/qiankunli/GoGraph/internal/sortseam"
 )
 
 // with.go — WITH pipeline-boundary translation.

@@ -49,7 +49,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/FlavioCFOliveira/GoGraph/internal/metrics"
+	"github.com/qiankunli/GoGraph/internal/metrics"
 )
 
 // MetricsObservation is the immutable set of metric names a recording sink saw

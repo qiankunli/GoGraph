@@ -276,14 +276,14 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	"github.com/FlavioCFOliveira/GoGraph/graph/csr"
-	"github.com/FlavioCFOliveira/GoGraph/search"
-	"github.com/FlavioCFOliveira/GoGraph/search/centrality"
-	"github.com/FlavioCFOliveira/GoGraph/search/community"
-	"github.com/FlavioCFOliveira/GoGraph/search/extern"
-	"github.com/FlavioCFOliveira/GoGraph/search/flow"
-	"github.com/FlavioCFOliveira/GoGraph/store/csrfile"
+	"github.com/qiankunli/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph/csr"
+	"github.com/qiankunli/GoGraph/search"
+	"github.com/qiankunli/GoGraph/search/centrality"
+	"github.com/qiankunli/GoGraph/search/community"
+	"github.com/qiankunli/GoGraph/search/extern"
+	"github.com/qiankunli/GoGraph/search/flow"
+	"github.com/qiankunli/GoGraph/store/csrfile"
 )
 
 // ctxCancelSalt is XORed with the tick to derive this family's seed, keeping its

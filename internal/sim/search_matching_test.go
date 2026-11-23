@@ -3,8 +3,8 @@ package sim
 import (
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	"github.com/FlavioCFOliveira/GoGraph/search"
+	"github.com/qiankunli/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/search"
 )
 
 // TestMatchingChecks_CleanOnFixtures asserts the whole MATCHING battery

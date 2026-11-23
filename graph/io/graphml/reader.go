@@ -14,8 +14,8 @@ import (
 	"io"
 	"strconv"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
-	"github.com/FlavioCFOliveira/GoGraph/internal/metrics"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/internal/metrics"
 )
 
 // DefaultMaxBytes is the default ceiling, in bytes, on the amount of

@@ -49,7 +49,7 @@ import (
 	"reflect"
 	"sync"
 
-	"github.com/FlavioCFOliveira/GoGraph/bolt/proto"
+	"github.com/qiankunli/GoGraph/bolt/proto"
 )
 
 // wireParamLabelPrefix prefixes the node label the parameter-matrix probe

@@ -9,8 +9,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/index"
-	"github.com/FlavioCFOliveira/GoGraph/internal/testlayers"
+	"github.com/qiankunli/GoGraph/graph/index"
+	"github.com/qiankunli/GoGraph/internal/testlayers"
 )
 
 // SECURITY-GAP #1480 — btree Index.Deserialize eagerly reserves

@@ -20,8 +20,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/internal/crashinject"
-	"github.com/FlavioCFOliveira/GoGraph/internal/testbin"
+	"github.com/qiankunli/GoGraph/internal/crashinject"
+	"github.com/qiankunli/GoGraph/internal/testbin"
 )
 
 // TestHelperBinaryDir_RecordsTheDirectoryTheBuildCreated forces a helper build

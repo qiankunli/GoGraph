@@ -5,7 +5,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph"
 )
 
 // benchInlineTierMax mirrors index.NodeSet's inline/bitmap tier bound.

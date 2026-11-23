@@ -3,7 +3,7 @@ package ir
 import (
 	"fmt"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/ast"
+	"github.com/qiankunli/GoGraph/cypher/ast"
 )
 
 // writes.go — CREATE / MERGE / SET / REMOVE / DELETE translation.

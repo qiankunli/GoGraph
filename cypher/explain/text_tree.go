@@ -6,7 +6,7 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/ir"
+	"github.com/qiankunli/GoGraph/cypher/ir"
 )
 
 // estimator is an optional interface that logical plan nodes may implement to
@@ -15,7 +15,7 @@ import (
 // the value is rendered as written, INCLUDING zero — an operator estimated to
 // produce no rows is a real and useful estimate, not a missing one.
 //
-// No node in [github.com/FlavioCFOliveira/GoGraph/cypher/ir] implements it: the
+// No node in [github.com/qiankunli/GoGraph/cypher/ir] implements it: the
 // engine's cardinality estimates are derived from the live count store and
 // statistics collector rather than stored on the plan, and reach the table
 // through the EstRows cell of a [PlanRow] filled by the cypher package's

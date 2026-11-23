@@ -5,8 +5,8 @@ import (
 	"math"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
-	csv "github.com/FlavioCFOliveira/GoGraph/graph/io/csv"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
+	csv "github.com/qiankunli/GoGraph/graph/io/csv"
 )
 
 // TestCSVWrite_SpecialStringRoundtrip verifies that node IDs that

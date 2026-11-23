@@ -13,7 +13,7 @@ package cypher
 import (
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/ast"
+	"github.com/qiankunli/GoGraph/cypher/ast"
 )
 
 // v builds a bound-variable reference.

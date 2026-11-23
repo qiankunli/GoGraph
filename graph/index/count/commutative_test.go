@@ -49,7 +49,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/index/count"
+	"github.com/qiankunli/GoGraph/graph/index/count"
 )
 
 // TestCountStore_ConcurrentDeltasCommute drives many goroutines applying deltas

@@ -38,7 +38,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher"
+	"github.com/qiankunli/GoGraph/cypher"
 )
 
 // shrFixture is one graph over :N nodes carrying k and an integer v, whose :R

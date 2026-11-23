@@ -17,8 +17,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/bolt/packstream"
-	proto "github.com/FlavioCFOliveira/GoGraph/bolt/proto"
+	"github.com/qiankunli/GoGraph/bolt/packstream"
+	proto "github.com/qiankunli/GoGraph/bolt/proto"
 )
 
 // encodeRun returns the PackStream bytes of a representative RUN request.

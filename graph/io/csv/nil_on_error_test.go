@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	csv "github.com/FlavioCFOliveira/GoGraph/graph/io/csv"
+	csv "github.com/qiankunli/GoGraph/graph/io/csv"
 )
 
 // TestReadInto_NilGraphOnParseError pins the uniform all-or-nothing

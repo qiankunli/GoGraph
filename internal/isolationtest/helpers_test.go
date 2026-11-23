@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/internal/isolationtest"
+	"github.com/qiankunli/GoGraph/internal/isolationtest"
 )
 
 // discardWriter counts bytes without keeping them, so a test can assert that

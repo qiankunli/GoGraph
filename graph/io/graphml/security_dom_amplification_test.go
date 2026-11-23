@@ -22,7 +22,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/io/graphml"
+	"github.com/qiankunli/GoGraph/graph/io/graphml"
 )
 
 // TestSec_IO_GraphMLKeyFloodRejected builds a document declaring more than the

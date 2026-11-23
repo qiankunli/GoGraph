@@ -11,9 +11,9 @@ import (
 
 	"go.uber.org/goleak"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
-	"github.com/FlavioCFOliveira/GoGraph/graph/io/jsonl"
-	"github.com/FlavioCFOliveira/GoGraph/internal/testlayers"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/graph/io/jsonl"
+	"github.com/qiankunli/GoGraph/internal/testlayers"
 )
 
 // TestSec_IO_JSONLSustainedHostileStreamBounded is the soak-layer endurance

@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/FlavioCFOliveira/GoGraph/bolt/packstream"
-	"github.com/FlavioCFOliveira/GoGraph/bolt/proto"
-	"github.com/FlavioCFOliveira/GoGraph/cypher/exec"
+	"github.com/qiankunli/GoGraph/bolt/packstream"
+	"github.com/qiankunli/GoGraph/bolt/proto"
+	"github.com/qiankunli/GoGraph/cypher/exec"
 )
 
 // SchemaChangeFamily identifies one DDL operation the [SchemaChanger] issues.

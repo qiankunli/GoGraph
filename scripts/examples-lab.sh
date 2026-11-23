@@ -69,7 +69,7 @@
 set -u -o pipefail
 
 REPO="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-MODULE="github.com/FlavioCFOliveira/GoGraph"
+MODULE="github.com/qiankunli/GoGraph"
 
 if [ "$#" -lt 2 ]; then
   sed -n '2,40p' "${BASH_SOURCE[0]}" >&2

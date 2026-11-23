@@ -14,7 +14,7 @@ package server
 import (
 	"pgregory.net/rapid"
 
-	"github.com/FlavioCFOliveira/GoGraph/bolt/packstream"
+	"github.com/qiankunli/GoGraph/bolt/packstream"
 )
 
 // decodedNode is a Bolt 'N' structure unwrapped for assertions.

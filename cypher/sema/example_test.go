@@ -7,8 +7,8 @@ package sema_test
 import (
 	"fmt"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/parser"
-	"github.com/FlavioCFOliveira/GoGraph/cypher/sema"
+	"github.com/qiankunli/GoGraph/cypher/parser"
+	"github.com/qiankunli/GoGraph/cypher/sema"
 )
 
 // ExampleAnalyse shows a scope-clean query: Analyse returns an empty slice.

@@ -34,7 +34,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/bolt/server"
+	"github.com/qiankunli/GoGraph/bolt/server"
 )
 
 // wantTxQuotaCode mirrors server.txQuotaRefusalCode, which is unexported and so

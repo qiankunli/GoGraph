@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/ast"
+	"github.com/qiankunli/GoGraph/cypher/ast"
 )
 
 // TestAnonSubqueryPrefixIsRefinement pins the relationship between the two

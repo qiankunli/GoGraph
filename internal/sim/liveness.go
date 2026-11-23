@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/internal/clock"
+	"github.com/qiankunli/GoGraph/internal/clock"
 )
 
 // LivenessConfig parameterises the liveness phase. It runs AFTER the safety

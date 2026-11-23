@@ -42,10 +42,10 @@ package lpg
 import (
 	"sync/atomic"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
-	"github.com/FlavioCFOliveira/GoGraph/graph/index"
-	"github.com/FlavioCFOliveira/GoGraph/graph/index/label"
+	"github.com/qiankunli/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/graph/index"
+	"github.com/qiankunli/GoGraph/graph/index/label"
 )
 
 // ReadView is a [Graph] bound to a [Snapshot]: the same read surface, with
@@ -530,7 +530,7 @@ func (v *ReadView[N, W]) NodeIndex() *label.Index { return v.g.NodeIndex() }
 // evidence for it. The claim is false in BOTH directions, and the citation does
 // not support it (rmp #2814).
 //
-// What the code actually does. A [github.com/FlavioCFOliveira/GoGraph/graph/index/hash.Index]
+// What the code actually does. A [github.com/qiankunli/GoGraph/graph/index/hash.Index]
 // takes no snapshot parameter and holds no per-version state; there is no
 // property-side analogue of mvcc_index.go's label overlay. The only residual a
 // property seek carries is the LABEL check that cypher's rewrite attaches

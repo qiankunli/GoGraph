@@ -18,7 +18,7 @@ import (
 	"slices"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
 )
 
 func seedInEdge(t *testing.T) *Graph[string, int64] {

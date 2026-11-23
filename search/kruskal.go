@@ -4,10 +4,10 @@ import (
 	"context"
 	"sort"
 
-	"github.com/FlavioCFOliveira/GoGraph/ds"
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	"github.com/FlavioCFOliveira/GoGraph/graph/csr"
-	"github.com/FlavioCFOliveira/GoGraph/internal/metrics"
+	"github.com/qiankunli/GoGraph/ds"
+	"github.com/qiankunli/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph/csr"
+	"github.com/qiankunli/GoGraph/internal/metrics"
 )
 
 // MSTEdge identifies one edge in a minimum-spanning-tree result.

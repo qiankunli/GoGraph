@@ -49,8 +49,8 @@ import (
 	"fmt"
 	"slices"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
-	"github.com/FlavioCFOliveira/GoGraph/graph/lpg"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/graph/lpg"
 )
 
 // ErrFinished is returned by every ingest method once [Builder.Finish] has run.

@@ -15,7 +15,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/index"
+	"github.com/qiankunli/GoGraph/graph/index"
 )
 
 // craftHashForgedIDCount builds a CRC-valid one-entry hash payload (int64 key,

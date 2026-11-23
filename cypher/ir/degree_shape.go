@@ -40,7 +40,7 @@ package ir
 import (
 	"strings"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/ast"
+	"github.com/qiankunli/GoGraph/cypher/ast"
 )
 
 // DegreeShape carries the structural facts a degree count needs, extracted once

@@ -10,7 +10,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/lpg"
+	"github.com/qiankunli/GoGraph/graph/lpg"
 )
 
 func TestPropertyValueToString_NumericValueEquivalence(t *testing.T) {

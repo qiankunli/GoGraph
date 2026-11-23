@@ -5,7 +5,7 @@ import (
 	"io"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
 )
 
 // BenchmarkWriteDOT drives the DOT writer over a weighted ring so every edge

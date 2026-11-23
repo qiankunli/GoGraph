@@ -20,7 +20,7 @@ import (
 	"math"
 	"strings"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/ast"
+	"github.com/qiankunli/GoGraph/cypher/ast"
 )
 
 // RowContext maps variable names to their current runtime values.
@@ -158,7 +158,7 @@ func (e *EvalError) Error() string { return "eval: " + e.Msg }
 // memory before any pipeline-breaker cap applies — those caps bound result
 // ROWS, not intermediate lists built inside ONE evalExpr call for ONE row.
 //
-// The value mirrors [github.com/FlavioCFOliveira/GoGraph/cypher/funcs].DefaultMaxCollectItems
+// The value mirrors [github.com/qiankunli/GoGraph/cypher/funcs].DefaultMaxCollectItems
 // (10,000,000) for consistency with the collect()/percentile aggregator budget.
 // It is far above any openCypher TCK scenario (whose lists are at most a few
 // thousand elements) and above any legitimate single-expression list, so no
@@ -192,7 +192,7 @@ const DefaultMaxStringEvalBytes = 1 << 30
 // errListTooLarge builds the typed error returned when an expression would
 // materialise more list elements than its per-evaluation budget allows. The
 // message shape mirrors the range() over-cap error
-// (github.com/FlavioCFOliveira/GoGraph/cypher/funcs.errRangeTooLarge) so callers
+// (github.com/qiankunli/GoGraph/cypher/funcs.errRangeTooLarge) so callers
 // map it to a query error, never a panic or an out-of-memory crash.
 func errListTooLarge(limit int64) error {
 	return &EvalError{Msg: fmt.Sprintf(

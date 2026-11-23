@@ -1,6 +1,6 @@
 package txn
 
-import "github.com/FlavioCFOliveira/GoGraph/graph/lpg"
+import "github.com/qiankunli/GoGraph/graph/lpg"
 
 // This file exposes internals to the external txn_test package. It is a _test.go
 // file, so nothing here widens the public API of the package.

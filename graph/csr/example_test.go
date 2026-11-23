@@ -3,8 +3,8 @@ package csr_test
 import (
 	"fmt"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
-	"github.com/FlavioCFOliveira/GoGraph/graph/csr"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/graph/csr"
 )
 
 // ExampleBuildFromAdjList freezes a mutable adjacency list into an

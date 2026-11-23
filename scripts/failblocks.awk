@@ -12,7 +12,7 @@
 #
 #   --- FAIL: TestST3_CheckpointTeardown_Scenario (12.34s)
 #       durable_scenarios_test.go:193: ST3 seed 0xc0ffee violation:
-#   FAIL	github.com/FlavioCFOliveira/GoGraph/internal/sim	123.4s
+#   FAIL	github.com/qiankunli/GoGraph/internal/sim	123.4s
 #
 # and nothing else. The report body naming the violated ACID invariant, and the
 # `Reproduce with:` line carrying the seed, had both been thrown away here - not

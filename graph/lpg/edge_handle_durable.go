@@ -42,8 +42,8 @@ package lpg
 // walk the whole adjacency without a global barrier).
 
 import (
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	"github.com/FlavioCFOliveira/GoGraph/graph/mvcc"
+	"github.com/qiankunli/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph/mvcc"
 )
 
 // HasEdgeHandle reports whether the directed (src, dst) pair carries a

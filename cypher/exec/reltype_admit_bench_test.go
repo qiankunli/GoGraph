@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/exec"
+	"github.com/qiankunli/GoGraph/cypher/exec"
 )
 
 // relTypeProbeArcs is large enough that the map cannot live in L2, which is the

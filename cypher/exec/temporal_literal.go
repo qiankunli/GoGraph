@@ -23,8 +23,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/expr"
-	"github.com/FlavioCFOliveira/GoGraph/graph/lpg"
+	"github.com/qiankunli/GoGraph/cypher/expr"
+	"github.com/qiankunli/GoGraph/graph/lpg"
 )
 
 // Magic prefix bytes used by [parseTemporalLiteral] and the reverse decoder

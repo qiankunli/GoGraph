@@ -41,7 +41,7 @@ import (
 
 	"github.com/neo4j/neo4j-go-driver/v5/neo4j"
 
-	"github.com/FlavioCFOliveira/GoGraph/bolt/server"
+	"github.com/qiankunli/GoGraph/bolt/server"
 )
 
 // TestE2E_SessionReadsItsOwnWritesOverBolt writes and reads repeatedly on one

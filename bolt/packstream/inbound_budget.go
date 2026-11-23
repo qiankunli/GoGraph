@@ -86,7 +86,7 @@ func (b *InboundBudget) release(n int64) {
 //
 // It is the exported form of the internal enabled check, so a framing-layer
 // charger outside this package (the Bolt message-reassembly reader,
-// [github.com/FlavioCFOliveira/GoGraph/bolt/proto.ChunkedReader]) can skip all
+// [github.com/qiankunli/GoGraph/bolt/proto.ChunkedReader]) can skip all
 // accounting — and its per-charge atomic — when the operator has not opted into
 // an inbound-memory ceiling. The default configuration therefore pays nothing.
 //

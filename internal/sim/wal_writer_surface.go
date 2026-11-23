@@ -65,7 +65,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/FlavioCFOliveira/GoGraph/store/wal"
+	"github.com/qiankunli/GoGraph/store/wal"
 )
 
 // -----------------------------------------------------------------------------

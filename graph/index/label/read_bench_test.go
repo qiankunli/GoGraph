@@ -5,7 +5,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph"
 )
 
 // The benchmarks here exist to hold a stated acceptance criterion of rmp #2685:

@@ -5,7 +5,7 @@ import (
 	"runtime"
 	"testing"
 
-	csv "github.com/FlavioCFOliveira/GoGraph/graph/io/csv"
+	csv "github.com/qiankunli/GoGraph/graph/io/csv"
 )
 
 // endlessQuotedField is an io.Reader that emits a single opening double

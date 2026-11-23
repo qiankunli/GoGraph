@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/FlavioCFOliveira/GoGraph/bolt/proto"
-	"github.com/FlavioCFOliveira/GoGraph/internal/clock"
+	"github.com/qiankunli/GoGraph/bolt/proto"
+	"github.com/qiankunli/GoGraph/internal/clock"
 )
 
 // WireExchange is one decoded request/response pair from a lock-step wire

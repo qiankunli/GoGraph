@@ -19,7 +19,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher"
+	"github.com/qiankunli/GoGraph/cypher"
 )
 
 func TestEngine_GlobalMemoryBudget_AggregateCeilingAndRelease(t *testing.T) {

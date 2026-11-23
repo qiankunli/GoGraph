@@ -52,7 +52,7 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/internal/clock"
+	"github.com/qiankunli/GoGraph/internal/clock"
 )
 
 // nextSeq hands each b.RunParallel goroutine a distinct index. testing.PB

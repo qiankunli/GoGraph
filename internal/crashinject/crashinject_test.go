@@ -6,7 +6,7 @@ import (
 
 	"go.uber.org/goleak"
 
-	"github.com/FlavioCFOliveira/GoGraph/internal/crashinject"
+	"github.com/qiankunli/GoGraph/internal/crashinject"
 )
 
 // TestMain installs the PROCESS-scoped removal of the cached crashinject-helper

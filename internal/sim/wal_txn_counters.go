@@ -1,6 +1,6 @@
 package sim
 
-import "github.com/FlavioCFOliveira/GoGraph/store/wal"
+import "github.com/qiankunli/GoGraph/store/wal"
 
 // simTxnWALCounters returns the transaction frames and bytes w has appended:
 // every frame minus the WAL control records ([wal.Stats.ControlFrames]).

@@ -37,11 +37,11 @@ import (
 
 	"github.com/RoaringBitmap/roaring/v2/roaring64"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/expr"
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	labelidx "github.com/FlavioCFOliveira/GoGraph/graph/index/label"
-	"github.com/FlavioCFOliveira/GoGraph/graph/index/stats"
-	cmetrics "github.com/FlavioCFOliveira/GoGraph/internal/metrics"
+	"github.com/qiankunli/GoGraph/cypher/expr"
+	"github.com/qiankunli/GoGraph/graph"
+	labelidx "github.com/qiankunli/GoGraph/graph/index/label"
+	"github.com/qiankunli/GoGraph/graph/index/stats"
+	cmetrics "github.com/qiankunli/GoGraph/internal/metrics"
 )
 
 // Statistics parameters (design docs/statistics-design.md §1).

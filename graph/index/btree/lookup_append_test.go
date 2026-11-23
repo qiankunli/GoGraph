@@ -9,7 +9,7 @@ import (
 	"slices"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph"
 )
 
 // TestIndex_LookupAppend asserts LookupAppend returns the same id set as Lookup

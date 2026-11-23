@@ -7,8 +7,8 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/internal/testfs"
-	"github.com/FlavioCFOliveira/GoGraph/store/wal"
+	"github.com/qiankunli/GoGraph/internal/testfs"
+	"github.com/qiankunli/GoGraph/store/wal"
 )
 
 // syncCountFile wraps a testfs.FaultFile and counts Sync calls so

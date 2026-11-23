@@ -22,7 +22,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/internal/isolationtest"
+	"github.com/qiankunli/GoGraph/internal/isolationtest"
 )
 
 // conservationObserver is the bank-transfer invariant, machine-checked: every

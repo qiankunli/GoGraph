@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/internal/crashinject"
+	"github.com/qiankunli/GoGraph/internal/crashinject"
 )
 
 // TestRun_TimeoutDistinguishedFromKill spawns the helper with a very short

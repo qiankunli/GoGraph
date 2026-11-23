@@ -31,8 +31,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	"github.com/FlavioCFOliveira/GoGraph/internal/goldens"
+	"github.com/qiankunli/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/internal/goldens"
 )
 
 // clrsK5Edges is the CLRS Fig. 25.1 edge list with 0-indexed keys.

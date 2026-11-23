@@ -7,7 +7,7 @@
 //
 // # Circular-import avoidance
 //
-// This package must NOT import github.com/FlavioCFOliveira/GoGraph/cypher/exec. exec imports procs.
+// This package must NOT import github.com/qiankunli/GoGraph/cypher/exec. exec imports procs.
 //
 // # Concurrency
 //
@@ -22,7 +22,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/expr"
+	"github.com/qiankunli/GoGraph/cypher/expr"
 )
 
 // ─────────────────────────────────────────────────────────────────────────────

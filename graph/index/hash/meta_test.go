@@ -7,7 +7,7 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph"
 )
 
 // TestEntrySizeClass pins the layout arithmetic the whole of round three rests

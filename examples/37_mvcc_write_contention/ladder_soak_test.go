@@ -18,7 +18,7 @@ package main
 import (
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/internal/synclatency"
+	"github.com/qiankunli/GoGraph/internal/synclatency"
 )
 
 func TestLadderSoak(t *testing.T) {

@@ -18,10 +18,10 @@ import (
 
 	"go.uber.org/goleak"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
-	"github.com/FlavioCFOliveira/GoGraph/graph/csr"
-	"github.com/FlavioCFOliveira/GoGraph/internal/shapegen"
-	"github.com/FlavioCFOliveira/GoGraph/search/community"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/graph/csr"
+	"github.com/qiankunli/GoGraph/internal/shapegen"
+	"github.com/qiankunli/GoGraph/search/community"
 )
 
 // TestCtxCancel_Leiden_MidRun builds an LFR benchmark graph and cancels

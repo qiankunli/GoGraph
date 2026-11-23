@@ -3,7 +3,7 @@ package ds_test
 import (
 	"fmt"
 
-	"github.com/FlavioCFOliveira/GoGraph/ds"
+	"github.com/qiankunli/GoGraph/ds"
 )
 
 // ExampleUnionFind shows the disjoint-set workflow: elements start in

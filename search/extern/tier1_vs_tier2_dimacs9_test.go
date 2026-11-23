@@ -6,11 +6,11 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/bench/dimacs9"
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	"github.com/FlavioCFOliveira/GoGraph/graph/csr"
-	"github.com/FlavioCFOliveira/GoGraph/search"
-	"github.com/FlavioCFOliveira/GoGraph/store/csrfile"
+	"github.com/qiankunli/GoGraph/bench/dimacs9"
+	"github.com/qiankunli/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph/csr"
+	"github.com/qiankunli/GoGraph/search"
+	"github.com/qiankunli/GoGraph/store/csrfile"
 )
 
 // TestTier1VsTier2_Dimacs9 compares in-memory search.BFS (Tier 1)

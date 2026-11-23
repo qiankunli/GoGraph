@@ -33,7 +33,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/FlavioCFOliveira/GoGraph/search/flow"
+	"github.com/qiankunli/GoGraph/search/flow"
 )
 
 // flowSeedConst is XORed with the tick to derive this checker's seed. A distinct

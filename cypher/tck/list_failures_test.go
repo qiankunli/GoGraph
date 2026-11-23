@@ -13,7 +13,7 @@ import (
 
 	"github.com/cucumber/godog"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/tck"
+	"github.com/qiankunli/GoGraph/cypher/tck"
 )
 
 // TestListTCKFailures enumerates failing scenarios with their feature URI and

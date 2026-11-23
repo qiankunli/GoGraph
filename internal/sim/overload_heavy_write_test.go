@@ -24,7 +24,7 @@ import (
 
 	"go.uber.org/goleak"
 
-	"github.com/FlavioCFOliveira/GoGraph/bolt/proto"
+	"github.com/qiankunli/GoGraph/bolt/proto"
 )
 
 // TestAdjudicateHeavyWrite drives the pure classifier over both verdicts. It is

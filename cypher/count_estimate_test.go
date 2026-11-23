@@ -3,7 +3,7 @@ package cypher
 import (
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/index/count"
+	"github.com/qiankunli/GoGraph/graph/index/count"
 )
 
 // resolverFor builds the production count-estimate source over an engine's graph

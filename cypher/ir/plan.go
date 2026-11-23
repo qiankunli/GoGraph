@@ -3,7 +3,7 @@ package ir
 import (
 	"sync/atomic"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/ast"
+	"github.com/qiankunli/GoGraph/cypher/ast"
 )
 
 // argTagSeq generates monotonic [Argument] tags. Tags are stable for the
@@ -454,8 +454,8 @@ func (v *VarLengthExpand) Vars() []string { return []string{v.RelVar, v.ToVar} }
 //
 // Both endpoints are produced by Child (bound from an outer clause or scanned
 // when unbound). The physical builder lowers this to an
-// [github.com/FlavioCFOliveira/GoGraph/cypher/exec.ShortestPath] or
-// [github.com/FlavioCFOliveira/GoGraph/cypher/exec.AllShortestPaths] operator,
+// [github.com/qiankunli/GoGraph/cypher/exec.ShortestPath] or
+// [github.com/qiankunli/GoGraph/cypher/exec.AllShortestPaths] operator,
 // which emits the flat alternating path list the path variable's metadata
 // hydrates into a per-instance-typed PathValue.
 type ShortestPath struct {

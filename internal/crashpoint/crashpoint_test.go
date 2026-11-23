@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/internal/crashpoint"
+	"github.com/qiankunli/GoGraph/internal/crashpoint"
 )
 
 // TestBreakpoint_NoOp verifies that Breakpoint does not kill the process

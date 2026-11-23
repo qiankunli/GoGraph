@@ -4,8 +4,8 @@ import (
 	"math"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	"github.com/FlavioCFOliveira/GoGraph/search/centrality"
+	"github.com/qiankunli/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/search/centrality"
 )
 
 // TestCentralityChecks_CleanOnFixtures asserts the whole CENTRALITY battery

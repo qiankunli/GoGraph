@@ -5,7 +5,7 @@ package cypher
 import (
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph"
 )
 
 // slot_type_alloc_test.go — rmp #2889: resolving one source's run allocates no

@@ -5,7 +5,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/search"
+	"github.com/qiankunli/GoGraph/search"
 )
 
 // TestNegWeight_CleanOnFixtures asserts the negative-weight battery finds no

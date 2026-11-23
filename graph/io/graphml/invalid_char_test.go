@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
-	graphml "github.com/FlavioCFOliveira/GoGraph/graph/io/graphml"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
+	graphml "github.com/qiankunli/GoGraph/graph/io/graphml"
 )
 
 // TestWrite_InvalidNodeID_FailStop asserts that the plain (non-props)

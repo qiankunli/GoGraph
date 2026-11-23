@@ -7,7 +7,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph"
 )
 
 // ErrIDBeyondReservation is returned by [Open] (and is [Result.TailErr]) when a

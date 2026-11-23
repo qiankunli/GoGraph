@@ -30,8 +30,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/bolt/packstream"
-	"github.com/FlavioCFOliveira/GoGraph/bolt/proto"
+	"github.com/qiankunli/GoGraph/bolt/packstream"
+	"github.com/qiankunli/GoGraph/bolt/proto"
 
 	"pgregory.net/rapid"
 )
@@ -48,7 +48,7 @@ var secBoltDisclosureMarkers = []struct {
 	{"windows_path", `\`},
 	{"go_source_location", ".go:"},
 	{"go_pointer_type", "*github.com/"},
-	{"go_package_path", "github.com/FlavioCFOliveira/GoGraph"},
+	{"go_package_path", "github.com/qiankunli/GoGraph"},
 	{"goroutine_dump", "goroutine "},
 	{"stack_marker", "runtime."},
 	{"panic_marker", "panic:"},

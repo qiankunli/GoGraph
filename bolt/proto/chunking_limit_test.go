@@ -7,7 +7,7 @@ import (
 	"io"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/bolt/proto"
+	"github.com/qiankunli/GoGraph/bolt/proto"
 )
 
 // writeChunkedMessage frames msg into the standard Bolt chunked

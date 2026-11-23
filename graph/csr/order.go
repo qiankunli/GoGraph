@@ -1,6 +1,6 @@
 package csr
 
-import "github.com/FlavioCFOliveira/GoGraph/graph"
+import "github.com/qiankunli/GoGraph/graph"
 
 // order.go — within-source neighbour ordering (rmp #2141).
 //

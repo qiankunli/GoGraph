@@ -1,7 +1,7 @@
 package sim
 
 // label_index_scoped.go — rmp #2496: the scoped and range half of
-// [github.com/FlavioCFOliveira/GoGraph/graph/index/label].Index driven directly
+// [github.com/qiankunli/GoGraph/graph/index/label].Index driven directly
 // against a naive model, plus the serialized form round-tripped and damaged on a
 // [SimDisk].
 //
@@ -219,9 +219,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	"github.com/FlavioCFOliveira/GoGraph/graph/index"
-	"github.com/FlavioCFOliveira/GoGraph/graph/index/label"
+	"github.com/qiankunli/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph/index"
+	"github.com/qiankunli/GoGraph/graph/index/label"
 )
 
 // ScenarioLabelIndexScoped is the catalogue key for this scenario.

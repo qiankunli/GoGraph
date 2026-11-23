@@ -46,8 +46,8 @@ old_filter() {
 # ── fixture: the three failure shapes go test actually emits ────────────────
 LOG="${TMPDIR}/testlog"
 cat > "$LOG" <<'EOF'
-ok  	github.com/FlavioCFOliveira/GoGraph/graph/lpg	31.204s
-?   	github.com/FlavioCFOliveira/GoGraph/cmd/x	[no test files]
+ok  	github.com/qiankunli/GoGraph/graph/lpg	31.204s
+?   	github.com/qiankunli/GoGraph/cmd/x	[no test files]
 --- FAIL: TestST3_CheckpointTeardown_Scenario (12.34s)
     durable_scenarios_test.go:193: ST3 seed 0xc0ffee violation:
         SIMULATION FAILED
@@ -56,23 +56,23 @@ ok  	github.com/FlavioCFOliveira/GoGraph/graph/lpg	31.204s
             - [ACID_DURABILITY] tick=0 op="commit": acked commit missing after recovery
         Reproduce with: go run ./cmd/sim 12648430
 FAIL
-FAIL	github.com/FlavioCFOliveira/GoGraph/internal/sim	123.4s
+FAIL	github.com/qiankunli/GoGraph/internal/sim	123.4s
 ==================
 WARNING: DATA RACE
 Write at 0x00c000123456 by goroutine 12:
-  github.com/FlavioCFOliveira/GoGraph/graph/lpg.(*Graph).setNodeLabelInfo()
+  github.com/qiankunli/GoGraph/graph/lpg.(*Graph).setNodeLabelInfo()
       /src/graph/lpg/lpg.go:2698 +0x1a4
 ==================
 --- FAIL: TestRace (0.10s)
     testing.go:1490: race detected during execution of test
-FAIL	github.com/FlavioCFOliveira/GoGraph/graph/lpg	9.9s
+FAIL	github.com/qiankunli/GoGraph/graph/lpg	9.9s
 panic: send on closed channel
 
 goroutine 42 [running]:
 main.worker()
 	/src/x.go:10 +0x20
 exit status 2
-FAIL	github.com/FlavioCFOliveira/GoGraph/store/wal	0.5s
+FAIL	github.com/qiankunli/GoGraph/store/wal	0.5s
 EOF
 
 OLD="${TMPDIR}/old.out"
@@ -106,9 +106,9 @@ check "new filter keeps the race frames" \
 check "new filter keeps the panic goroutine dump" \
   "$(contains "$NEW" 'goroutine 42')"
 check "new filter keeps the package verdicts" \
-  "$(contains "$NEW" 'FAIL	github.com/FlavioCFOliveira/GoGraph/internal/sim')"
+  "$(contains "$NEW" 'FAIL	github.com/qiankunli/GoGraph/internal/sim')"
 check "new filter drops passing packages" \
-  "$(lacks "$NEW" 'ok  	github.com/FlavioCFOliveira/GoGraph/graph/lpg')"
+  "$(lacks "$NEW" 'ok  	github.com/qiankunli/GoGraph/graph/lpg')"
 
 echo "== the cap announces itself instead of truncating silently =="
 CAPPED="${TMPDIR}/capped.out"

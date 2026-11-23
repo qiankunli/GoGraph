@@ -57,8 +57,8 @@ package server
 import (
 	"strconv"
 
-	"github.com/FlavioCFOliveira/GoGraph/bolt/packstream"
-	"github.com/FlavioCFOliveira/GoGraph/cypher/expr"
+	"github.com/qiankunli/GoGraph/bolt/packstream"
+	"github.com/qiankunli/GoGraph/cypher/expr"
 )
 
 // Bolt structure tags for graph entities.

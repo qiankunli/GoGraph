@@ -1,6 +1,6 @@
 package cypher
 
-import "github.com/FlavioCFOliveira/GoGraph/store"
+import "github.com/qiankunli/GoGraph/store"
 
 // NewEngineWithOpened creates a WAL-backed Engine over a store directory opened
 // by [store.Open] / [store.OpenCtx]. It is the recommended constructor for a

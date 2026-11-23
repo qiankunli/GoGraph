@@ -14,7 +14,7 @@ package parser
 import (
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/ast"
+	"github.com/qiankunli/GoGraph/cypher/ast"
 )
 
 // findMapProjection walks a parsed query AST and returns the first

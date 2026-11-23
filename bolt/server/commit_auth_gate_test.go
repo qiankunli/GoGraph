@@ -10,7 +10,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/bolt/proto"
+	"github.com/qiankunli/GoGraph/bolt/proto"
 )
 
 // TestSec_CommitRequiresAuth pins that COMMIT from an unauthenticated TX_READY

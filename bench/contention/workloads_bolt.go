@@ -4,10 +4,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/FlavioCFOliveira/GoGraph/internal/clock"
-	"github.com/FlavioCFOliveira/GoGraph/internal/metrics"
-	"github.com/FlavioCFOliveira/GoGraph/internal/metrics/prometheus"
-	"github.com/FlavioCFOliveira/GoGraph/internal/sim"
+	"github.com/qiankunli/GoGraph/internal/clock"
+	"github.com/qiankunli/GoGraph/internal/metrics"
+	"github.com/qiankunli/GoGraph/internal/metrics/prometheus"
+	"github.com/qiankunli/GoGraph/internal/sim"
 )
 
 // Bolt workloads beyond the two the registry already carried.

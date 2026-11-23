@@ -10,7 +10,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/internal/crashinject"
+	"github.com/qiankunli/GoGraph/internal/crashinject"
 )
 
 // TestHelperBinary_ConcurrentRunsSucceed launches several goroutines that

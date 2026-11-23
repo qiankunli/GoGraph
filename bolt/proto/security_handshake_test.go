@@ -29,7 +29,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/bolt/proto"
+	"github.com/qiankunli/GoGraph/bolt/proto"
 )
 
 // secProtoNegotiateRaw drives the server side of Negotiate against a client that

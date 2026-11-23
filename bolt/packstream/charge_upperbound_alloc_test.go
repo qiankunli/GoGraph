@@ -24,7 +24,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/bolt/packstream"
+	"github.com/qiankunli/GoGraph/bolt/packstream"
 )
 
 // measureRetainedAlloc reports the TotalAlloc delta of building x, keeping the

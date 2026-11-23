@@ -1,6 +1,6 @@
 package snapshot
 
-import "github.com/FlavioCFOliveira/GoGraph/graph"
+import "github.com/qiankunli/GoGraph/graph"
 
 // Loading a legacy undirected snapshot (rmp #3072).
 //

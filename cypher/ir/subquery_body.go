@@ -109,7 +109,7 @@ package ir
 // nothing matches, so its count is 1 where a degree says 0 — Neo4j refuses it
 // too, through `optionalMatches` having to be empty.
 
-import "github.com/FlavioCFOliveira/GoGraph/cypher/ast"
+import "github.com/qiankunli/GoGraph/cypher/ast"
 
 // PatternFormOf returns the (pattern, where) pair that a BLOCK-form
 // EXISTS { … } / COUNT { … } body is exactly sugar for, and reports false for

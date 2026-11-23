@@ -1,8 +1,8 @@
 package cypher
 
 import (
-	"github.com/FlavioCFOliveira/GoGraph/cypher/ast"
-	"github.com/FlavioCFOliveira/GoGraph/cypher/ir"
+	"github.com/qiankunli/GoGraph/cypher/ast"
+	"github.com/qiankunli/GoGraph/cypher/ir"
 )
 
 // Resolving a seek key from the bound expression instead of from source text

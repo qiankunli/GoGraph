@@ -15,7 +15,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/exec"
+	"github.com/qiankunli/GoGraph/cypher/exec"
 )
 
 // r5StaleSpend runs the R5-1 interleaving and returns the straddler's commit

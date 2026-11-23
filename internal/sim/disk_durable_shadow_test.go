@@ -9,7 +9,7 @@ import (
 
 	"go.uber.org/goleak"
 
-	"github.com/FlavioCFOliveira/GoGraph/store/wal"
+	"github.com/qiankunli/GoGraph/store/wal"
 )
 
 // disk_durable_shadow_test.go — harness-fidelity gates for the DATA half of the
@@ -741,7 +741,7 @@ func TestSimDisk_DurableWatermarkNeverExceedsTheLiveLength(t *testing.T) {
 }
 
 // TestWALPhantomCommit_CrashInsideTheLeaderFsyncLosesTheFlushedSuffix is audit
-// probe S1 driven through the REAL [github.com/FlavioCFOliveira/GoGraph/store/wal.Writer],
+// probe S1 driven through the REAL [github.com/qiankunli/GoGraph/store/wal.Writer],
 // not the bare disk.
 //
 // The window is structural: leadGroupSyncLocked flushes the bufio buffer under

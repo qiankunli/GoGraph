@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/internal/clock"
+	"github.com/qiankunli/GoGraph/internal/clock"
 )
 
 // simConnBufferSize bounds the in-flight bytes one direction of a [SimConn] pair

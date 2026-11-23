@@ -3,8 +3,8 @@ package btree_test
 import (
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	"github.com/FlavioCFOliveira/GoGraph/graph/index/btree"
+	"github.com/qiankunli/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph/index/btree"
 )
 
 // TestRange_PageBoundaryInclusivity verifies that Range(lo, hi) honours

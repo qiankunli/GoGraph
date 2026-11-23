@@ -3,17 +3,17 @@ package checkpoint
 import (
 	"path/filepath"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/csr"
-	"github.com/FlavioCFOliveira/GoGraph/graph/lpg"
-	"github.com/FlavioCFOliveira/GoGraph/store/snapshot"
-	"github.com/FlavioCFOliveira/GoGraph/store/txn"
+	"github.com/qiankunli/GoGraph/graph/csr"
+	"github.com/qiankunli/GoGraph/graph/lpg"
+	"github.com/qiankunli/GoGraph/store/snapshot"
+	"github.com/qiankunli/GoGraph/store/txn"
 )
 
 // snapshotBackend is the seam the checkpointer publishes and probes snapshots
 // through. The checkpointer itself performs NO direct filesystem call: it
 // writes the snapshot via the snapshot package and reads back the manifest to
 // verify self-sufficiency, and the WAL fsync/truncate it does go through the
-// injected [github.com/FlavioCFOliveira/GoGraph/store/wal.Writer] (which is
+// injected [github.com/qiankunli/GoGraph/store/wal.Writer] (which is
 // already backed by the simulator's in-memory disk in DST). This interface
 // abstracts only the snapshot-package calls so the simulator can route them
 // through its in-memory filesystem.

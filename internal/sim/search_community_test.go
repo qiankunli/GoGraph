@@ -4,7 +4,7 @@ import (
 	"slices"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/search/community"
+	"github.com/qiankunli/GoGraph/search/community"
 )
 
 // TestCommunityChecks_CleanOnFixtures asserts the community-detection battery

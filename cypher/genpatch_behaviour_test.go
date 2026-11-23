@@ -25,7 +25,7 @@ package cypher_test
 import (
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/expr"
+	"github.com/qiankunli/GoGraph/cypher/expr"
 )
 
 // TestGenPatchBehaviours pins each behaviour carried by gen-patches.patch to a

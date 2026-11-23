@@ -5,7 +5,7 @@ import (
 	"bytes"
 	"sync"
 
-	"github.com/FlavioCFOliveira/GoGraph/internal/metrics"
+	"github.com/qiankunli/GoGraph/internal/metrics"
 )
 
 // EncodePool is a pool of Encoders backed by bytes.Buffer writers.

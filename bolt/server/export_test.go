@@ -3,7 +3,7 @@ package server
 import (
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/internal/clock"
+	"github.com/qiankunli/GoGraph/internal/clock"
 )
 
 // SetClockForTest overrides the server's wall-clock source (used by the

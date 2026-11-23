@@ -4,7 +4,7 @@ package sim
 //
 // # What this covers, and why it is here
 //
-// [github.com/FlavioCFOliveira/GoGraph/bolt/server.CertReloader] is the operator
+// [github.com/qiankunli/GoGraph/bolt/server.CertReloader] is the operator
 // seam for rotating the Bolt server's TLS material without a restart. Its whole
 // promise is a negative one: a rotation that goes wrong must leave the LIVE
 // certificate untouched, so the server keeps serving handshakes on the last pair
@@ -86,8 +86,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/bolt/server"
-	"github.com/FlavioCFOliveira/GoGraph/internal/clock"
+	"github.com/qiankunli/GoGraph/bolt/server"
+	"github.com/qiankunli/GoGraph/internal/clock"
 )
 
 // certRotationHost is the SAN every generated certificate carries, and the name

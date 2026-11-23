@@ -10,7 +10,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/internal/testbin"
+	"github.com/qiankunli/GoGraph/internal/testbin"
 )
 
 // buildSocialCLI compiles this example into a fresh disk directory outside

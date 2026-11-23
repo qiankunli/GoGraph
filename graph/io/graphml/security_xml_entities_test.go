@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
-	graphml "github.com/FlavioCFOliveira/GoGraph/graph/io/graphml"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
+	graphml "github.com/qiankunli/GoGraph/graph/io/graphml"
 )
 
 // Security regression battery for the GraphML reader's resistance to the

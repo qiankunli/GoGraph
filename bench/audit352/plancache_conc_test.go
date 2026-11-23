@@ -6,7 +6,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher"
+	"github.com/qiankunli/GoGraph/cypher"
 )
 
 // The plan cache is a single-mutex LRU (cypher/plan_cache.go:55-60). Its own

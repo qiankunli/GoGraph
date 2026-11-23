@@ -83,9 +83,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
-	"github.com/FlavioCFOliveira/GoGraph/graph/index"
-	lpg "github.com/FlavioCFOliveira/GoGraph/graph/lpg"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/graph/index"
+	lpg "github.com/qiankunli/GoGraph/graph/lpg"
 )
 
 // nullRow is one row of one column rendered as NULL by [degreeRun]. It is the

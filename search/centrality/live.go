@@ -1,6 +1,6 @@
 package centrality
 
-import "github.com/FlavioCFOliveira/GoGraph/graph"
+import "github.com/qiankunli/GoGraph/graph"
 
 // liveMask reports which CSR slots are participating nodes — those with at
 // least one incident edge (in or out). The immutable CSR cannot distinguish a

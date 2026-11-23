@@ -23,8 +23,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher"
-	"github.com/FlavioCFOliveira/GoGraph/graph/lpg"
+	"github.com/qiankunli/GoGraph/cypher"
+	"github.com/qiankunli/GoGraph/graph/lpg"
 )
 
 // TestProcDbPropertyKeys_Empty verifies that CALL db.propertyKeys() returns

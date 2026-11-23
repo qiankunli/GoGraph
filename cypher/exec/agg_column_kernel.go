@@ -49,8 +49,8 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/expr"
-	"github.com/FlavioCFOliveira/GoGraph/cypher/funcs"
+	"github.com/qiankunli/GoGraph/cypher/expr"
+	"github.com/qiankunli/GoGraph/cypher/funcs"
 )
 
 // aggKernel accumulates one aggregate slot over the chunk-input consume path, keyed

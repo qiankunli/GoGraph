@@ -27,7 +27,7 @@ const sectorSize = 512
 var ErrSimFault = errors.New("sim: injected disk fault")
 
 // walFile mirrors the (unexported) file-system interface that the WAL
-// [github.com/FlavioCFOliveira/GoGraph/store/wal.Writer] requires of its
+// [github.com/qiankunli/GoGraph/store/wal.Writer] requires of its
 // underlying handle (see store/wal/writer_vfs.go). It cannot be imported by
 // name because the WAL declares it unexported, so it is restated here verbatim;
 // Go's structural typing means a [SimFileHandle] that satisfies this local copy
@@ -728,7 +728,7 @@ func (f *simFile) applyDurableTruncate(size int64) {
 // n is the length captured when the fsync was ISSUED, not the length now: an
 // fsync makes durable what the file held when it started, and frames a
 // concurrent committer appended while it ran belong to the next round. That is
-// the same watermark discipline [github.com/FlavioCFOliveira/GoGraph/store/wal.Writer]
+// the same watermark discipline [github.com/qiankunli/GoGraph/store/wal.Writer]
 // applies when leadGroupSyncLocked snapshots appendedSize before its own fsync.
 //
 // The watermark never moves backwards: with a gate armed, fsyncs can complete

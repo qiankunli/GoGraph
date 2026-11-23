@@ -17,7 +17,7 @@ import (
 
 	"go.uber.org/goleak"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph"
 )
 
 // idWalker is a minimal nodeWalker over a contiguous [0,n) NodeID range.

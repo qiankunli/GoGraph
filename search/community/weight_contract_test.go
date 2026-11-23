@@ -12,8 +12,8 @@ package community
 import (
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	"github.com/FlavioCFOliveira/GoGraph/graph/csr"
+	"github.com/qiankunli/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph/csr"
 )
 
 // fourCycle builds the undirected 4-cycle 0-1-2-3-0 as a directed CSR (both

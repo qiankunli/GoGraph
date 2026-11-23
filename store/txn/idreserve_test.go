@@ -28,13 +28,13 @@ import (
 
 	"go.uber.org/goleak"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	"github.com/FlavioCFOliveira/GoGraph/graph/lpg"
-	"github.com/FlavioCFOliveira/GoGraph/internal/synclatency"
-	"github.com/FlavioCFOliveira/GoGraph/internal/waltest"
-	"github.com/FlavioCFOliveira/GoGraph/store"
-	"github.com/FlavioCFOliveira/GoGraph/store/checkpoint"
-	"github.com/FlavioCFOliveira/GoGraph/store/txn"
+	"github.com/qiankunli/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph/lpg"
+	"github.com/qiankunli/GoGraph/internal/synclatency"
+	"github.com/qiankunli/GoGraph/internal/waltest"
+	"github.com/qiankunli/GoGraph/store"
+	"github.com/qiankunli/GoGraph/store/checkpoint"
+	"github.com/qiankunli/GoGraph/store/txn"
 )
 
 func idOpts() store.Options[string, float64] {

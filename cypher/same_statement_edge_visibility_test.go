@@ -33,7 +33,7 @@ package cypher_test
 import (
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher"
+	"github.com/qiankunli/GoGraph/cypher"
 )
 
 // sideEffects reports the node and relationship counts, the two quantities the

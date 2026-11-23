@@ -1,10 +1,10 @@
 package cypher
 
 import (
-	"github.com/FlavioCFOliveira/GoGraph/cypher/exec"
-	"github.com/FlavioCFOliveira/GoGraph/cypher/ir"
-	"github.com/FlavioCFOliveira/GoGraph/graph/index"
-	"github.com/FlavioCFOliveira/GoGraph/graph/lpg"
+	"github.com/qiankunli/GoGraph/cypher/exec"
+	"github.com/qiankunli/GoGraph/cypher/ir"
+	"github.com/qiankunli/GoGraph/graph/index"
+	"github.com/qiankunli/GoGraph/graph/lpg"
 )
 
 // pendingIndexDelta is the set of (label, property) coordinates on which the
@@ -25,7 +25,7 @@ import (
 // through the MVCC label overlay in graph/lpg/mvcc_index.go: label adds are
 // applied eagerly and removals are deferred and filtered against the reader's
 // snapshot. The property half has no overlay at all —
-// [github.com/FlavioCFOliveira/GoGraph/graph/index/hash.Index] carries no
+// [github.com/qiankunli/GoGraph/graph/index/hash.Index] carries no
 // snapshot parameter — so a seek reads the pre-transaction posting list. And
 // because the equality rewrite SUBSUMES the Selection it replaces
 // ([tryBuildIndexSeekFromSelection] returns the seek in place of the whole

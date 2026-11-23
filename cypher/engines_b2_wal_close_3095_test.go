@@ -21,7 +21,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/store/wal"
+	"github.com/qiankunli/GoGraph/store/wal"
 )
 
 func TestEnginesB2WALClosedWhenTestEnds_3095(t *testing.T) {

@@ -9,7 +9,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/csr"
+	"github.com/qiankunli/GoGraph/graph/csr"
 )
 
 // genEdges builds a deterministic, reproducible edge stream of n edges

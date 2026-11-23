@@ -4,8 +4,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	"github.com/FlavioCFOliveira/GoGraph/search"
+	"github.com/qiankunli/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/search"
 )
 
 // TestEulerChecks_CleanOnFixtures asserts the EULER battery reports no violation

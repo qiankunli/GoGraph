@@ -6,7 +6,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/internal/subproc"
+	"github.com/qiankunli/GoGraph/internal/subproc"
 )
 
 // fixedPropKeys is the ordered sequence interned by both the child

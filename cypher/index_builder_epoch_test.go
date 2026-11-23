@@ -65,11 +65,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/exec"
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	indexhash "github.com/FlavioCFOliveira/GoGraph/graph/index/hash"
-	"github.com/FlavioCFOliveira/GoGraph/store/recovery"
-	"github.com/FlavioCFOliveira/GoGraph/store/snapshot"
+	"github.com/qiankunli/GoGraph/cypher/exec"
+	"github.com/qiankunli/GoGraph/graph"
+	indexhash "github.com/qiankunli/GoGraph/graph/index/hash"
+	"github.com/qiankunli/GoGraph/store/recovery"
+	"github.com/qiankunli/GoGraph/store/snapshot"
 )
 
 // epochGhost is a value NO committed node ever holds. It stands for the value an

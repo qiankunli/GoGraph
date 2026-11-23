@@ -7,7 +7,7 @@ import (
 	"math"
 	"runtime"
 
-	"github.com/FlavioCFOliveira/GoGraph/internal/metrics"
+	"github.com/qiankunli/GoGraph/internal/metrics"
 )
 
 // ErrInvalidInput is returned by algorithms that detect invalid input:

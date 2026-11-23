@@ -34,7 +34,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/exec"
+	"github.com/qiankunli/GoGraph/cypher/exec"
 )
 
 // tmplDeleteNode is the non-detach node deletion the probe adjudicates. It is

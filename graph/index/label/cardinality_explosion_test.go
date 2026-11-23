@@ -3,8 +3,8 @@ package label_test
 import (
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	"github.com/FlavioCFOliveira/GoGraph/graph/index/label"
+	"github.com/qiankunli/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph/index/label"
 )
 
 // TestCardinalityExplosion_Short verifies that n distinct labels each with

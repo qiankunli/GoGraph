@@ -18,8 +18,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/parser"
-	"github.com/FlavioCFOliveira/GoGraph/cypher/tck"
+	"github.com/qiankunli/GoGraph/cypher/parser"
+	"github.com/qiankunli/GoGraph/cypher/tck"
 )
 
 // TestTCKReport generates and writes the per-feature TCK pass-rate report.
@@ -73,7 +73,7 @@ func TestTCKReport(t *testing.T) { // Report generation loops over several maps;
 	sb.WriteString("**Date:** 2026-05-20  \n")
 	sb.WriteString("**Corpus:** openCypher TCK — opencypher/openCypher@main  \n")
 	sb.WriteString("**Grammar:** antlr/grammars-v4, commit 284602b (BSD-3)  \n")
-	sb.WriteString("**Runner:** `github.com/FlavioCFOliveira/GoGraph/cypher/tck`, test `TestTCKParserOnly`\n\n")
+	sb.WriteString("**Runner:** `github.com/qiankunli/GoGraph/cypher/tck`, test `TestTCKParserOnly`\n\n")
 	sb.WriteString("---\n\n")
 	sb.WriteString("## Summary\n\n")
 	sb.WriteString("| Metric | Value |\n|---|---|\n")

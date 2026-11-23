@@ -140,10 +140,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/bolt/packstream"
-	"github.com/FlavioCFOliveira/GoGraph/bolt/proto"
-	"github.com/FlavioCFOliveira/GoGraph/bolt/server"
-	"github.com/FlavioCFOliveira/GoGraph/internal/clock"
+	"github.com/qiankunli/GoGraph/bolt/packstream"
+	"github.com/qiankunli/GoGraph/bolt/proto"
+	"github.com/qiankunli/GoGraph/bolt/server"
+	"github.com/qiankunli/GoGraph/internal/clock"
 )
 
 // -----------------------------------------------------------------------------
@@ -300,7 +300,7 @@ const (
 const boltWireMaxDepth = 32
 
 // decodeBoltWire decodes one complete PackStream value from b, INDEPENDENTLY of
-// [github.com/FlavioCFOliveira/GoGraph/bolt/packstream].
+// [github.com/qiankunli/GoGraph/bolt/packstream].
 //
 // It exists so a clause about the WIRE ENCODING is adjudicated by something other
 // than the codec that produced it. The marker table below was derived from real

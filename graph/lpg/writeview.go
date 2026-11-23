@@ -68,7 +68,7 @@ package lpg
 // the transaction-carrying path and the untransacted path run the same code with
 // a different value in one parameter.
 
-import "github.com/FlavioCFOliveira/GoGraph/graph"
+import "github.com/qiankunli/GoGraph/graph"
 
 // WriteView is a [Graph] bound to ONE write transaction: every mutation made
 // through it stamps its versions with that transaction's shared commit record,

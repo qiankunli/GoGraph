@@ -3,7 +3,7 @@ package csrorder
 import (
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/store/snapshot"
+	"github.com/qiankunli/GoGraph/store/snapshot"
 )
 
 // snapshot_bench_test.go — the checkpoint's cost across the degree sweep.

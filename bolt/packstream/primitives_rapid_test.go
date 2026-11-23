@@ -17,7 +17,7 @@ import (
 
 	"pgregory.net/rapid"
 
-	"github.com/FlavioCFOliveira/GoGraph/bolt/packstream"
+	"github.com/qiankunli/GoGraph/bolt/packstream"
 )
 
 // roundTripRapid encodes v and decodes it back, calling rt.Fatalf on any error.

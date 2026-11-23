@@ -28,8 +28,8 @@ package cypher
 // resolver is consulted on the read-path build, which already holds visMu.RLock.
 
 import (
-	"github.com/FlavioCFOliveira/GoGraph/graph/index/count"
-	cmetrics "github.com/FlavioCFOliveira/GoGraph/internal/metrics"
+	"github.com/qiankunli/GoGraph/graph/index/count"
+	cmetrics "github.com/qiankunli/GoGraph/internal/metrics"
 )
 
 // countSource is the capability the count-estimate provider needs from a

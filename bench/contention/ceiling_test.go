@@ -13,8 +13,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/bench/contention"
-	"github.com/FlavioCFOliveira/GoGraph/internal/subproc"
+	"github.com/qiankunli/GoGraph/bench/contention"
+	"github.com/qiankunli/GoGraph/internal/subproc"
 )
 
 // envCeilingDir names an absolute directory to write the probe's artefacts

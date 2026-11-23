@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/lpg"
+	"github.com/qiankunli/GoGraph/graph/lpg"
 )
 
 func TestEncodePropertyValue_DeepNestBounded_1792(t *testing.T) {

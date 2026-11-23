@@ -6,8 +6,8 @@ import (
 	"io"
 	"os"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/csr"
-	"github.com/FlavioCFOliveira/GoGraph/store/snapshot"
+	"github.com/qiankunli/GoGraph/graph/csr"
+	"github.com/qiankunli/GoGraph/store/snapshot"
 )
 
 // cmdSnapshot forces a manual checkpoint of the current in-memory

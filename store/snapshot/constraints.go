@@ -9,7 +9,7 @@ import (
 	"io"
 	"sort"
 
-	"github.com/FlavioCFOliveira/GoGraph/internal/metrics"
+	"github.com/qiankunli/GoGraph/internal/metrics"
 )
 
 // ConstraintsFile is the conventional file name carrying the durable schema

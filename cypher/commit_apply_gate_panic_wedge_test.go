@@ -27,8 +27,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher"
-	cmetrics "github.com/FlavioCFOliveira/GoGraph/internal/metrics"
+	"github.com/qiankunli/GoGraph/cypher"
+	cmetrics "github.com/qiankunli/GoGraph/internal/metrics"
 )
 
 // appendRunLatencySample is the latency sample [wal.Writer.AppendRun] records

@@ -66,8 +66,8 @@ import (
 	"math"
 	"sort"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/expr"
-	"github.com/FlavioCFOliveira/GoGraph/internal/sortseam"
+	"github.com/qiankunli/GoGraph/cypher/expr"
+	"github.com/qiankunli/GoGraph/internal/sortseam"
 )
 
 // ─────────────────────────────────────────────────────────────────────────────

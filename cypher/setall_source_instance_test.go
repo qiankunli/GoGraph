@@ -28,7 +28,7 @@ package cypher_test
 import (
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher"
+	"github.com/qiankunli/GoGraph/cypher"
 )
 
 // seedSourceInstanceFixture builds the parallel pair with the twin-pinned

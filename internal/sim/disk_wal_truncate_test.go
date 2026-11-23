@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/store/wal"
+	"github.com/qiankunli/GoGraph/store/wal"
 )
 
 // This file proves, over the in-memory [SimDisk], that a segmented WAL writer

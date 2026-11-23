@@ -9,7 +9,7 @@ package lpg
 import (
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph"
 )
 
 // privacyProbe is a CommitApplier that records what CommitNodes reports for a

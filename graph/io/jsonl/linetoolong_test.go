@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
-	jsonl "github.com/FlavioCFOliveira/GoGraph/graph/io/jsonl"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
+	jsonl "github.com/qiankunli/GoGraph/graph/io/jsonl"
 )
 
 // TestReadInto_LineTooLong asserts that a single record exceeding the

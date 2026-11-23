@@ -66,11 +66,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/examples/internal/exprof"
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
-	"github.com/FlavioCFOliveira/GoGraph/graph/io/dot"
-	"github.com/FlavioCFOliveira/GoGraph/graph/io/graphml"
+	"github.com/qiankunli/GoGraph/examples/internal/exprof"
+	"github.com/qiankunli/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/graph/io/dot"
+	"github.com/qiankunli/GoGraph/graph/io/graphml"
 )
 
 // config captures every scale and shape knob of the round-trip. The zero

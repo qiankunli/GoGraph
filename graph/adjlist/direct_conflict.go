@@ -33,7 +33,7 @@ package adjlist
 // only by an implicit transaction's entry, on the premise that the layer
 // above's claims arbitrate explicit transactions against each other. One path
 // took no claim — the durable store's edge apply,
-// [github.com/FlavioCFOliveira/GoGraph/graph/lpg.Graph.AddEdgeHIfAbsent] inside
+// [github.com/qiankunli/GoGraph/graph/lpg.Graph.AddEdgeHIfAbsent] inside
 // a store commit — so its entry embedded another explicit transaction's
 // uncommitted arc, and that transaction's abort then restored the stacked entry
 // with the arc still in it. The claims remain, because they also order writes against versions committed
@@ -55,7 +55,7 @@ package adjlist
 // order, which is what makes the order deadlock-free; the reverse index stays a
 // leaf below all of them.
 
-import "github.com/FlavioCFOliveira/GoGraph/graph/mvcc"
+import "github.com/qiankunli/GoGraph/graph/mvcc"
 
 // directConflictLocked returns the conflict a write carrying tx would hit on the
 // entry at intraIdx of shard s, or nil, by the rule in this file's comment. It

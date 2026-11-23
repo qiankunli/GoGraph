@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/bench/contention"
+	"github.com/qiankunli/GoGraph/bench/contention"
 )
 
 // ─── the level-1 normalisation gate (rmp #2712) ──────────────────────────────

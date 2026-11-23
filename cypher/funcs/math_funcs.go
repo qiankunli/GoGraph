@@ -12,7 +12,7 @@ import (
 	"math"
 	"math/rand/v2"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/expr"
+	"github.com/qiankunli/GoGraph/cypher/expr"
 )
 
 // registerMathFuncs registers extended math built-ins into r.

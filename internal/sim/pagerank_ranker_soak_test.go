@@ -37,7 +37,7 @@ import (
 
 	"go.uber.org/goleak"
 
-	"github.com/FlavioCFOliveira/GoGraph/search/centrality"
+	"github.com/qiankunli/GoGraph/search/centrality"
 )
 
 // The soak budgets. Each run is a few milliseconds of arithmetic, so the sweeps

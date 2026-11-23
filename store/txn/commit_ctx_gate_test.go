@@ -12,7 +12,7 @@ import (
 
 	"go.uber.org/goleak"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/lpg"
+	"github.com/qiankunli/GoGraph/graph/lpg"
 )
 
 func TestCommitCtx_HonoursDeadlineBehindHeldVisibilityGate(t *testing.T) {

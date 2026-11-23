@@ -64,12 +64,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/expr"
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
-	"github.com/FlavioCFOliveira/GoGraph/graph/index"
-	indexbtree "github.com/FlavioCFOliveira/GoGraph/graph/index/btree"
-	indexhash "github.com/FlavioCFOliveira/GoGraph/graph/index/hash"
-	"github.com/FlavioCFOliveira/GoGraph/graph/lpg"
+	"github.com/qiankunli/GoGraph/cypher/expr"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/graph/index"
+	indexbtree "github.com/qiankunli/GoGraph/graph/index/btree"
+	indexhash "github.com/qiankunli/GoGraph/graph/index/hash"
+	"github.com/qiankunli/GoGraph/graph/lpg"
 )
 
 // replaySeedSize is the number of :Person nodes the fixture seeds. It is small

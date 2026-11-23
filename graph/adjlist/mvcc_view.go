@@ -27,7 +27,7 @@ package adjlist
 // the same length as `Neighbours` otherwise — the same contract the individual
 // accessors document. The difference is only that they now come from one entry.
 
-import "github.com/FlavioCFOliveira/GoGraph/graph"
+import "github.com/qiankunli/GoGraph/graph"
 
 // EntryView is a consistent read of every column of one node's adjacency entry.
 //

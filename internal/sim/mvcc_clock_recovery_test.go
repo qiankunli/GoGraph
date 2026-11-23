@@ -13,7 +13,7 @@ import (
 
 	"go.uber.org/goleak"
 
-	"github.com/FlavioCFOliveira/GoGraph/store/snapshot"
+	"github.com/qiankunli/GoGraph/store/snapshot"
 )
 
 // mvccClockCommit commits one single-node transaction through the store's own

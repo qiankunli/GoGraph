@@ -12,8 +12,8 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/FlavioCFOliveira/GoGraph/store/snapshot"
-	"github.com/FlavioCFOliveira/GoGraph/store/wal"
+	"github.com/qiankunli/GoGraph/store/snapshot"
+	"github.com/qiankunli/GoGraph/store/wal"
 )
 
 // SegmentHeaderSize is the size of a segment file's header; its first frame

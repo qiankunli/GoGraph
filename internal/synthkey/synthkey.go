@@ -1,7 +1,7 @@
 // Package synthkey defines the synthetic node keys the Cypher engine mints for
 // the nodes its CREATE and MERGE operators make, for the two packages that must
-// agree on them: github.com/FlavioCFOliveira/GoGraph/cypher/exec, which mints
-// them, and github.com/FlavioCFOliveira/GoGraph/graph/lpg, which gives back the
+// agree on them: github.com/qiankunli/GoGraph/cypher/exec, which mints
+// them, and github.com/qiankunli/GoGraph/graph/lpg, which gives back the
 // ones an aborted transaction minted (rmp #3119).
 //
 // # Why this package exists
@@ -10,7 +10,7 @@
 // direction, and exporting it from either would enlarge the module's PUBLIC API
 // for a convention that is internal to the engine. Go's internal-package rule
 // makes everything below unimportable outside this module — the same reasoning
-// as github.com/FlavioCFOliveira/GoGraph/internal/planseam.
+// as github.com/qiankunli/GoGraph/internal/planseam.
 //
 // # The contract a synthetic key carries
 //

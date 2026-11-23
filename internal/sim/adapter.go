@@ -5,13 +5,13 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher"
-	"github.com/FlavioCFOliveira/GoGraph/cypher/exec"
-	"github.com/FlavioCFOliveira/GoGraph/cypher/expr"
-	"github.com/FlavioCFOliveira/GoGraph/graph/index/count"
+	"github.com/qiankunli/GoGraph/cypher"
+	"github.com/qiankunli/GoGraph/cypher/exec"
+	"github.com/qiankunli/GoGraph/cypher/expr"
+	"github.com/qiankunli/GoGraph/graph/index/count"
 )
 
-// EngineAdapter wraps the real [github.com/FlavioCFOliveira/GoGraph/cypher.Engine]
+// EngineAdapter wraps the real [github.com/qiankunli/GoGraph/cypher.Engine]
 // so it satisfies the simulator's minimal [Engine] interface. It converts the
 // simulator's string-keyed parameter maps into the engine's
 // map[string]expr.Value and projects the engine's rich *cypher.Result onto the
@@ -352,7 +352,7 @@ func toExprParams(params map[string]any) (map[string]expr.Value, error) {
 // A temporal is bound as a genuine temporal parameter, never as an ISO-8601
 // string. The engine's parameter write path
 // (cypher/api.go:exprValueToLPGProp) encodes each temporal expr.Value as an
-// [github.com/FlavioCFOliveira/GoGraph/graph/lpg.PropString] carrying the
+// [github.com/qiankunli/GoGraph/graph/lpg.PropString] carrying the
 // kind tag byte that cypher/exec/temporal_literal.go defines (0x01 date,
 // 0x02 localdatetime, 0x03 datetime, 0x04 localtime, 0x05 time, 0x06
 // duration), and the read path decodes that tag back into the matching

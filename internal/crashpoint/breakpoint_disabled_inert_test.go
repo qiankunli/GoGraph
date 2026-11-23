@@ -17,12 +17,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/internal/crashpoint"
+	"github.com/qiankunli/GoGraph/internal/crashpoint"
 )
 
 // crashpointImportPath is the import path of the package under test; its
 // non-test dependency set is what a released binary actually links.
-const crashpointImportPath = "github.com/FlavioCFOliveira/GoGraph/internal/crashpoint"
+const crashpointImportPath = "github.com/qiankunli/GoGraph/internal/crashpoint"
 
 // TestBreakpoint_InertOnExactMatch proves the load-bearing property of
 // task #1313: in the untagged build, calling Breakpoint with

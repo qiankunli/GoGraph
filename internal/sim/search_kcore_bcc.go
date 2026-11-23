@@ -5,8 +5,8 @@ import (
 	"slices"
 	"sort"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	"github.com/FlavioCFOliveira/GoGraph/search"
+	"github.com/qiankunli/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/search"
 )
 
 // undirectedAdj builds the dense-id undirected adjacency from the undirected

@@ -18,7 +18,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/exec"
+	"github.com/qiankunli/GoGraph/cypher/exec"
 )
 
 // TestUniqueConstraint_SelfSetLiteralSameValue: SET n.k = <its current value>.

@@ -5,8 +5,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
-	"github.com/FlavioCFOliveira/GoGraph/search"
+	"github.com/qiankunli/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/search"
 )
 
 // kshortestHandGraph is the small, hand-checked fixture used across the

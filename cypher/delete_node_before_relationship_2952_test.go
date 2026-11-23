@@ -20,7 +20,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/exec"
+	"github.com/qiankunli/GoGraph/cypher/exec"
 )
 
 const fixture2952 = `CREATE (a:A {id: 1})-[:R]->(b:B {id: 2}), (c:A {id: 3})-[:R]->(d:B {id: 4}), (c)-[:S]->(d), (e:A {id: 5})-[:R]->(f:B {id: 6}), (e)-[:R]->(f)`

@@ -52,7 +52,7 @@ package lpg
 import (
 	"sync/atomic"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/mvcc"
+	"github.com/qiankunli/GoGraph/graph/mvcc"
 )
 
 // edgeHandleKey identifies one parallel edge instance: the endpoint pair plus

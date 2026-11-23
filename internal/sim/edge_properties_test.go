@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/exec"
+	"github.com/qiankunli/GoGraph/cypher/exec"
 )
 
 // TestEdgeProperties_Scenario_Passes runs the edge-properties scenario: every

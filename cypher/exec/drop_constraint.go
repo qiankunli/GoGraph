@@ -25,7 +25,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/index"
+	"github.com/qiankunli/GoGraph/graph/index"
 )
 
 // DropConstraintOp is a Volcano DDL operator that deregisters a constraint.

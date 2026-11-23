@@ -37,7 +37,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
 )
 
 // ScenarioDDLCheckpointCrash is the catalogue key of the DDL-across-the-

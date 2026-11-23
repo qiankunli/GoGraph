@@ -20,7 +20,7 @@ package ir
 import (
 	"strings"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/ast"
+	"github.com/qiankunli/GoGraph/cypher/ast"
 )
 
 // nonDeterministicFuncs is the deny-set. Two evaluations of the same call can

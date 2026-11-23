@@ -12,7 +12,7 @@
 // A git tag is immutable and prior tags ship no headless CLI to drive. Adding
 // an UNTRACKED file to a worktree of the tag does not modify the tag; it simply
 // compiles against that tag's packages (every relevant tag shares the current
-// module path github.com/FlavioCFOliveira/GoGraph and the same store/cypher API
+// module path github.com/qiankunli/GoGraph and the same store/cypher API
 // surface, verified by the harness build step). The file therefore uses ONLY
 // the API that is stable across v0.2.0..HEAD: wal.Open, txn.NewStoreWithOptions,
 // txn.New{String,Float64Weight}Codec, cypher.NewEngineWithStore, and the
@@ -69,13 +69,13 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher"
-	"github.com/FlavioCFOliveira/GoGraph/cypher/expr"
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
-	"github.com/FlavioCFOliveira/GoGraph/graph/lpg"
-	"github.com/FlavioCFOliveira/GoGraph/store/recovery"
-	"github.com/FlavioCFOliveira/GoGraph/store/txn"
-	"github.com/FlavioCFOliveira/GoGraph/store/wal"
+	"github.com/qiankunli/GoGraph/cypher"
+	"github.com/qiankunli/GoGraph/cypher/expr"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/graph/lpg"
+	"github.com/qiankunli/GoGraph/store/recovery"
+	"github.com/qiankunli/GoGraph/store/txn"
+	"github.com/qiankunli/GoGraph/store/wal"
 )
 
 // wireOp is the on-the-wire shape of one input operation. It mirrors the

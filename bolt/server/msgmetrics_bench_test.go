@@ -22,9 +22,9 @@ package server
 import (
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/bolt/proto"
-	"github.com/FlavioCFOliveira/GoGraph/internal/metrics"
-	promreg "github.com/FlavioCFOliveira/GoGraph/internal/metrics/prometheus"
+	"github.com/qiankunli/GoGraph/bolt/proto"
+	"github.com/qiankunli/GoGraph/internal/metrics"
+	promreg "github.com/qiankunli/GoGraph/internal/metrics/prometheus"
 )
 
 // benchMsg is the message a RUN carries. It is an `any` because that is what

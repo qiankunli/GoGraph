@@ -9,7 +9,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/exec"
+	"github.com/qiankunli/GoGraph/cypher/exec"
 )
 
 func TestDropIndex_CannotDropConstraintBackingIndex(t *testing.T) {

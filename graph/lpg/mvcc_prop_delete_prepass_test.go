@@ -46,7 +46,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
 )
 
 // TestPropDeletePrePass_OutcomeParity walks every shard state the pre-pass can

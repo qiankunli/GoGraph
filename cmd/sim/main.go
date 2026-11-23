@@ -73,8 +73,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/internal/clock"
-	"github.com/FlavioCFOliveira/GoGraph/internal/sim"
+	"github.com/qiankunli/GoGraph/internal/clock"
+	"github.com/qiankunli/GoGraph/internal/sim"
 )
 
 func main() {

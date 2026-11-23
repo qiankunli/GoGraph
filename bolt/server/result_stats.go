@@ -37,8 +37,8 @@ package server
 // means `contains-updates` is sent only when something actually changed.
 
 import (
-	"github.com/FlavioCFOliveira/GoGraph/bolt/packstream"
-	"github.com/FlavioCFOliveira/GoGraph/cypher/exec"
+	"github.com/qiankunli/GoGraph/bolt/packstream"
+	"github.com/qiankunli/GoGraph/cypher/exec"
 )
 
 // Bolt statistics key names, from neo4j/db/summary.go.

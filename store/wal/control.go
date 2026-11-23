@@ -11,7 +11,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/FlavioCFOliveira/GoGraph/internal/crashpoint"
+	"github.com/qiankunli/GoGraph/internal/crashpoint"
 )
 
 // Layout of a store's write-ahead log (docs/design-wal-v2.md §2.1). Every path

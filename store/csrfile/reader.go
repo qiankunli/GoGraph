@@ -10,7 +10,7 @@ import (
 
 	"github.com/edsrzf/mmap-go"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph"
+	"github.com/qiankunli/GoGraph/graph"
 )
 
 // AccessPattern is the advisory hint given to the OS about the
@@ -130,7 +130,7 @@ func Open(path string) (*Reader, error) {
 // file into an 8-byte-aligned buffer and binds the typed slices off it,
 // because there is no real file to mmap. The backend parameter type is
 // unexported, mirroring
-// [github.com/FlavioCFOliveira/GoGraph/store/wal.OpenWith]; production code
+// [github.com/qiankunli/GoGraph/store/wal.OpenWith]; production code
 // calls [Open].
 func OpenWith(fsys fs, path string) (*Reader, error) {
 	if isOS(fsys) {
@@ -152,7 +152,7 @@ func OpenWith(fsys fs, path string) (*Reader, error) {
 // validation [Open] runs over the mmap region, then binds the typed
 // slices off buf. It backs the in-memory DST filesystem, where there is
 // no real file to mmap: the simulator reads the whole csrfile image out
-// of its [github.com/FlavioCFOliveira/GoGraph/internal/sim.SimDisk] and
+// of its [github.com/qiankunli/GoGraph/internal/sim.SimDisk] and
 // hands the bytes here.
 //
 // Precondition: buf's base address is 8-byte aligned (the only callers

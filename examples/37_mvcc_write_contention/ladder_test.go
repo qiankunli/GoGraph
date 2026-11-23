@@ -10,7 +10,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/internal/synclatency"
+	"github.com/qiankunli/GoGraph/internal/synclatency"
 )
 
 // samplerKeys are the frontier and growth counters every sampled arm emits.

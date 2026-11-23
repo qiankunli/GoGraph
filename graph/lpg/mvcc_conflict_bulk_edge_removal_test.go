@@ -27,7 +27,7 @@ package lpg
 import (
 	"testing"
 
-	"github.com/FlavioCFOliveira/GoGraph/graph/adjlist"
+	"github.com/qiankunli/GoGraph/graph/adjlist"
 )
 
 // TestConflict_AdjacencyBulkRemovalRefusedByConcurrentAppend is the row itself.

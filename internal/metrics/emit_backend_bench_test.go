@@ -32,8 +32,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FlavioCFOliveira/GoGraph/internal/metrics"
-	"github.com/FlavioCFOliveira/GoGraph/internal/metrics/prometheus"
+	"github.com/qiankunli/GoGraph/internal/metrics"
+	"github.com/qiankunli/GoGraph/internal/metrics/prometheus"
 )
 
 // Sampling reciprocals, mirroring bench/contention's metricsLatencyEvery and

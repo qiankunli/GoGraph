@@ -3,7 +3,7 @@ package ir
 import (
 	"fmt"
 
-	"github.com/FlavioCFOliveira/GoGraph/cypher/ast"
+	"github.com/qiankunli/GoGraph/cypher/ast"
 )
 
 // pattern_comprehension.go — PatternComprehension → RollUpApply translation.
